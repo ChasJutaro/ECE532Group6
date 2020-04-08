@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1585933352">
+  <File Type="PA-TCL" Name="vga444.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="vga444_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="vga444_reports.tcl"/>
+  <File Type="RDS-RDS" Name="vga444.vds"/>
+  <File Type="RDS-UTIL" Name="vga444_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="vga444_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="vga444.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="vga444_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="vga444_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/src/vga444.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../project-HDR/pmod_camera/532_pmod_camera_dist/src/vga444.v"/>
+        <Attr Name="ImportTime" Val="1583821121"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/hdr-CCRF/CCRF_2d.mem">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../HDR/hdr-CCRF/CCRF_2d.mem"/>
+        <Attr Name="ImportTime" Val="1585871590"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/component.xml">
+      <FileInfo SFType="IPXACT"/>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="vga444"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/new/cons.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../ECE532-Apr2-2AM/ECE532 Project/prj/IP/camera_vga/camera_vga/camera_vga.srcs/constrs_1/new/cons.xdc"/>
+        <Attr Name="ImportTime" Val="1585800010"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

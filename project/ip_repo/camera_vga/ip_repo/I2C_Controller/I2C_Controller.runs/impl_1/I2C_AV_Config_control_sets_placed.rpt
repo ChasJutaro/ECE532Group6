@@ -1,0 +1,80 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.1 (win64) Build 2188600 Wed Apr  4 18:40:38 MDT 2018
+| Date         : Fri Mar 20 11:57:28 2020
+| Host         : School running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file I2C_AV_Config_control_sets_placed.rpt
+| Design       : I2C_AV_Config
+| Device       : xc7a100t
+------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    13 |
+| Unused register locations in slices containing registers |    70 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      1 |            9 |
+|      4 |            1 |
+|      6 |            1 |
+|    16+ |            2 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               0 |            0 |
+| No           | No                    | Yes                    |              23 |           14 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |              35 |           18 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++-----------------+---------------------------------------+--------------------------------+------------------+----------------+
+|   Clock Signal  |             Enable Signal             |        Set/Reset Signal        | Slice Load Count | Bel Load Count |
++-----------------+---------------------------------------+--------------------------------+------------------+----------------+
+|  iCLK_IBUF_BUFG | u_I2C_Controller/I2C_RDATA[0]_i_1_n_0 | u_I2C_Controller/I2C_BIT_reg_0 |                1 |              1 |
+|  iCLK_IBUF_BUFG | u_I2C_Controller/I2C_RDATA[1]_i_1_n_0 | u_I2C_Controller/I2C_BIT_reg_0 |                1 |              1 |
+|  iCLK_IBUF_BUFG | u_I2C_Controller/I2C_RDATA[2]_i_1_n_0 | u_I2C_Controller/I2C_BIT_reg_0 |                1 |              1 |
+|  iCLK_IBUF_BUFG | u_I2C_Controller/I2C_RDATA[3]_i_1_n_0 | u_I2C_Controller/I2C_BIT_reg_0 |                1 |              1 |
+|  iCLK_IBUF_BUFG | u_I2C_Controller/I2C_RDATA[5]_i_1_n_0 | u_I2C_Controller/I2C_BIT_reg_0 |                1 |              1 |
+|  iCLK_IBUF_BUFG | u_I2C_Controller/I2C_RDATA[4]_i_1_n_0 | u_I2C_Controller/I2C_BIT_reg_0 |                1 |              1 |
+|  iCLK_IBUF_BUFG | u_I2C_Controller/I2C_RDATA[6]_i_1_n_0 | u_I2C_Controller/I2C_BIT_reg_0 |                1 |              1 |
+|  iCLK_IBUF_BUFG | u_I2C_Controller/I2C_RDATA[7]_i_1_n_0 | u_I2C_Controller/I2C_BIT_reg_0 |                1 |              1 |
+|  iCLK_IBUF_BUFG | i2c_negclk                            | u_I2C_Controller/I2C_BIT_reg_0 |                1 |              1 |
+|  iCLK_IBUF_BUFG | u_I2C_Controller/E[0]                 | u_I2C_Controller/I2C_BIT_reg_0 |                2 |              4 |
+|  iCLK_IBUF_BUFG | u_I2C_Controller/SD_COUNTER           | u_I2C_Controller/I2C_BIT_reg_0 |                3 |              6 |
+|  iCLK_IBUF_BUFG | LUT_INDEX_rep[7]_i_1_n_0              | u_I2C_Controller/I2C_BIT_reg_0 |                4 |             16 |
+|  iCLK_IBUF_BUFG |                                       | u_I2C_Controller/I2C_BIT_reg_0 |               14 |             23 |
++-----------------+---------------------------------------+--------------------------------+------------------+----------------+
+
+

@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "K:/ECE532/prj/IP/camera_vga/IP/control/control.sim/sim_1/impl/func/xsim/sim_func_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control
+INFO: [VRFC 10-311] analyzing module fsm
+INFO: [VRFC 10-311] analyzing module glbl

@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Fri Apr  3 12:01:54 2020
+# Process ID: 16600
+# Current directory: C:/Users/Will/Desktop/ECE532 Project/prj/IP/camera_vga/IP/hdrvga
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9328 C:\Users\Will\Desktop\ECE532 Project\prj\IP\camera_vga\IP\hdrvga\hdrvga.xpr
+# Log file: C:/Users/Will/Desktop/ECE532 Project/prj/IP/camera_vga/IP/hdrvga/vivado.log
+# Journal file: C:/Users/Will/Desktop/ECE532 Project/prj/IP/camera_vga/IP/hdrvga\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Will/Desktop/ECE532 Project/prj/IP/camera_vga/IP/hdrvga/hdrvga.xpr}
+update_compile_order -fileset sources_1

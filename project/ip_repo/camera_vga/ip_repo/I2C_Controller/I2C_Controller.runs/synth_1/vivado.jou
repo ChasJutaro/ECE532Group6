@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Fri Mar 20 11:56:23 2020
+# Process ID: 14924
+# Current directory: K:/ECE532/prj/IP/camera_vga/IP/I2C_Controller/I2C_Controller.runs/synth_1
+# Command line: vivado.exe -log I2C_AV_Config.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source I2C_AV_Config.tcl
+# Log file: K:/ECE532/prj/IP/camera_vga/IP/I2C_Controller/I2C_Controller.runs/synth_1/I2C_AV_Config.vds
+# Journal file: K:/ECE532/prj/IP/camera_vga/IP/I2C_Controller/I2C_Controller.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source I2C_AV_Config.tcl -notrace

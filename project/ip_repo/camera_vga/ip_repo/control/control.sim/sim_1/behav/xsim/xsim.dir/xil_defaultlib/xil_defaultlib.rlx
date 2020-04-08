@@ -1,0 +1,8 @@
+0.6
+2018.1
+Apr  4 2018
+19:30:32
+K:/ECE532/prj/IP/camera_vga/IP/control/control.sim/sim_1/behav/xsim/glbl.v,1522801934,verilog,,,,glbl,,xil_defaultlib,,,,,,
+K:/ECE532/prj/IP/camera_vga/IP/control/control.srcs/sim_1/new/sim.sv,1585365743,systemVerilog,,,,sim,,xil_defaultlib,E:/Vivado/2018.1/data/xilinx_vip/include,,,,,
+K:/ECE532/prj/IP/camera_vga/IP/control/control.srcs/sources_1/new/control.sv,1585365662,systemVerilog,,K:/ECE532/prj/IP/camera_vga/IP/control/control.srcs/sources_1/new/fsm.sv,,control,,xil_defaultlib,E:/Vivado/2018.1/data/xilinx_vip/include,,,,,
+K:/ECE532/prj/IP/camera_vga/IP/control/control.srcs/sources_1/new/fsm.sv,1585364963,systemVerilog,,K:/ECE532/prj/IP/camera_vga/IP/control/control.srcs/sim_1/new/sim.sv,,fsm,,xil_defaultlib,E:/Vivado/2018.1/data/xilinx_vip/include,,,,,

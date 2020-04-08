@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1585933435">
+  <File Type="PWROPT-DCP" Name="vga444_pwropt.dcp"/>
+  <File Type="ROUTE-PWR" Name="vga444_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="vga444.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="vga444_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="vga444_reports.tcl"/>
+  <File Type="BG-DRC" Name="vga444.drc"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="vga444_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="vga444_timing_summary_init.rpt"/>
+  <File Type="OPT-HWDEF" Name="vga444.hwdef"/>
+  <File Type="OPT-DCP" Name="vga444_opt.dcp"/>
+  <File Type="OPT-DRC" Name="vga444_drc_opted.rpt"/>
+  <File Type="OPT-TIMING" Name="vga444_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-DRC" Name="vga444_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="vga444_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="vga444_placed.dcp"/>
+  <File Type="PLACE-IO" Name="vga444_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="vga444_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="vga444_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="vga444_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="vga444_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="vga444_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="vga444_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="vga444_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="vga444_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="vga444_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="vga444_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="vga444_drc_physopted.rpt"/>
+  <File Type="BG-BIT" Name="vga444.bit"/>
+  <File Type="PHYSOPT-TIMING" Name="vga444_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="vga444_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="vga444_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="vga444_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="vga444_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="vga444_drc_routed.pb"/>
+  <File Type="BITSTR-MSK" Name="vga444.msk"/>
+  <File Type="ROUTE-DRC-RPX" Name="vga444_drc_routed.rpx"/>
+  <File Type="BG-BGN" Name="vga444.bgn"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="vga444_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-RBT" Name="vga444.rbt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="vga444_methodology_drc_routed.rpx"/>
+  <File Type="BG-BIN" Name="vga444.bin"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="vga444_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="vga444_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="vga444_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="vga444_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="vga444_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="vga444_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="vga444_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="vga444_incremental_reuse_routed.rpt"/>
+  <File Type="RDI-RDI" Name="vga444.vdi"/>
+  <File Type="ROUTE-CLK" Name="vga444_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="vga444_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="vga444_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="vga444_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="vga444_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="vga444_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BITSTR-NKY" Name="vga444.nky"/>
+  <File Type="BITSTR-BMM" Name="vga444_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="vga444.mmi"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="vga444.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="vga444.sysdef"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/src/vga444.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../project-HDR/pmod_camera/532_pmod_camera_dist/src/vga444.v"/>
+        <Attr Name="ImportTime" Val="1583821121"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/hdr-CCRF/CCRF_2d.mem">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../HDR/hdr-CCRF/CCRF_2d.mem"/>
+        <Attr Name="ImportTime" Val="1585871590"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/component.xml">
+      <FileInfo SFType="IPXACT"/>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="vga444"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/new/cons.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../ECE532-Apr2-2AM/ECE532 Project/prj/IP/camera_vga/camera_vga/camera_vga.srcs/constrs_1/new/cons.xdc"/>
+        <Attr Name="ImportTime" Val="1585800010"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

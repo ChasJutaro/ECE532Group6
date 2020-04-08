@@ -1,0 +1,883 @@
+00:11:52 INFO  : Registering command handlers for SDK TCF services
+00:11:52 INFO  : Launching XSCT server: xsct.bat -interactive K:\ECE532\prj\project\project.sdk\temp_xsdb_launch_script.tcl
+00:11:54 INFO  : XSCT server has started successfully.
+00:11:55 INFO  : Successfully done setting XSCT server connection channel  
+00:11:55 INFO  : Processing command line option -hwspec K:/ECE532/prj/project/project.sdk/design_1_wrapper.hdf.
+00:11:55 INFO  : Successfully done setting SDK workspace  
+00:13:21 INFO  : Inferring section assignments and sizes from elf file: K:\ECE532\prj\project\project.sdk\prj\Debug\prj.elf
+00:13:51 INFO  : Successfully generated K:\ECE532\prj\project\project.sdk\prj\src\lscript.ld.
+00:13:51 INFO  : Applying linker script to all configurations of project prj.
+00:13:51 INFO  : Setting rebuild state to true for all configurations of project prj.
+00:14:29 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+00:14:30 INFO  : Jtag cable 'Digilent Nexys4DDR 210292646020A' is selected.
+00:14:30 INFO  : 'jtag frequency' command is executed.
+00:14:30 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+00:14:32 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/project/project.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+00:14:32 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+00:14:32 INFO  : Context for processor 'microblaze_0' is selected.
+00:14:32 INFO  : System reset is completed.
+00:14:35 INFO  : 'after 3000' command is executed.
+00:14:35 INFO  : Context for processor 'microblaze_0' is selected.
+00:14:36 INFO  : The application 'K:/ECE532/prj/project/project.sdk/prj/Debug/prj.elf' is downloaded to processor 'microblaze_0'.
+00:14:36 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0
+fpga -file K:/ECE532/prj/project/project.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A"} -index 0
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A"} -index 0
+dow K:/ECE532/prj/project/project.sdk/prj/Debug/prj.elf
+----------------End of Script----------------
+
+00:14:36 INFO  : Context for processor 'microblaze_0' is selected.
+00:14:36 INFO  : 'con' command is executed.
+00:14:36 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A"} -index 0
+con
+----------------End of Script----------------
+
+00:14:36 INFO  : Disconnected from the channel tcfchan#1.
+00:55:46 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+00:55:47 INFO  : Jtag cable 'Digilent Nexys4DDR 210292646020A' is selected.
+00:55:47 INFO  : 'jtag frequency' command is executed.
+00:55:47 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+00:55:49 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/project/project.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+00:55:49 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+00:55:49 INFO  : Context for processor 'microblaze_0' is selected.
+00:55:49 INFO  : System reset is completed.
+00:55:52 INFO  : 'after 3000' command is executed.
+00:55:52 INFO  : Context for processor 'microblaze_0' is selected.
+00:55:53 INFO  : The application 'K:/ECE532/prj/project/project.sdk/prj/Debug/prj.elf' is downloaded to processor 'microblaze_0'.
+00:55:53 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0
+fpga -file K:/ECE532/prj/project/project.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A"} -index 0
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A"} -index 0
+dow K:/ECE532/prj/project/project.sdk/prj/Debug/prj.elf
+----------------End of Script----------------
+
+00:55:53 INFO  : Context for processor 'microblaze_0' is selected.
+00:55:53 INFO  : 'con' command is executed.
+00:55:53 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A"} -index 0
+con
+----------------End of Script----------------
+
+00:55:53 INFO  : Disconnected from the channel tcfchan#2.
+00:56:28 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+00:56:28 INFO  : Jtag cable 'Digilent Nexys4DDR 210292646020A' is selected.
+00:56:28 INFO  : 'jtag frequency' command is executed.
+00:56:28 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+00:56:30 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/project/project.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+00:56:30 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+00:56:30 INFO  : Context for processor 'microblaze_0' is selected.
+00:56:31 INFO  : System reset is completed.
+00:56:34 INFO  : 'after 3000' command is executed.
+00:56:34 INFO  : Context for processor 'microblaze_0' is selected.
+00:56:34 INFO  : The application 'K:/ECE532/prj/project/project.sdk/prj/Debug/prj.elf' is downloaded to processor 'microblaze_0'.
+00:56:34 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0
+fpga -file K:/ECE532/prj/project/project.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A"} -index 0
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A"} -index 0
+dow K:/ECE532/prj/project/project.sdk/prj/Debug/prj.elf
+----------------End of Script----------------
+
+00:56:34 INFO  : Context for processor 'microblaze_0' is selected.
+00:56:34 INFO  : 'con' command is executed.
+00:56:34 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A"} -index 0
+con
+----------------End of Script----------------
+
+00:56:34 INFO  : Disconnected from the channel tcfchan#3.
+00:59:44 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+00:59:45 INFO  : Jtag cable 'Digilent Nexys4DDR 210292646020A' is selected.
+00:59:45 INFO  : 'jtag frequency' command is executed.
+00:59:45 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+00:59:47 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/project/project.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+00:59:47 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+00:59:47 INFO  : Context for processor 'microblaze_0' is selected.
+00:59:47 INFO  : System reset is completed.
+00:59:50 INFO  : 'after 3000' command is executed.
+00:59:50 INFO  : Context for processor 'microblaze_0' is selected.
+00:59:50 INFO  : The application 'K:/ECE532/prj/project/project.sdk/prj/Debug/prj.elf' is downloaded to processor 'microblaze_0'.
+00:59:50 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0
+fpga -file K:/ECE532/prj/project/project.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A"} -index 0
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A"} -index 0
+dow K:/ECE532/prj/project/project.sdk/prj/Debug/prj.elf
+----------------End of Script----------------
+
+00:59:50 INFO  : Context for processor 'microblaze_0' is selected.
+00:59:50 INFO  : 'con' command is executed.
+00:59:50 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A"} -index 0
+con
+----------------End of Script----------------
+
+00:59:50 INFO  : Disconnected from the channel tcfchan#4.
+01:00:30 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+01:00:30 INFO  : Jtag cable 'Digilent Nexys4DDR 210292646020A' is selected.
+01:00:30 INFO  : 'jtag frequency' command is executed.
+01:00:30 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+01:00:32 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/project/project.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+01:00:32 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+01:00:32 INFO  : Context for processor 'microblaze_0' is selected.
+01:00:32 INFO  : System reset is completed.
+01:00:35 INFO  : 'after 3000' command is executed.
+01:00:36 INFO  : Context for processor 'microblaze_0' is selected.
+01:00:36 INFO  : The application 'K:/ECE532/prj/project/project.sdk/prj/Debug/prj.elf' is downloaded to processor 'microblaze_0'.
+01:00:36 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0
+fpga -file K:/ECE532/prj/project/project.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A"} -index 0
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A"} -index 0
+dow K:/ECE532/prj/project/project.sdk/prj/Debug/prj.elf
+----------------End of Script----------------
+
+01:00:36 INFO  : Context for processor 'microblaze_0' is selected.
+01:00:36 INFO  : 'con' command is executed.
+01:00:36 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A"} -index 0
+con
+----------------End of Script----------------
+
+01:00:36 INFO  : Disconnected from the channel tcfchan#5.
+01:00:41 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+01:00:41 INFO  : Jtag cable 'Digilent Nexys4DDR 210292646020A' is selected.
+01:00:41 INFO  : 'jtag frequency' command is executed.
+01:00:42 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+01:00:44 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/project/project.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+01:00:44 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+01:00:44 INFO  : Context for processor 'microblaze_0' is selected.
+01:00:44 INFO  : System reset is completed.
+01:00:47 INFO  : 'after 3000' command is executed.
+01:00:47 INFO  : Context for processor 'microblaze_0' is selected.
+01:00:47 INFO  : The application 'K:/ECE532/prj/project/project.sdk/prj/Debug/prj.elf' is downloaded to processor 'microblaze_0'.
+01:00:47 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0
+fpga -file K:/ECE532/prj/project/project.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A"} -index 0
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A"} -index 0
+dow K:/ECE532/prj/project/project.sdk/prj/Debug/prj.elf
+----------------End of Script----------------
+
+01:03:11 INFO  : Disconnected from the channel tcfchan#6.
+01:03:12 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+01:03:12 INFO  : Jtag cable 'Digilent Nexys4DDR 210292646020A' is selected.
+01:03:12 INFO  : 'jtag frequency' command is executed.
+01:03:12 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+01:03:14 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/project/project.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+01:03:14 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+01:03:14 INFO  : Context for processor 'microblaze_0' is selected.
+01:03:14 INFO  : System reset is completed.
+01:03:18 INFO  : 'after 3000' command is executed.
+01:03:18 INFO  : Context for processor 'microblaze_0' is selected.
+01:03:18 INFO  : The application 'K:/ECE532/prj/project/project.sdk/prj/Debug/prj.elf' is downloaded to processor 'microblaze_0'.
+01:03:18 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0
+fpga -file K:/ECE532/prj/project/project.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A"} -index 0
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A"} -index 0
+dow K:/ECE532/prj/project/project.sdk/prj/Debug/prj.elf
+----------------End of Script----------------
+
+01:57:41 INFO  : Registering command handlers for SDK TCF services
+01:57:41 INFO  : Launching XSCT server: xsct.bat -interactive K:\ECE532\prj\project\project.sdk\temp_xsdb_launch_script.tcl
+01:57:46 INFO  : XSCT server has started successfully.
+01:57:46 INFO  : Successfully done setting XSCT server connection channel  
+01:57:46 INFO  : Processing command line option -hwspec K:/ECE532/prj/project/project.sdk/design_1_wrapper.hdf.
+01:57:46 INFO  : Successfully done setting SDK workspace  
+01:57:46 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+01:57:48 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1585893172413,  Project:1585882331589
+01:57:48 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from K:/ECE532/prj/project/project.sdk/design_1_wrapper.hdf.
+01:57:48 INFO  : Copied contents of K:/ECE532/prj/project/project.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+01:57:48 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+01:57:52 INFO  : 
+01:57:53 INFO  : Updating hardware inferred compiler options for prj.
+01:57:53 INFO  : Clearing existing target manager status.
+01:58:54 INFO  : Inferring section assignments and sizes from elf file: K:\ECE532\prj\project\project.sdk\prj\Debug\prj.elf
+01:59:11 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+01:59:11 INFO  : Jtag cable 'Digilent Nexys4DDR 210292646020A' is selected.
+01:59:11 INFO  : 'jtag frequency' command is executed.
+01:59:11 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+01:59:14 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/project/project.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+01:59:14 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+01:59:14 INFO  : Context for processor 'microblaze_0' is selected.
+01:59:14 INFO  : System reset is completed.
+01:59:17 INFO  : 'after 3000' command is executed.
+01:59:17 INFO  : Context for processor 'microblaze_0' is selected.
+01:59:17 INFO  : The application 'K:/ECE532/prj/project/project.sdk/prj/Debug/prj.elf' is downloaded to processor 'microblaze_0'.
+01:59:17 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0
+fpga -file K:/ECE532/prj/project/project.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A"} -index 0
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A"} -index 0
+dow K:/ECE532/prj/project/project.sdk/prj/Debug/prj.elf
+----------------End of Script----------------
+
+01:59:17 INFO  : Context for processor 'microblaze_0' is selected.
+01:59:17 INFO  : 'con' command is executed.
+01:59:17 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A"} -index 0
+con
+----------------End of Script----------------
+
+01:59:17 INFO  : Disconnected from the channel tcfchan#1.
+02:00:05 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+02:00:05 INFO  : Jtag cable 'Digilent Nexys4DDR 210292646020A' is selected.
+02:00:05 INFO  : 'jtag frequency' command is executed.
+02:00:06 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+02:00:08 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/project/project.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+02:00:08 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+02:00:08 INFO  : Context for processor 'microblaze_0' is selected.
+02:00:08 INFO  : System reset is completed.
+02:00:11 INFO  : 'after 3000' command is executed.
+02:00:11 INFO  : Context for processor 'microblaze_0' is selected.
+02:00:11 INFO  : The application 'K:/ECE532/prj/project/project.sdk/prj/Debug/prj.elf' is downloaded to processor 'microblaze_0'.
+02:00:11 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0
+fpga -file K:/ECE532/prj/project/project.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A"} -index 0
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A"} -index 0
+dow K:/ECE532/prj/project/project.sdk/prj/Debug/prj.elf
+----------------End of Script----------------
+
+02:00:11 INFO  : Context for processor 'microblaze_0' is selected.
+02:00:11 INFO  : 'con' command is executed.
+02:00:11 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A"} -index 0
+con
+----------------End of Script----------------
+
+02:00:11 INFO  : Disconnected from the channel tcfchan#2.
+11:23:30 INFO  : Registering command handlers for SDK TCF services
+11:23:32 INFO  : Launching XSCT server: xsct.bat -interactive K:\ECE532\prj\project\project.sdk\temp_xsdb_launch_script.tcl
+11:23:38 INFO  : XSCT server has started successfully.
+11:23:41 INFO  : Successfully done setting XSCT server connection channel  
+11:23:41 INFO  : Successfully done setting SDK workspace  
+11:23:41 INFO  : Processing command line option -hwspec K:/ECE532/prj/project/project.sdk/design_1_wrapper.hdf.
+11:23:41 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+11:23:43 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1585927329840,  Project:1585893172413
+11:23:43 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from K:/ECE532/prj/project/project.sdk/design_1_wrapper.hdf.
+11:23:43 INFO  : Copied contents of K:/ECE532/prj/project/project.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+11:23:44 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+11:23:52 INFO  : 
+11:23:53 INFO  : Updating hardware inferred compiler options for prj.
+11:23:53 INFO  : Clearing existing target manager status.
+11:33:09 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:33:09 INFO  : Jtag cable 'Digilent Nexys4DDR 210292646020A' is selected.
+11:33:09 INFO  : 'jtag frequency' command is executed.
+11:33:10 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+11:33:12 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/project/project.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+11:33:12 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:33:12 INFO  : Context for processor 'microblaze_0' is selected.
+11:33:12 INFO  : System reset is completed.
+11:33:15 INFO  : 'after 3000' command is executed.
+11:33:15 INFO  : Context for processor 'microblaze_0' is selected.
+11:33:15 INFO  : The application 'K:/ECE532/prj/project/project.sdk/prj/Debug/prj.elf' is downloaded to processor 'microblaze_0'.
+11:33:15 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0
+fpga -file K:/ECE532/prj/project/project.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A"} -index 0
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A"} -index 0
+dow K:/ECE532/prj/project/project.sdk/prj/Debug/prj.elf
+----------------End of Script----------------
+
+11:33:15 INFO  : Context for processor 'microblaze_0' is selected.
+11:33:15 INFO  : 'con' command is executed.
+11:33:15 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A"} -index 0
+con
+----------------End of Script----------------
+
+11:33:15 INFO  : Disconnected from the channel tcfchan#1.
+12:16:20 INFO  : Registering command handlers for SDK TCF services
+12:16:21 INFO  : Launching XSCT server: xsct.bat -interactive K:\ECE532\prj\project\project.sdk\temp_xsdb_launch_script.tcl
+12:16:26 INFO  : XSCT server has started successfully.
+12:16:26 INFO  : Successfully done setting XSCT server connection channel  
+12:16:27 INFO  : Successfully done setting SDK workspace  
+12:16:27 INFO  : Processing command line option -hwspec K:/ECE532/prj/project/project.sdk/design_1_wrapper.hdf.
+12:16:27 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+12:16:29 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1585930278222,  Project:1585927329840
+12:16:29 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from K:/ECE532/prj/project/project.sdk/design_1_wrapper.hdf.
+12:16:29 INFO  : Copied contents of K:/ECE532/prj/project/project.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+12:16:29 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+12:16:36 INFO  : 
+12:16:37 INFO  : Updating hardware inferred compiler options for prj.
+12:16:37 INFO  : Clearing existing target manager status.
+12:21:05 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+12:21:06 INFO  : 'fpga -state' command is executed.
+12:21:06 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:21:06 INFO  : Jtag cable 'Digilent Nexys4DDR 210292646020A' is selected.
+12:21:06 INFO  : 'jtag frequency' command is executed.
+12:21:06 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:21:06 INFO  : Context for processor 'microblaze_0' is selected.
+12:21:06 INFO  : Processor reset is completed for 'microblaze_0'.
+12:21:06 INFO  : Context for processor 'microblaze_0' is selected.
+12:21:06 INFO  : The application 'K:/ECE532/prj/project/project.sdk/prj/Debug/prj.elf' is downloaded to processor 'microblaze_0'.
+12:21:06 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A"} -index 0
+dow K:/ECE532/prj/project/project.sdk/prj/Debug/prj.elf
+----------------End of Script----------------
+
+12:21:06 INFO  : Context for processor 'microblaze_0' is selected.
+12:21:06 INFO  : 'con' command is executed.
+12:21:06 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A"} -index 0
+con
+----------------End of Script----------------
+
+12:21:06 INFO  : Disconnected from the channel tcfchan#1.
+12:22:15 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+12:22:15 INFO  : 'fpga -state' command is executed.
+12:22:15 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:22:15 INFO  : Jtag cable 'Digilent Nexys4DDR 210292646020A' is selected.
+12:22:15 INFO  : 'jtag frequency' command is executed.
+12:22:15 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:22:15 INFO  : Context for processor 'microblaze_0' is selected.
+12:22:15 INFO  : Processor reset is completed for 'microblaze_0'.
+12:22:15 INFO  : Context for processor 'microblaze_0' is selected.
+12:22:15 ERROR : Memory write error at 0x80000000. MicroBlaze instruction insert overrun
+12:22:15 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A"} -index 0
+dow K:/ECE532/prj/project/project.sdk/prj/Debug/prj.elf
+----------------End of Script----------------
+
+12:22:44 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+12:22:44 INFO  : 'fpga -state' command is executed.
+12:22:44 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:22:44 INFO  : Jtag cable 'Digilent Nexys4DDR 210292646020A' is selected.
+12:22:44 INFO  : 'jtag frequency' command is executed.
+12:22:44 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:22:44 INFO  : Context for processor 'microblaze_0' is selected.
+12:22:44 INFO  : Processor reset is completed for 'microblaze_0'.
+12:22:44 INFO  : Context for processor 'microblaze_0' is selected.
+12:22:44 INFO  : The application 'K:/ECE532/prj/project/project.sdk/prj/Debug/prj.elf' is downloaded to processor 'microblaze_0'.
+12:22:44 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A"} -index 0
+dow K:/ECE532/prj/project/project.sdk/prj/Debug/prj.elf
+----------------End of Script----------------
+
+12:22:44 INFO  : Context for processor 'microblaze_0' is selected.
+12:22:44 INFO  : 'con' command is executed.
+12:22:44 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A"} -index 0
+con
+----------------End of Script----------------
+
+12:22:44 INFO  : Disconnected from the channel tcfchan#2.
+12:23:50 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+12:23:50 INFO  : 'fpga -state' command is executed.
+12:23:50 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:23:50 INFO  : Jtag cable 'Digilent Nexys4DDR 210292646020A' is selected.
+12:23:50 INFO  : 'jtag frequency' command is executed.
+12:23:50 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:23:50 INFO  : Context for processor 'microblaze_0' is selected.
+12:23:50 INFO  : Processor reset is completed for 'microblaze_0'.
+12:23:50 INFO  : Context for processor 'microblaze_0' is selected.
+12:23:50 INFO  : The application 'K:/ECE532/prj/project/project.sdk/prj/Debug/prj.elf' is downloaded to processor 'microblaze_0'.
+12:23:50 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A"} -index 0
+dow K:/ECE532/prj/project/project.sdk/prj/Debug/prj.elf
+----------------End of Script----------------
+
+12:23:50 INFO  : Context for processor 'microblaze_0' is selected.
+12:23:50 INFO  : 'con' command is executed.
+12:23:50 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A"} -index 0
+con
+----------------End of Script----------------
+
+12:23:50 INFO  : Disconnected from the channel tcfchan#3.
+13:10:06 INFO  : Registering command handlers for SDK TCF services
+13:10:07 INFO  : Launching XSCT server: xsct.bat -interactive K:\ECE532\prj\project\project.sdk\temp_xsdb_launch_script.tcl
+13:10:13 INFO  : XSCT server has started successfully.
+13:10:15 INFO  : Successfully done setting XSCT server connection channel  
+13:10:15 INFO  : Successfully done setting SDK workspace  
+13:10:15 INFO  : Processing command line option -hwspec K:/ECE532/prj/project/project.sdk/design_1_wrapper.hdf.
+13:10:15 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+13:10:17 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1585933721515,  Project:1585930278222
+13:10:17 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from K:/ECE532/prj/project/project.sdk/design_1_wrapper.hdf.
+13:10:17 INFO  : Copied contents of K:/ECE532/prj/project/project.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+13:10:18 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+13:10:27 INFO  : 
+13:10:28 INFO  : Updating hardware inferred compiler options for prj.
+13:10:28 INFO  : Clearing existing target manager status.
+13:26:05 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:26:05 INFO  : Jtag cable 'Digilent Nexys4DDR 210292646020A' is selected.
+13:26:05 INFO  : 'jtag frequency' command is executed.
+13:26:05 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+13:26:08 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/project/project.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+13:26:08 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+13:26:08 INFO  : Context for processor 'microblaze_0' is selected.
+13:26:08 INFO  : System reset is completed.
+13:26:11 INFO  : 'after 3000' command is executed.
+13:26:11 INFO  : Context for processor 'microblaze_0' is selected.
+13:26:11 INFO  : The application 'K:/ECE532/prj/project/project.sdk/prj/Debug/prj.elf' is downloaded to processor 'microblaze_0'.
+13:26:11 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0
+fpga -file K:/ECE532/prj/project/project.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A"} -index 0
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A"} -index 0
+dow K:/ECE532/prj/project/project.sdk/prj/Debug/prj.elf
+----------------End of Script----------------
+
+13:26:11 INFO  : Context for processor 'microblaze_0' is selected.
+13:26:11 INFO  : 'con' command is executed.
+13:26:11 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A"} -index 0
+con
+----------------End of Script----------------
+
+13:26:11 INFO  : Disconnected from the channel tcfchan#1.
+15:05:13 INFO  : Registering command handlers for SDK TCF services
+15:05:14 INFO  : Launching XSCT server: xsct.bat -interactive K:\ECE532\prj\project\project.sdk\temp_xsdb_launch_script.tcl
+15:05:20 INFO  : XSCT server has started successfully.
+15:05:22 INFO  : Successfully done setting XSCT server connection channel  
+15:05:22 INFO  : Processing command line option -hwspec K:/ECE532/prj/project/project.sdk/design_1_wrapper.hdf.
+15:05:22 INFO  : Successfully done setting SDK workspace  
+15:05:22 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+15:05:23 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1585940228912,  Project:1585933721515
+15:05:23 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from K:/ECE532/prj/project/project.sdk/design_1_wrapper.hdf.
+15:05:23 INFO  : Copied contents of K:/ECE532/prj/project/project.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+15:05:24 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+15:05:31 INFO  : 
+15:05:32 INFO  : Updating hardware inferred compiler options for prj.
+15:05:32 INFO  : Clearing existing target manager status.
+15:11:17 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:11:17 INFO  : Jtag cable 'Digilent Nexys4DDR 210292646020A' is selected.
+15:11:17 INFO  : 'jtag frequency' command is executed.
+15:11:17 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+15:11:19 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/project/project.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+15:11:19 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+15:11:19 INFO  : Context for processor 'microblaze_0' is selected.
+15:11:19 INFO  : System reset is completed.
+15:11:22 INFO  : 'after 3000' command is executed.
+15:11:23 INFO  : Context for processor 'microblaze_0' is selected.
+15:11:23 INFO  : The application 'K:/ECE532/prj/project/project.sdk/prj/Debug/prj.elf' is downloaded to processor 'microblaze_0'.
+15:11:23 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0
+fpga -file K:/ECE532/prj/project/project.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A"} -index 0
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A"} -index 0
+dow K:/ECE532/prj/project/project.sdk/prj/Debug/prj.elf
+----------------End of Script----------------
+
+15:11:23 INFO  : Context for processor 'microblaze_0' is selected.
+15:11:23 INFO  : 'con' command is executed.
+15:11:23 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A"} -index 0
+con
+----------------End of Script----------------
+
+15:11:23 INFO  : Disconnected from the channel tcfchan#1.
+16:52:00 INFO  : Registering command handlers for SDK TCF services
+16:52:01 INFO  : Launching XSCT server: xsct.bat -interactive K:\ECE532\prj\project\project.sdk\temp_xsdb_launch_script.tcl
+16:52:10 INFO  : XSCT server has started successfully.
+16:52:10 INFO  : Successfully done setting XSCT server connection channel  
+16:52:13 INFO  : Successfully done setting SDK workspace  
+16:52:13 INFO  : Processing command line option -hwspec K:/ECE532/prj/project/project.sdk/design_1_wrapper.hdf.
+16:52:13 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+16:52:16 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1585946807778,  Project:1585940228912
+16:52:16 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from K:/ECE532/prj/project/project.sdk/design_1_wrapper.hdf.
+16:52:16 INFO  : Copied contents of K:/ECE532/prj/project/project.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+16:52:17 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+16:52:27 INFO  : 
+16:52:28 INFO  : Updating hardware inferred compiler options for prj.
+16:52:28 INFO  : Clearing existing target manager status.
+16:53:35 INFO  : Inferring section assignments and sizes from elf file: K:\ECE532\prj\project\project.sdk\prj\Debug\prj.elf
+16:54:03 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:54:03 INFO  : Jtag cable 'Digilent Nexys4DDR 210292646020A' is selected.
+16:54:03 INFO  : 'jtag frequency' command is executed.
+16:54:03 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+16:54:06 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/project/project.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+16:54:06 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+16:54:06 INFO  : Context for processor 'microblaze_0' is selected.
+16:54:06 INFO  : System reset is completed.
+16:54:09 INFO  : 'after 3000' command is executed.
+16:54:09 INFO  : Context for processor 'microblaze_0' is selected.
+16:54:09 INFO  : The application 'K:/ECE532/prj/project/project.sdk/prj/Debug/prj.elf' is downloaded to processor 'microblaze_0'.
+16:54:09 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0
+fpga -file K:/ECE532/prj/project/project.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A"} -index 0
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A"} -index 0
+dow K:/ECE532/prj/project/project.sdk/prj/Debug/prj.elf
+----------------End of Script----------------
+
+16:54:09 INFO  : Context for processor 'microblaze_0' is selected.
+16:54:09 INFO  : 'con' command is executed.
+16:54:09 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A"} -index 0
+con
+----------------End of Script----------------
+
+16:54:09 INFO  : Disconnected from the channel tcfchan#1.
+16:54:18 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:54:18 INFO  : Jtag cable 'Digilent Nexys4DDR 210292646020A' is selected.
+16:54:18 INFO  : 'jtag frequency' command is executed.
+16:54:18 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+16:54:20 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/project/project.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+16:54:20 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+16:54:20 INFO  : Context for processor 'microblaze_0' is selected.
+16:54:21 INFO  : System reset is completed.
+16:54:24 INFO  : 'after 3000' command is executed.
+16:54:24 INFO  : Context for processor 'microblaze_0' is selected.
+16:54:24 INFO  : The application 'K:/ECE532/prj/project/project.sdk/prj/Debug/prj.elf' is downloaded to processor 'microblaze_0'.
+16:54:24 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0
+fpga -file K:/ECE532/prj/project/project.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A"} -index 0
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A"} -index 0
+dow K:/ECE532/prj/project/project.sdk/prj/Debug/prj.elf
+----------------End of Script----------------
+
+16:54:24 INFO  : Context for processor 'microblaze_0' is selected.
+16:54:24 INFO  : 'con' command is executed.
+16:54:24 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A"} -index 0
+con
+----------------End of Script----------------
+
+16:54:24 INFO  : Disconnected from the channel tcfchan#2.
+18:58:33 INFO  : Registering command handlers for SDK TCF services
+18:58:34 INFO  : Launching XSCT server: xsct.bat -interactive K:\ECE532\prj\project\project.sdk\temp_xsdb_launch_script.tcl
+18:58:38 INFO  : XSCT server has started successfully.
+18:58:39 INFO  : Successfully done setting XSCT server connection channel  
+18:58:39 INFO  : Processing command line option -hwspec K:/ECE532/prj/project/project.sdk/design_1_wrapper.hdf.
+18:58:39 INFO  : Successfully done setting SDK workspace  
+18:58:39 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+19:07:23 INFO  : Inferring section assignments and sizes from elf file: K:\ECE532\prj\project\project.sdk\sw\Debug\sw.elf
+19:07:44 INFO  : Successfully generated K:\ECE532\prj\project\project.sdk\sw\src\lscript.ld.
+19:07:44 INFO  : Applying linker script to all configurations of project sw.
+19:07:44 INFO  : Setting rebuild state to true for all configurations of project sw.
+19:32:24 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:32:24 INFO  : Jtag cable 'Digilent Nexys4DDR 210292646020A' is selected.
+19:32:24 INFO  : 'jtag frequency' command is executed.
+19:32:24 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+19:32:26 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/project/project.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+19:32:26 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+19:32:26 INFO  : Context for processor 'microblaze_0' is selected.
+19:32:27 INFO  : System reset is completed.
+19:32:30 INFO  : 'after 3000' command is executed.
+19:32:30 INFO  : Context for processor 'microblaze_0' is selected.
+19:32:30 INFO  : The application 'K:/ECE532/prj/project/project.sdk/prj/Debug/prj.elf' is downloaded to processor 'microblaze_0'.
+19:32:30 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0
+fpga -file K:/ECE532/prj/project/project.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A"} -index 0
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A"} -index 0
+dow K:/ECE532/prj/project/project.sdk/prj/Debug/prj.elf
+----------------End of Script----------------
+
+19:32:30 INFO  : Context for processor 'microblaze_0' is selected.
+19:32:30 INFO  : 'con' command is executed.
+19:32:30 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A"} -index 0
+con
+----------------End of Script----------------
+
+19:32:30 INFO  : Disconnected from the channel tcfchan#1.
+19:32:49 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:32:50 INFO  : Jtag cable 'Digilent Nexys4DDR 210292646020A' is selected.
+19:32:50 INFO  : 'jtag frequency' command is executed.
+19:32:50 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+19:32:52 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/project/project.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+19:32:52 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+19:32:52 INFO  : Context for processor 'microblaze_0' is selected.
+19:32:52 INFO  : System reset is completed.
+19:32:55 INFO  : 'after 3000' command is executed.
+19:32:55 INFO  : Context for processor 'microblaze_0' is selected.
+19:32:56 INFO  : The application 'K:/ECE532/prj/project/project.sdk/sw/Debug/sw.elf' is downloaded to processor 'microblaze_0'.
+19:32:56 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0
+fpga -file K:/ECE532/prj/project/project.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A"} -index 0
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A"} -index 0
+dow K:/ECE532/prj/project/project.sdk/sw/Debug/sw.elf
+----------------End of Script----------------
+
+19:32:56 INFO  : Context for processor 'microblaze_0' is selected.
+19:32:56 INFO  : 'con' command is executed.
+19:32:56 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A"} -index 0
+con
+----------------End of Script----------------
+
+19:32:56 INFO  : Disconnected from the channel tcfchan#2.
+19:52:56 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:52:56 INFO  : Jtag cable 'Digilent Nexys4DDR 210292646020A' is selected.
+19:52:56 INFO  : 'jtag frequency' command is executed.
+19:52:56 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+19:52:58 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/project/project.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+19:52:58 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+19:52:58 INFO  : Context for processor 'microblaze_0' is selected.
+19:52:58 INFO  : System reset is completed.
+19:53:01 INFO  : 'after 3000' command is executed.
+19:53:02 INFO  : Context for processor 'microblaze_0' is selected.
+19:53:02 INFO  : The application 'K:/ECE532/prj/project/project.sdk/sw/Debug/sw.elf' is downloaded to processor 'microblaze_0'.
+19:53:02 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0
+fpga -file K:/ECE532/prj/project/project.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A"} -index 0
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A"} -index 0
+dow K:/ECE532/prj/project/project.sdk/sw/Debug/sw.elf
+----------------End of Script----------------
+
+20:22:05 INFO  : Registering command handlers for SDK TCF services
+20:22:06 INFO  : Launching XSCT server: xsct.bat -interactive K:\ECE532\prj\project\project.sdk\temp_xsdb_launch_script.tcl
+20:22:09 INFO  : XSCT server has started successfully.
+20:22:09 INFO  : Processing command line option -hwspec K:/ECE532/prj/project/project.sdk/design_1_wrapper.hdf.
+20:22:09 INFO  : Successfully done setting XSCT server connection channel  
+20:22:09 INFO  : Successfully done setting SDK workspace  
+20:22:09 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+20:28:37 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:28:37 INFO  : Jtag cable 'Digilent Nexys4DDR 210292646020A' is selected.
+20:28:37 INFO  : 'jtag frequency' command is executed.
+20:28:37 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+20:28:40 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/project/project.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+20:28:40 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+20:28:40 INFO  : Context for processor 'microblaze_0' is selected.
+20:28:40 INFO  : System reset is completed.
+20:28:44 INFO  : 'after 3000' command is executed.
+20:28:44 INFO  : Context for processor 'microblaze_0' is selected.
+20:28:44 INFO  : The application 'K:/ECE532/prj/project/project.sdk/prj/Debug/prj.elf' is downloaded to processor 'microblaze_0'.
+20:28:44 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0
+fpga -file K:/ECE532/prj/project/project.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A"} -index 0
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A"} -index 0
+dow K:/ECE532/prj/project/project.sdk/prj/Debug/prj.elf
+----------------End of Script----------------
+
+20:28:44 INFO  : Context for processor 'microblaze_0' is selected.
+20:28:45 INFO  : 'con' command is executed.
+20:28:45 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A"} -index 0
+con
+----------------End of Script----------------
+
+20:28:45 INFO  : Disconnected from the channel tcfchan#1.
+20:29:15 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:29:15 INFO  : Jtag cable 'Digilent Nexys4DDR 210292646020A' is selected.
+20:29:15 INFO  : 'jtag frequency' command is executed.
+20:29:15 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+20:29:17 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/project/project.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+20:29:17 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+20:29:17 INFO  : Context for processor 'microblaze_0' is selected.
+20:29:17 INFO  : System reset is completed.
+20:29:20 INFO  : 'after 3000' command is executed.
+20:29:20 INFO  : Context for processor 'microblaze_0' is selected.
+20:29:21 INFO  : The application 'K:/ECE532/prj/project/project.sdk/prj/Debug/prj.elf' is downloaded to processor 'microblaze_0'.
+20:29:21 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0
+fpga -file K:/ECE532/prj/project/project.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A"} -index 0
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A"} -index 0
+dow K:/ECE532/prj/project/project.sdk/prj/Debug/prj.elf
+----------------End of Script----------------
+
+20:29:21 INFO  : Context for processor 'microblaze_0' is selected.
+20:29:21 INFO  : 'con' command is executed.
+20:29:21 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A"} -index 0
+con
+----------------End of Script----------------
+
+20:29:21 INFO  : Disconnected from the channel tcfchan#2.
+20:30:04 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:30:04 INFO  : Jtag cable 'Digilent Nexys4DDR 210292646020A' is selected.
+20:30:04 INFO  : 'jtag frequency' command is executed.
+20:30:04 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+20:30:06 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/project/project.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+20:30:06 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+20:30:07 INFO  : Context for processor 'microblaze_0' is selected.
+20:30:07 INFO  : System reset is completed.
+20:30:10 INFO  : 'after 3000' command is executed.
+20:30:10 INFO  : Context for processor 'microblaze_0' is selected.
+20:30:10 INFO  : The application 'K:/ECE532/prj/project/project.sdk/prj/Debug/prj.elf' is downloaded to processor 'microblaze_0'.
+20:30:10 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0
+fpga -file K:/ECE532/prj/project/project.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A"} -index 0
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A"} -index 0
+dow K:/ECE532/prj/project/project.sdk/prj/Debug/prj.elf
+----------------End of Script----------------
+
+20:30:10 INFO  : Context for processor 'microblaze_0' is selected.
+20:30:10 INFO  : 'con' command is executed.
+20:30:10 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A"} -index 0
+con
+----------------End of Script----------------
+
+20:30:10 INFO  : Disconnected from the channel tcfchan#3.
+20:30:18 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:30:18 INFO  : Jtag cable 'Digilent Nexys4DDR 210292646020A' is selected.
+20:30:18 INFO  : 'jtag frequency' command is executed.
+20:30:18 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+20:30:20 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/project/project.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+20:30:20 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+20:30:20 INFO  : Context for processor 'microblaze_0' is selected.
+20:30:20 INFO  : System reset is completed.
+20:30:23 INFO  : 'after 3000' command is executed.
+20:30:24 INFO  : Context for processor 'microblaze_0' is selected.
+20:30:24 INFO  : The application 'K:/ECE532/prj/project/project.sdk/prj/Debug/prj.elf' is downloaded to processor 'microblaze_0'.
+20:30:24 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0
+fpga -file K:/ECE532/prj/project/project.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A"} -index 0
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A"} -index 0
+dow K:/ECE532/prj/project/project.sdk/prj/Debug/prj.elf
+----------------End of Script----------------
+
+20:30:24 INFO  : Context for processor 'microblaze_0' is selected.
+20:30:24 INFO  : 'con' command is executed.
+20:30:24 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A"} -index 0
+con
+----------------End of Script----------------
+
+20:30:24 INFO  : Disconnected from the channel tcfchan#4.
+20:30:59 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:31:00 INFO  : Jtag cable 'Digilent Nexys4DDR 210292646020A' is selected.
+20:31:00 INFO  : 'jtag frequency' command is executed.
+20:31:00 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+20:31:02 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/project/project.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+20:31:02 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+20:31:02 INFO  : Context for processor 'microblaze_0' is selected.
+20:31:02 INFO  : System reset is completed.
+20:31:05 INFO  : 'after 3000' command is executed.
+20:31:05 INFO  : Context for processor 'microblaze_0' is selected.
+20:31:05 INFO  : The application 'K:/ECE532/prj/project/project.sdk/prj/Debug/prj.elf' is downloaded to processor 'microblaze_0'.
+20:31:05 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0
+fpga -file K:/ECE532/prj/project/project.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A"} -index 0
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A"} -index 0
+dow K:/ECE532/prj/project/project.sdk/prj/Debug/prj.elf
+----------------End of Script----------------
+
+20:31:05 INFO  : Context for processor 'microblaze_0' is selected.
+20:31:05 INFO  : 'con' command is executed.
+20:31:05 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A"} -index 0
+con
+----------------End of Script----------------
+
+20:31:05 INFO  : Disconnected from the channel tcfchan#5.
+21:25:21 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:25:21 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+21:25:24 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/project/project.sdk/design_1_wrapper_hw_platform_0/download.bit"
+18:42:21 INFO  : Registering command handlers for SDK TCF services
+18:42:22 INFO  : Launching XSCT server: xsct.bat -interactive K:\ECE532\prj\project\project.sdk\temp_xsdb_launch_script.tcl
+18:42:26 INFO  : XSCT server has started successfully.
+18:42:26 INFO  : Successfully done setting XSCT server connection channel  
+18:42:31 INFO  : Successfully done setting SDK workspace  
+18:42:31 INFO  : Processing command line option -hwspec K:/ECE532/prj/project/project.sdk/design_1_wrapper.hdf.
+18:42:38 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.

@@ -1,0 +1,1412 @@
+
+*** Running vivado
+    with args -log design_1_ov7670_hdr_module_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_ov7670_hdr_module_0_0.tcl
+
+
+****** Vivado v2018.1 (64-bit)
+  **** SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+  **** IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source design_1_ov7670_hdr_module_0_0.tcl -notrace
+Command: synth_design -top design_1_ov7670_hdr_module_0_0 -part xc7a100tcsg324-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 12228 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 389.785 ; gain = 101.547
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'design_1_ov7670_hdr_module_0_0' [k:/ECE532/prj/project/project.srcs/sources_1/bd/design_1/ip/design_1_ov7670_hdr_module_0_0/synth/design_1_ov7670_hdr_module_0_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'design_1_wrapper' [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v:12]
+INFO: [Synth 8-6157] synthesizing module 'design_1' [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/synth/design_1.v:13]
+INFO: [Synth 8-6157] synthesizing module 'design_1_axi_slave_0_0' [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_axi_slave_0_0/synth/design_1_axi_slave_0_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'axi_slave_v1_0' [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ipshared/d699/hdl/axi_slave_v1_0.v:4]
+	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'axi_slave_v1_0_S00_AXI' [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ipshared/d699/hdl/axi_slave_v1_0_S00_AXI.v:4]
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+	Parameter ADDR_LSB bound to: 2 - type: integer 
+	Parameter OPT_MEM_ADDR_BITS bound to: 1 - type: integer 
+INFO: [Synth 8-226] default block is never used [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ipshared/d699/hdl/axi_slave_v1_0_S00_AXI.v:377]
+INFO: [Synth 8-6155] done synthesizing module 'axi_slave_v1_0_S00_AXI' (1#1) [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ipshared/d699/hdl/axi_slave_v1_0_S00_AXI.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'axi_slave_v1_0' (2#1) [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ipshared/d699/hdl/axi_slave_v1_0.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_axi_slave_0_0' (3#1) [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_axi_slave_0_0/synth/design_1_axi_slave_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'design_1_blk_mem_gen_0_0' [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_blk_mem_gen_0_0/synth/design_1_blk_mem_gen_0_0.vhd:71]
+	Parameter C_FAMILY bound to: artix7 - type: string 
+	Parameter C_XDEVICEFAMILY bound to: artix7 - type: string 
+	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
+	Parameter C_INTERFACE_TYPE bound to: 0 - type: integer 
+	Parameter C_AXI_TYPE bound to: 1 - type: integer 
+	Parameter C_AXI_SLAVE_TYPE bound to: 0 - type: integer 
+	Parameter C_USE_BRAM_BLOCK bound to: 0 - type: integer 
+	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
+	Parameter C_CTRL_ECC_ALGO bound to: NONE - type: string 
+	Parameter C_HAS_AXI_ID bound to: 0 - type: integer 
+	Parameter C_AXI_ID_WIDTH bound to: 4 - type: integer 
+	Parameter C_MEM_TYPE bound to: 1 - type: integer 
+	Parameter C_BYTE_SIZE bound to: 9 - type: integer 
+	Parameter C_ALGORITHM bound to: 1 - type: integer 
+	Parameter C_PRIM_TYPE bound to: 1 - type: integer 
+	Parameter C_LOAD_INIT_FILE bound to: 0 - type: integer 
+	Parameter C_INIT_FILE_NAME bound to: no_coe_file_loaded - type: string 
+	Parameter C_INIT_FILE bound to: NONE - type: string 
+	Parameter C_USE_DEFAULT_DATA bound to: 0 - type: integer 
+	Parameter C_DEFAULT_DATA bound to: 0 - type: string 
+	Parameter C_HAS_RSTA bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_A bound to: CE - type: string 
+	Parameter C_RSTRAM_A bound to: 0 - type: integer 
+	Parameter C_INITA_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENA bound to: 0 - type: integer 
+	Parameter C_HAS_REGCEA bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEA bound to: 0 - type: integer 
+	Parameter C_WEA_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_A bound to: NO_CHANGE - type: string 
+	Parameter C_WRITE_WIDTH_A bound to: 12 - type: integer 
+	Parameter C_READ_WIDTH_A bound to: 12 - type: integer 
+	Parameter C_WRITE_DEPTH_A bound to: 153600 - type: integer 
+	Parameter C_READ_DEPTH_A bound to: 153600 - type: integer 
+	Parameter C_ADDRA_WIDTH bound to: 18 - type: integer 
+	Parameter C_HAS_RSTB bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_B bound to: CE - type: string 
+	Parameter C_RSTRAM_B bound to: 0 - type: integer 
+	Parameter C_INITB_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENB bound to: 0 - type: integer 
+	Parameter C_HAS_REGCEB bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEB bound to: 0 - type: integer 
+	Parameter C_WEB_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_B bound to: WRITE_FIRST - type: string 
+	Parameter C_WRITE_WIDTH_B bound to: 12 - type: integer 
+	Parameter C_READ_WIDTH_B bound to: 12 - type: integer 
+	Parameter C_WRITE_DEPTH_B bound to: 153600 - type: integer 
+	Parameter C_READ_DEPTH_B bound to: 153600 - type: integer 
+	Parameter C_ADDRB_WIDTH bound to: 18 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_B bound to: 1 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_MUX_PIPELINE_STAGES bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_INPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_USE_SOFTECC bound to: 0 - type: integer 
+	Parameter C_USE_ECC bound to: 0 - type: integer 
+	Parameter C_EN_ECC_PIPE bound to: 0 - type: integer 
+	Parameter C_HAS_INJECTERR bound to: 0 - type: integer 
+	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
+	Parameter C_COMMON_CLK bound to: 0 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_COLL bound to: 0 - type: integer 
+	Parameter C_EN_SLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_USE_URAM bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRA_CHG bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRB_CHG bound to: 0 - type: integer 
+	Parameter C_EN_DEEPSLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SHUTDOWN_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SAFETY_CKT bound to: 0 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_RANGE bound to: 0 - type: integer 
+	Parameter C_COUNT_36K_BRAM bound to: 50 - type: string 
+	Parameter C_COUNT_18K_BRAM bound to: 4 - type: string 
+	Parameter C_EST_POWER_SUMMARY bound to: Estimated Power for IP     :     16.423531 mW - type: string 
+INFO: [Synth 8-3491] module 'blk_mem_gen_v8_4_1' declared at 'k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ipshared/67d8/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd:195313' bound to instance 'U0' of component 'blk_mem_gen_v8_4_1' [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_blk_mem_gen_0_0/synth/design_1_blk_mem_gen_0_0.vhd:237]
+INFO: [Synth 8-256] done synthesizing module 'design_1_blk_mem_gen_0_0' (14#1) [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_blk_mem_gen_0_0/synth/design_1_blk_mem_gen_0_0.vhd:71]
+INFO: [Synth 8-638] synthesizing module 'design_1_blk_mem_gen_0_1' [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_blk_mem_gen_0_1/synth/design_1_blk_mem_gen_0_1.vhd:71]
+	Parameter C_FAMILY bound to: artix7 - type: string 
+	Parameter C_XDEVICEFAMILY bound to: artix7 - type: string 
+	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
+	Parameter C_INTERFACE_TYPE bound to: 0 - type: integer 
+	Parameter C_AXI_TYPE bound to: 1 - type: integer 
+	Parameter C_AXI_SLAVE_TYPE bound to: 0 - type: integer 
+	Parameter C_USE_BRAM_BLOCK bound to: 0 - type: integer 
+	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
+	Parameter C_CTRL_ECC_ALGO bound to: NONE - type: string 
+	Parameter C_HAS_AXI_ID bound to: 0 - type: integer 
+	Parameter C_AXI_ID_WIDTH bound to: 4 - type: integer 
+	Parameter C_MEM_TYPE bound to: 1 - type: integer 
+	Parameter C_BYTE_SIZE bound to: 9 - type: integer 
+	Parameter C_ALGORITHM bound to: 1 - type: integer 
+	Parameter C_PRIM_TYPE bound to: 1 - type: integer 
+	Parameter C_LOAD_INIT_FILE bound to: 0 - type: integer 
+	Parameter C_INIT_FILE_NAME bound to: no_coe_file_loaded - type: string 
+	Parameter C_INIT_FILE bound to: NONE - type: string 
+	Parameter C_USE_DEFAULT_DATA bound to: 0 - type: integer 
+	Parameter C_DEFAULT_DATA bound to: 0 - type: string 
+	Parameter C_HAS_RSTA bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_A bound to: CE - type: string 
+	Parameter C_RSTRAM_A bound to: 0 - type: integer 
+	Parameter C_INITA_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENA bound to: 0 - type: integer 
+	Parameter C_HAS_REGCEA bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEA bound to: 0 - type: integer 
+	Parameter C_WEA_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_A bound to: NO_CHANGE - type: string 
+	Parameter C_WRITE_WIDTH_A bound to: 12 - type: integer 
+	Parameter C_READ_WIDTH_A bound to: 12 - type: integer 
+	Parameter C_WRITE_DEPTH_A bound to: 153600 - type: integer 
+	Parameter C_READ_DEPTH_A bound to: 153600 - type: integer 
+	Parameter C_ADDRA_WIDTH bound to: 18 - type: integer 
+	Parameter C_HAS_RSTB bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_B bound to: CE - type: string 
+	Parameter C_RSTRAM_B bound to: 0 - type: integer 
+	Parameter C_INITB_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENB bound to: 0 - type: integer 
+	Parameter C_HAS_REGCEB bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEB bound to: 0 - type: integer 
+	Parameter C_WEB_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_B bound to: WRITE_FIRST - type: string 
+	Parameter C_WRITE_WIDTH_B bound to: 12 - type: integer 
+	Parameter C_READ_WIDTH_B bound to: 12 - type: integer 
+	Parameter C_WRITE_DEPTH_B bound to: 153600 - type: integer 
+	Parameter C_READ_DEPTH_B bound to: 153600 - type: integer 
+	Parameter C_ADDRB_WIDTH bound to: 18 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_B bound to: 1 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_MUX_PIPELINE_STAGES bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_INPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_USE_SOFTECC bound to: 0 - type: integer 
+	Parameter C_USE_ECC bound to: 0 - type: integer 
+	Parameter C_EN_ECC_PIPE bound to: 0 - type: integer 
+	Parameter C_HAS_INJECTERR bound to: 0 - type: integer 
+	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
+	Parameter C_COMMON_CLK bound to: 0 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_COLL bound to: 0 - type: integer 
+	Parameter C_EN_SLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_USE_URAM bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRA_CHG bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRB_CHG bound to: 0 - type: integer 
+	Parameter C_EN_DEEPSLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SHUTDOWN_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SAFETY_CKT bound to: 0 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_RANGE bound to: 0 - type: integer 
+	Parameter C_COUNT_36K_BRAM bound to: 50 - type: string 
+	Parameter C_COUNT_18K_BRAM bound to: 4 - type: string 
+	Parameter C_EST_POWER_SUMMARY bound to: Estimated Power for IP     :     16.423531 mW - type: string 
+INFO: [Synth 8-3491] module 'blk_mem_gen_v8_4_1' declared at 'k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ipshared/67d8/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd:195313' bound to instance 'U0' of component 'blk_mem_gen_v8_4_1' [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_blk_mem_gen_0_1/synth/design_1_blk_mem_gen_0_1.vhd:237]
+INFO: [Synth 8-256] done synthesizing module 'design_1_blk_mem_gen_0_1' (15#1) [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_blk_mem_gen_0_1/synth/design_1_blk_mem_gen_0_1.vhd:71]
+INFO: [Synth 8-6157] synthesizing module 'design_1_control_0_1' [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_control_0_1/synth/design_1_control_0_1.sv:57]
+INFO: [Synth 8-6157] synthesizing module 'control' [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ipshared/8b8a/sources_1/new/control.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'fsm' [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ipshared/8b8a/sources_1/new/fsm.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'fsm' (16#1) [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ipshared/8b8a/sources_1/new/fsm.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'control' (17#1) [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ipshared/8b8a/sources_1/new/control.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_control_0_1' (18#1) [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_control_0_1/synth/design_1_control_0_1.sv:57]
+INFO: [Synth 8-6157] synthesizing module 'design_1_hdrvga_v2_0_1' [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/synth/design_1_hdrvga_v2_0_1.v:57]
+INFO: [Synth 8-6157] synthesizing module 'vga444_v2' [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ipshared/f434/sources_1/imports/src/vga444.v:25]
+	Parameter hRez bound to: 640 - type: integer 
+	Parameter hStartSync bound to: 656 - type: integer 
+	Parameter hEndSync bound to: 752 - type: integer 
+	Parameter hMaxCount bound to: 800 - type: integer 
+	Parameter vRez bound to: 480 - type: integer 
+	Parameter vStartSync bound to: 490 - type: integer 
+	Parameter vEndSync bound to: 492 - type: integer 
+	Parameter vMaxCount bound to: 525 - type: integer 
+	Parameter hsync_active bound to: 0 - type: integer 
+	Parameter vsync_active bound to: 0 - type: integer 
+INFO: [Synth 8-5534] Detected attribute (* ram_style = "distributed" *) [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ipshared/f434/sources_1/imports/src/vga444.v:63]
+INFO: [Synth 8-3876] $readmem data file 'CCRF_2d.mem' is read successfully [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ipshared/f434/sources_1/imports/src/vga444.v:66]
+INFO: [Synth 8-6155] done synthesizing module 'vga444_v2' (19#1) [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ipshared/f434/sources_1/imports/src/vga444.v:25]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_hdrvga_v2_0_1' (20#1) [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/synth/design_1_hdrvga_v2_0_1.v:57]
+INFO: [Synth 8-6157] synthesizing module 'design_1_mux_2to1_0_3' [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_mux_2to1_0_3/synth/design_1_mux_2to1_0_3.sv:57]
+INFO: [Synth 8-6157] synthesizing module 'mux2to1' [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ipshared/a058/mux2to1.sv:23]
+	Parameter DATA_WIDTH bound to: 2 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'mux2to1' (21#1) [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ipshared/a058/mux2to1.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_mux_2to1_0_3' (22#1) [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_mux_2to1_0_3/synth/design_1_mux_2to1_0_3.sv:57]
+INFO: [Synth 8-6157] synthesizing module 'design_1_ov7670_capture_0_0' [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_ov7670_capture_0_0/synth/design_1_ov7670_capture_0_0.sv:57]
+INFO: [Synth 8-6157] synthesizing module 'capture_top' [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ipshared/0f48/capture_top.sv:23]
+INFO: [Synth 8-638] synthesizing module 'ov7670_capture' [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ipshared/0f48/ov7670_capture.vhd:24]
+INFO: [Synth 8-256] done synthesizing module 'ov7670_capture' (23#1) [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ipshared/0f48/ov7670_capture.vhd:24]
+INFO: [Synth 8-6157] synthesizing module 'cc_generator' [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ipshared/0f48/cc_generator.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'cc_generator' (24#1) [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ipshared/0f48/cc_generator.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'capture_top' (25#1) [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ipshared/0f48/capture_top.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_ov7670_capture_0_0' (26#1) [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_ov7670_capture_0_0/synth/design_1_ov7670_capture_0_0.sv:57]
+INFO: [Synth 8-638] synthesizing module 'design_1_ov7670_controller_0_1' [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_ov7670_controller_0_1/synth/design_1_ov7670_controller_0_1.vhd:70]
+INFO: [Synth 8-3491] module 'ov7670_controller' declared at 'k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ipshared/227f/ov7670_controller.vhd:11' bound to instance 'U0' of component 'ov7670_controller' [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_ov7670_controller_0_1/synth/design_1_ov7670_controller_0_1.vhd:99]
+INFO: [Synth 8-638] synthesizing module 'ov7670_controller' [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ipshared/227f/ov7670_controller.vhd:24]
+INFO: [Synth 8-3491] module 'i2c_sender' declared at 'k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ipshared/227f/i2c_sender.vhd:11' bound to instance 'Inst_i2c_sender' of component 'i2c_sender' [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ipshared/227f/ov7670_controller.vhd:72]
+INFO: [Synth 8-638] synthesizing module 'i2c_sender' [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ipshared/227f/i2c_sender.vhd:24]
+INFO: [Synth 8-256] done synthesizing module 'i2c_sender' (27#1) [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ipshared/227f/i2c_sender.vhd:24]
+INFO: [Synth 8-3491] module 'ov7670_registers_low' declared at 'k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ipshared/227f/ov7670_registers.vhd:27' bound to instance 'Inst_ov7670_registers_low' of component 'ov7670_registers_low' [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ipshared/227f/ov7670_controller.vhd:87]
+INFO: [Synth 8-638] synthesizing module 'ov7670_registers_low' [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ipshared/227f/ov7670_registers.vhd:35]
+INFO: [Synth 8-256] done synthesizing module 'ov7670_registers_low' (28#1) [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ipshared/227f/ov7670_registers.vhd:35]
+INFO: [Synth 8-3491] module 'ov7670_registers_high' declared at 'k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ipshared/227f/ov7670_registers_b.vhd:27' bound to instance 'Inst_ov7670_registers_high' of component 'ov7670_registers_high' [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ipshared/227f/ov7670_controller.vhd:95]
+INFO: [Synth 8-638] synthesizing module 'ov7670_registers_high' [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ipshared/227f/ov7670_registers_b.vhd:35]
+INFO: [Synth 8-256] done synthesizing module 'ov7670_registers_high' (29#1) [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ipshared/227f/ov7670_registers_b.vhd:35]
+WARNING: [Synth 8-614] signal 'prog_trig' is read in the process but is not in the sensitivity list [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ipshared/227f/ov7670_controller.vhd:103]
+WARNING: [Synth 8-614] signal 'finished_low' is read in the process but is not in the sensitivity list [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ipshared/227f/ov7670_controller.vhd:103]
+WARNING: [Synth 8-614] signal 'command_low' is read in the process but is not in the sensitivity list [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ipshared/227f/ov7670_controller.vhd:103]
+WARNING: [Synth 8-614] signal 'finished_high' is read in the process but is not in the sensitivity list [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ipshared/227f/ov7670_controller.vhd:103]
+WARNING: [Synth 8-614] signal 'command_high' is read in the process but is not in the sensitivity list [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ipshared/227f/ov7670_controller.vhd:103]
+INFO: [Synth 8-256] done synthesizing module 'ov7670_controller' (30#1) [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ipshared/227f/ov7670_controller.vhd:24]
+INFO: [Synth 8-256] done synthesizing module 'design_1_ov7670_controller_0_1' (31#1) [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_ov7670_controller_0_1/synth/design_1_ov7670_controller_0_1.vhd:70]
+WARNING: [Synth 8-350] instance 'ov7670_controller_0' of module 'design_1_ov7670_controller_0_1' requires 9 connections, but only 8 given [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/synth/design_1.v:273]
+INFO: [Synth 8-6157] synthesizing module 'design_1_mux_2to1_1_1' [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_mux_2to1_1_1/synth/design_1_mux_2to1_1_1.sv:57]
+INFO: [Synth 8-6157] synthesizing module 'mux2to1__parameterized0' [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ipshared/a058/mux2to1.sv:23]
+	Parameter DATA_WIDTH bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'mux2to1__parameterized0' (31#1) [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ipshared/a058/mux2to1.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_mux_2to1_1_1' (32#1) [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_mux_2to1_1_1/synth/design_1_mux_2to1_1_1.sv:57]
+INFO: [Synth 8-6157] synthesizing module 'design_1_xbar_1to2_0_0' [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_xbar_1to2_0_0/synth/design_1_xbar_1to2_0_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'xbar_1to2' [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ipshared/2c31/sources_1/new/xbar.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'xbar_1to2' (33#1) [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ipshared/2c31/sources_1/new/xbar.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_xbar_1to2_0_0' (34#1) [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_xbar_1to2_0_0/synth/design_1_xbar_1to2_0_0.v:57]
+INFO: [Synth 8-6155] done synthesizing module 'design_1' (35#1) [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/synth/design_1.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_wrapper' (36#1) [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v:12]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_ov7670_hdr_module_0_0' (37#1) [k:/ECE532/prj/project/project.srcs/sources_1/bd/design_1/ip/design_1_ov7670_hdr_module_0_0/synth/design_1_ov7670_hdr_module_0_0.v:57]
+WARNING: [Synth 8-3331] design cc_generator has unconnected port vsync
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port MUX_RST[0]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port MEM_LAT_RST
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port MUX_REGCE[0]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port WE
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port ADDR_IN[17]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port ADDR_IN[16]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port ADDR_IN[15]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port ADDR_IN[14]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port ADDR_IN[13]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port ADDR_IN[12]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port ADDR_IN[11]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port ADDR_IN[10]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port ADDR_IN[9]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port ADDR_IN[8]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port ADDR_IN[7]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port ADDR_IN[6]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port ADDR_IN[5]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port ADDR_IN[4]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port ADDR_IN[3]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port ADDR_IN[2]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port ADDR_IN[1]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port ADDR_IN[0]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[1535]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[1534]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[1533]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[1532]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[1531]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[1530]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[1529]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[1528]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[1527]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[1526]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[1525]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[1524]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[1523]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[1522]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[1521]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[1520]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[1519]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[1518]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[1517]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[1516]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[1515]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[1514]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[1513]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[1512]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[1511]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[1510]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[1509]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[1508]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[1507]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[1506]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[1505]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[1504]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[1503]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[1502]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[1501]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[1500]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[1499]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[1498]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[1497]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[1496]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[1495]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[1494]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[1493]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[1492]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[1491]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[1490]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[1489]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[1488]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[1487]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[1486]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[1485]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[1484]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[1483]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[1482]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[1481]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[1480]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[1479]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[1478]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[1477]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[1476]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[1475]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[1474]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[1473]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[1472]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[1471]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[1470]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[1469]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[1468]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[1467]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[1466]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[1465]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[1464]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[1463]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[1462]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[1461]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[1460]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[1459]
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:02:33 ; elapsed = 00:02:45 . Memory (MB): peak = 702.516 ; gain = 414.277
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:02:33 ; elapsed = 00:02:45 . Memory (MB): peak = 702.516 ; gain = 414.277
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:02:33 ; elapsed = 00:02:45 . Memory (MB): peak = 702.516 ; gain = 414.277
+---------------------------------------------------------------------------------
+INFO: [Netlist 29-17] Analyzing 108 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/design_1_ooc.xdc] for cell 'inst/design_1_i'
+Finished Parsing XDC File [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/design_1_ooc.xdc] for cell 'inst/design_1_i'
+Parsing XDC File [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc] for cell 'inst/design_1_i/hdrvga_v2_0/inst'
+WARNING: [Vivado 12-584] No ports matched 'out_sel[0]'. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:6]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:6]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'out_sel[1]'. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:7]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:7]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'cc_reset'. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:9]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:9]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'prog_reset'. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:10]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:10]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'cf_reset'. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:11]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:11]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'prog_trig'. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:18]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:18]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'program_done'. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:19]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:19]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'capture_done'. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:20]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:20]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'start'. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:21]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:21]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'cc_out'. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:28]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:28]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'prog_out'. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:29]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:29]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'cf_out'. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:30]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:30]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'we_enable'. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:31]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:31]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'cf'. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:32]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:32]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'debug_state_sig[0]'. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:36]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:36]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'debug_state_sig[1]'. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:37]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:37]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'debug_state_sig[2]'. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:38]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:38]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'debug_state_sig[3]'. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:39]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:39]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'done_signal'. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:40]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:40]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ov7670_reset'. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:44]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:44]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ov7670_d[1]'. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:45]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:45]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ov7670_d[3]'. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:46]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:46]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ov7670_d[5]'. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:47]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:47]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ov7670_pwdn'. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:48]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:48]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ov7670_d[0]'. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:49]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:49]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ov7670_d[2]'. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:50]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:50]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ov7670_d[4]'. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:51]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:51]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ov7670_d[7]'. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:54]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:54]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ov7670_pclk'. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:55]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:55]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'ov7670_pclk'. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:56]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:56]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ov7670_vsync'. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:57]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:57]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ov7670_sioc'. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:58]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:58]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ov7670_d[6]'. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:59]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:59]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ov7670_xclk'. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:60]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:60]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ov7670_href'. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:61]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:61]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ov7670_siod'. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:62]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:62]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ov7670_siod'. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:63]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:63]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ov7670_siod'. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:64]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:64]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_r[0]'. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:67]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:67]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_r[1]'. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:68]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:68]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_r[2]'. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:69]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:69]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_r[3]'. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:70]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:70]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_g[0]'. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:72]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:72]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_g[1]'. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:73]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:73]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_g[2]'. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:74]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:74]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_g[3]'. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:75]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:75]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_b[0]'. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:77]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:77]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_b[1]'. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:78]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:78]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_b[2]'. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:79]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:79]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_b[3]'. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:80]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc:80]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc] for cell 'inst/design_1_i/hdrvga_v2_0/inst'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ip/design_1_hdrvga_v2_0_1/constrs_1/imports/new/cons.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_1_ov7670_hdr_module_0_0_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/design_1_ov7670_hdr_module_0_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/constrs_1/new/cons.xdc] for cell 'inst'
+WARNING: [Vivado 12-584] No ports matched 'out_sel[0]'. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/constrs_1/new/cons.xdc:6]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/constrs_1/new/cons.xdc:6]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'out_sel[1]'. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/constrs_1/new/cons.xdc:7]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/constrs_1/new/cons.xdc:7]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'cc_reset'. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/constrs_1/new/cons.xdc:9]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/constrs_1/new/cons.xdc:9]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'prog_reset'. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/constrs_1/new/cons.xdc:10]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/constrs_1/new/cons.xdc:10]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'cf_reset'. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/constrs_1/new/cons.xdc:11]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/constrs_1/new/cons.xdc:11]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'prog_trig'. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/constrs_1/new/cons.xdc:18]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/constrs_1/new/cons.xdc:18]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'program_done'. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/constrs_1/new/cons.xdc:19]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/constrs_1/new/cons.xdc:19]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'capture_done'. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/constrs_1/new/cons.xdc:20]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/constrs_1/new/cons.xdc:20]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'start'. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/constrs_1/new/cons.xdc:21]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/constrs_1/new/cons.xdc:21]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'cc_out'. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/constrs_1/new/cons.xdc:28]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/constrs_1/new/cons.xdc:28]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'prog_out'. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/constrs_1/new/cons.xdc:29]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/constrs_1/new/cons.xdc:29]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'cf_out'. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/constrs_1/new/cons.xdc:30]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/constrs_1/new/cons.xdc:30]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'we_enable'. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/constrs_1/new/cons.xdc:31]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/constrs_1/new/cons.xdc:31]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'cf'. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/constrs_1/new/cons.xdc:32]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/constrs_1/new/cons.xdc:32]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ov7670_pclk'. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/constrs_1/new/cons.xdc:55]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/constrs_1/new/cons.xdc:55]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'ov7670_pclk'. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/constrs_1/new/cons.xdc:56]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/constrs_1/new/cons.xdc:56]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/constrs_1/new/cons.xdc] for cell 'inst'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/constrs_1/new/cons.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_1_ov7670_hdr_module_0_0_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/design_1_ov7670_hdr_module_0_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [K:/ECE532/prj/project/project.runs/design_1_ov7670_hdr_module_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [K:/ECE532/prj/project/project.runs/design_1_ov7670_hdr_module_0_0_synth_1/dont_touch.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [K:/ECE532/prj/project/project.runs/design_1_ov7670_hdr_module_0_0_synth_1/dont_touch.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_1_ov7670_hdr_module_0_0_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/design_1_ov7670_hdr_module_0_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.069 . Memory (MB): peak = 859.172 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:02:47 ; elapsed = 00:03:02 . Memory (MB): peak = 859.172 ; gain = 570.934
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:02:47 ; elapsed = 00:03:02 . Memory (MB): peak = 859.172 ; gain = 570.934
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for inst/design_1_i/blk_mem_gen_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for inst/design_1_i/xbar_1to2_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for inst/design_1_i/blk_mem_gen_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for inst/design_1_i/axi_slave_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for inst/design_1_i/hdrvga_v2_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for inst/design_1_i/ov7670_capture_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for inst/design_1_i/control_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for inst/design_1_i/ov7670_controller_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for inst/design_1_i/out_data_ctrl. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for inst/design_1_i/start_ctrl. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for inst/design_1_i/hdrvga_v2_0/inst. (constraint file  K:/ECE532/prj/project/project.runs/design_1_ov7670_hdr_module_0_0_synth_1/dont_touch.xdc, line 42).
+Applied set_property DONT_TOUCH = true for inst. (constraint file  K:/ECE532/prj/project/project.runs/design_1_ov7670_hdr_module_0_0_synth_1/dont_touch.xdc, line 46).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:02:47 ; elapsed = 00:03:03 . Memory (MB): peak = 859.172 ; gain = 570.934
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5545] ROM "slv_reg0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'fsm'
+INFO: [Synth 8-5545] ROM "prog_trig" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "prog" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "done" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "path_sel" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "we_enable" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5544] ROM "nextstate0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nextstate0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nextstate0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nextstate0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nextstate0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nextstate0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "vCounter" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5542] Attribute ram_style/rom_style = distributed specified for ROM  "CCRF". This will be implemented in logic
+INFO: [Synth 8-5542] Attribute ram_style/rom_style = distributed specified for ROM  "CCRF". This will be implemented in logic
+INFO: [Synth 8-5542] Attribute ram_style/rom_style = distributed specified for ROM  "CCRF". This will be implemented in logic
+INFO: [Synth 8-5546] ROM "taken" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_sr" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "divider" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "finished" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6040] Register address_reg_rep driving address of a ROM cannot be packed in BRAM/URAM because of presence of initial value.
+WARNING: [Synth 8-6014] Unused sequential element sreg_reg was removed.  [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ipshared/227f/ov7670_registers.vhd:52]
+INFO: [Synth 8-5546] ROM "finished" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6040] Register address_reg_rep driving address of a ROM cannot be packed in BRAM/URAM because of presence of initial value.
+WARNING: [Synth 8-6014] Unused sequential element sreg_reg was removed.  [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ipshared/227f/ov7670_registers_b.vhd:52]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                         00000001 | 00000000000000000000000000000000
+         program_a_start |                         00000010 | 00000000000000000000000000000001
+               program_a |                         00000100 | 00000000000000000000000000000010
+               capture_a |                         00001000 | 00000000000000000000000000000011
+         program_b_start |                         00010000 | 00000000000000000000000000000100
+               program_b |                         00100000 | 00000000000000000000000000000101
+               capture_b |                         01000000 | 00000000000000000000000000000110
+                  finish |                         10000000 | 00000000000000000000000000000111
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'fsm'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:02:51 ; elapsed = 00:03:07 . Memory (MB): peak = 859.172 ; gain = 570.934
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     28 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 2     
+	   2 Input      8 Bit       Adders := 6     
++---Registers : 
+	               32 Bit    Registers := 8     
+	               28 Bit    Registers := 1     
+	               19 Bit    Registers := 1     
+	               18 Bit    Registers := 2     
+	               16 Bit    Registers := 3     
+	               12 Bit    Registers := 1     
+	               10 Bit    Registers := 2     
+	                8 Bit    Registers := 5     
+	                7 Bit    Registers := 6     
+	                4 Bit    Registers := 5     
+	                2 Bit    Registers := 3     
+	                1 Bit    Registers := 13    
++---ROMs : 
+	                              ROMs := 2     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 10    
+	   4 Input     32 Bit        Muxes := 2     
+	   2 Input     28 Bit        Muxes := 2     
+	   2 Input     18 Bit        Muxes := 2     
+	   2 Input     16 Bit        Muxes := 1     
+	   2 Input     12 Bit        Muxes := 2     
+	   8 Input      8 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 8     
+	   4 Input      4 Bit        Muxes := 3     
+	   2 Input      3 Bit        Muxes := 3     
+	   2 Input      2 Bit        Muxes := 1     
+	   7 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 531   
+	   8 Input      1 Bit        Muxes := 4     
+	   3 Input      1 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module axi_slave_v1_0_S00_AXI 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 5     
+	                4 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 8     
+	   4 Input     32 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 7     
+Module bindec 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 128   
+Module blk_mem_gen_mux 
+Detailed RTL Component Info : 
++---Registers : 
+	                7 Bit    Registers := 1     
+Module blk_mem_gen_mux__parameterized0 
+Detailed RTL Component Info : 
++---Registers : 
+	               18 Bit    Registers := 1     
+	                7 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module fsm 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
++---Muxes : 
+	   8 Input      8 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 6     
+	   2 Input      3 Bit        Muxes := 3     
+	   8 Input      1 Bit        Muxes := 4     
+Module control 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     28 Bit       Adders := 1     
++---Registers : 
+	               28 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     28 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 1     
+Module vga444_v2 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 2     
++---Registers : 
+	               10 Bit    Registers := 2     
+	                4 Bit    Registers := 3     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   4 Input      4 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 1     
+Module mux2to1 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      2 Bit        Muxes := 1     
+Module ov7670_capture 
+Detailed RTL Component Info : 
++---Registers : 
+	               19 Bit    Registers := 1     
+	               16 Bit    Registers := 1     
+	               12 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
+Module i2c_sender 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 2     
++---Registers : 
+	               32 Bit    Registers := 2     
+	                8 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	   2 Input      8 Bit        Muxes := 2     
+	   7 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+	   3 Input      1 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 3     
+Module ov7670_registers_low 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 2     
++---Registers : 
+	               16 Bit    Registers := 1     
+	                8 Bit    Registers := 2     
++---ROMs : 
+	                              ROMs := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module ov7670_registers_high 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 2     
++---Registers : 
+	               16 Bit    Registers := 1     
+	                8 Bit    Registers := 2     
++---ROMs : 
+	                              ROMs := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module ov7670_controller 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+Module mux2to1__parameterized0 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module xbar_1to2 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     18 Bit        Muxes := 2     
+	   2 Input     12 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5545] ROM "inst/axi_slave_v1_0_S00_AXI_inst/slv_reg0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "vCounter" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5542] Attribute ram_style/rom_style = distributed specified for ROM  "p_0_out". This will be implemented in logic
+INFO: [Synth 8-5542] Attribute ram_style/rom_style = distributed specified for ROM  "p_0_out". This will be implemented in logic
+INFO: [Synth 8-5542] Attribute ram_style/rom_style = distributed specified for ROM  "p_0_out". This will be implemented in logic
+INFO: [Synth 8-5546] ROM "U0/Inst_i2c_sender/divider" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "U0/Inst_i2c_sender/taken" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "U0/Inst_ov7670_registers_low/finished" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "U0/Inst_ov7670_registers_high/finished" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6040] Register U0/Inst_ov7670_registers_low/address_reg_rep driving address of a ROM cannot be packed in BRAM/URAM because of presence of initial value.
+WARNING: [Synth 8-6040] Register U0/Inst_ov7670_registers_high/address_reg_rep driving address of a ROM cannot be packed in BRAM/URAM because of presence of initial value.
+WARNING: [Synth 8-6014] Unused sequential element U0/Inst_ov7670_registers_low/sreg_reg was removed.  [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ipshared/227f/ov7670_registers.vhd:52]
+WARNING: [Synth 8-6014] Unused sequential element U0/Inst_ov7670_registers_high/sreg_reg was removed.  [k:/ECE532/prj/project/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.srcs/sources_1/bd/design_1/ipshared/227f/ov7670_registers_b.vhd:52]
+INFO: [Synth 8-3886] merging instance 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg3_reg[0]' (FDRE) to 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg3_reg[1]'
+INFO: [Synth 8-3886] merging instance 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg2_reg[1]' (FDRE) to 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg2_reg[2]'
+INFO: [Synth 8-3886] merging instance 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg3_reg[1]' (FDRE) to 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg3_reg[2]'
+INFO: [Synth 8-3886] merging instance 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg2_reg[2]' (FDRE) to 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg2_reg[3]'
+INFO: [Synth 8-3886] merging instance 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg3_reg[2]' (FDRE) to 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg3_reg[3]'
+INFO: [Synth 8-3886] merging instance 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg2_reg[3]' (FDRE) to 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg2_reg[4]'
+INFO: [Synth 8-3886] merging instance 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg3_reg[3]' (FDRE) to 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg3_reg[4]'
+INFO: [Synth 8-3886] merging instance 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg2_reg[4]' (FDRE) to 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg2_reg[5]'
+INFO: [Synth 8-3886] merging instance 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg3_reg[4]' (FDRE) to 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg3_reg[5]'
+INFO: [Synth 8-3886] merging instance 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg2_reg[5]' (FDRE) to 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg2_reg[6]'
+INFO: [Synth 8-3886] merging instance 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg3_reg[5]' (FDRE) to 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg3_reg[6]'
+INFO: [Synth 8-3886] merging instance 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg2_reg[6]' (FDRE) to 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg2_reg[7]'
+INFO: [Synth 8-3886] merging instance 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg3_reg[6]' (FDRE) to 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg3_reg[7]'
+INFO: [Synth 8-3886] merging instance 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg2_reg[7]' (FDRE) to 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg2_reg[8]'
+INFO: [Synth 8-3886] merging instance 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg3_reg[7]' (FDRE) to 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg3_reg[8]'
+INFO: [Synth 8-3886] merging instance 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg2_reg[8]' (FDRE) to 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg2_reg[9]'
+INFO: [Synth 8-3886] merging instance 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg3_reg[8]' (FDRE) to 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg3_reg[9]'
+INFO: [Synth 8-3886] merging instance 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg2_reg[9]' (FDRE) to 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg2_reg[10]'
+INFO: [Synth 8-3886] merging instance 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg3_reg[9]' (FDRE) to 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg3_reg[10]'
+INFO: [Synth 8-3886] merging instance 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg2_reg[10]' (FDRE) to 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg2_reg[11]'
+INFO: [Synth 8-3886] merging instance 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg3_reg[10]' (FDRE) to 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg3_reg[11]'
+INFO: [Synth 8-3886] merging instance 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg2_reg[11]' (FDRE) to 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg2_reg[12]'
+INFO: [Synth 8-3886] merging instance 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg3_reg[11]' (FDRE) to 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg3_reg[12]'
+INFO: [Synth 8-3886] merging instance 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg2_reg[12]' (FDRE) to 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg2_reg[13]'
+INFO: [Synth 8-3886] merging instance 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg3_reg[12]' (FDRE) to 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg3_reg[13]'
+INFO: [Synth 8-3886] merging instance 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg2_reg[13]' (FDRE) to 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg2_reg[14]'
+INFO: [Synth 8-3886] merging instance 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg3_reg[13]' (FDRE) to 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg3_reg[14]'
+INFO: [Synth 8-3886] merging instance 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg2_reg[14]' (FDRE) to 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg2_reg[15]'
+INFO: [Synth 8-3886] merging instance 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg3_reg[14]' (FDRE) to 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg3_reg[15]'
+INFO: [Synth 8-3886] merging instance 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg2_reg[15]' (FDRE) to 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg2_reg[16]'
+INFO: [Synth 8-3886] merging instance 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg3_reg[15]' (FDRE) to 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg3_reg[16]'
+INFO: [Synth 8-3886] merging instance 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg2_reg[16]' (FDRE) to 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg2_reg[17]'
+INFO: [Synth 8-3886] merging instance 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg3_reg[16]' (FDRE) to 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg3_reg[17]'
+INFO: [Synth 8-3886] merging instance 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg2_reg[17]' (FDRE) to 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg2_reg[18]'
+INFO: [Synth 8-3886] merging instance 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg3_reg[17]' (FDRE) to 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg3_reg[18]'
+INFO: [Synth 8-3886] merging instance 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg2_reg[18]' (FDRE) to 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg2_reg[19]'
+INFO: [Synth 8-3886] merging instance 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg3_reg[18]' (FDRE) to 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg3_reg[19]'
+INFO: [Synth 8-3886] merging instance 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg2_reg[19]' (FDRE) to 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg2_reg[20]'
+INFO: [Synth 8-3886] merging instance 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg3_reg[19]' (FDRE) to 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg3_reg[20]'
+INFO: [Synth 8-3886] merging instance 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg2_reg[20]' (FDRE) to 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg2_reg[21]'
+INFO: [Synth 8-3886] merging instance 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg3_reg[20]' (FDRE) to 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg3_reg[21]'
+INFO: [Synth 8-3886] merging instance 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg2_reg[21]' (FDRE) to 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg2_reg[22]'
+INFO: [Synth 8-3886] merging instance 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg3_reg[21]' (FDRE) to 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg3_reg[22]'
+INFO: [Synth 8-3886] merging instance 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg2_reg[22]' (FDRE) to 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg2_reg[23]'
+INFO: [Synth 8-3886] merging instance 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg3_reg[22]' (FDRE) to 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg3_reg[23]'
+INFO: [Synth 8-3886] merging instance 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg2_reg[23]' (FDRE) to 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg2_reg[24]'
+INFO: [Synth 8-3886] merging instance 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg3_reg[23]' (FDRE) to 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg3_reg[24]'
+INFO: [Synth 8-3886] merging instance 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg2_reg[24]' (FDRE) to 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg2_reg[25]'
+INFO: [Synth 8-3886] merging instance 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg3_reg[24]' (FDRE) to 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg3_reg[25]'
+INFO: [Synth 8-3886] merging instance 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg2_reg[25]' (FDRE) to 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg2_reg[26]'
+INFO: [Synth 8-3886] merging instance 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg3_reg[25]' (FDRE) to 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg3_reg[26]'
+INFO: [Synth 8-3886] merging instance 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg2_reg[26]' (FDRE) to 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg2_reg[27]'
+INFO: [Synth 8-3886] merging instance 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg3_reg[26]' (FDRE) to 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg3_reg[27]'
+INFO: [Synth 8-3886] merging instance 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg2_reg[27]' (FDRE) to 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg2_reg[28]'
+INFO: [Synth 8-3886] merging instance 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg3_reg[27]' (FDRE) to 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg3_reg[28]'
+INFO: [Synth 8-3886] merging instance 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg2_reg[28]' (FDRE) to 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg2_reg[29]'
+INFO: [Synth 8-3886] merging instance 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg3_reg[28]' (FDRE) to 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg3_reg[29]'
+INFO: [Synth 8-3886] merging instance 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg2_reg[29]' (FDRE) to 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg2_reg[30]'
+INFO: [Synth 8-3886] merging instance 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg3_reg[29]' (FDRE) to 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg3_reg[30]'
+INFO: [Synth 8-3886] merging instance 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg2_reg[30]' (FDRE) to 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg2_reg[31]'
+INFO: [Synth 8-3886] merging instance 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg3_reg[30]' (FDRE) to 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/slv_reg3_reg[31]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\design_1_i/axi_slave_0 /\inst/axi_slave_v1_0_S00_AXI_inst/slv_reg2_reg[31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\design_1_i/axi_slave_0 /\inst/axi_slave_v1_0_S00_AXI_inst/slv_reg3_reg[31] )
+INFO: [Synth 8-3886] merging instance 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/axi_rresp_reg[0]' (FDRE) to 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/axi_rresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\design_1_i/axi_slave_0 /\inst/axi_slave_v1_0_S00_AXI_inst/axi_rresp_reg[1] )
+INFO: [Synth 8-3886] merging instance 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/axi_bresp_reg[0]' (FDRE) to 'inst/design_1_i/axi_slave_0/inst/axi_slave_v1_0_S00_AXI_inst/axi_bresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\design_1_i/axi_slave_0 /\inst/axi_slave_v1_0_S00_AXI_inst/axi_bresp_reg[1] )
+INFO: [Synth 8-3332] Sequential element (inst/axi_slave_v1_0_S00_AXI_inst/axi_awaddr_reg[1]) is unused and will be removed from module design_1_axi_slave_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/axi_slave_v1_0_S00_AXI_inst/axi_awaddr_reg[0]) is unused and will be removed from module design_1_axi_slave_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/axi_slave_v1_0_S00_AXI_inst/axi_bresp_reg[1]) is unused and will be removed from module design_1_axi_slave_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/axi_slave_v1_0_S00_AXI_inst/axi_araddr_reg[1]) is unused and will be removed from module design_1_axi_slave_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/axi_slave_v1_0_S00_AXI_inst/axi_araddr_reg[0]) is unused and will be removed from module design_1_axi_slave_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/axi_slave_v1_0_S00_AXI_inst/slv_reg3_reg[31]) is unused and will be removed from module design_1_axi_slave_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/axi_slave_v1_0_S00_AXI_inst/slv_reg2_reg[31]) is unused and will be removed from module design_1_axi_slave_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/axi_slave_v1_0_S00_AXI_inst/axi_rresp_reg[1]) is unused and will be removed from module design_1_axi_slave_0_0.
+INFO: [Synth 8-3332] Sequential element (inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/no_softecc_sel_reg.ce_pri.sel_pipe_reg[6]) is unused and will be removed from module blk_mem_gen_v8_4_1.
+INFO: [Synth 8-3332] Sequential element (inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/no_softecc_sel_reg.ce_pri.sel_pipe_reg[5]) is unused and will be removed from module blk_mem_gen_v8_4_1.
+INFO: [Synth 8-3332] Sequential element (inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/no_softecc_sel_reg.ce_pri.sel_pipe_reg[4]) is unused and will be removed from module blk_mem_gen_v8_4_1.
+INFO: [Synth 8-3332] Sequential element (inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/no_softecc_sel_reg.ce_pri.sel_pipe_reg[3]) is unused and will be removed from module blk_mem_gen_v8_4_1.
+INFO: [Synth 8-3332] Sequential element (inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/no_softecc_sel_reg.ce_pri.sel_pipe_reg[2]) is unused and will be removed from module blk_mem_gen_v8_4_1.
+INFO: [Synth 8-3332] Sequential element (inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/no_softecc_sel_reg.ce_pri.sel_pipe_reg[1]) is unused and will be removed from module blk_mem_gen_v8_4_1.
+INFO: [Synth 8-3332] Sequential element (inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/no_softecc_sel_reg.ce_pri.sel_pipe_reg[0]) is unused and will be removed from module blk_mem_gen_v8_4_1.
+INFO: [Synth 8-3886] merging instance 'inst/design_1_i/control_0/inst/f0/state_reg[31]' (FDC) to 'inst/design_1_i/control_0/inst/f0/state_reg[3]'
+INFO: [Synth 8-3886] merging instance 'inst/design_1_i/control_0/inst/f0/state_reg[30]' (FDC) to 'inst/design_1_i/control_0/inst/f0/state_reg[3]'
+INFO: [Synth 8-3886] merging instance 'inst/design_1_i/control_0/inst/f0/state_reg[29]' (FDC) to 'inst/design_1_i/control_0/inst/f0/state_reg[3]'
+INFO: [Synth 8-3886] merging instance 'inst/design_1_i/control_0/inst/f0/state_reg[28]' (FDC) to 'inst/design_1_i/control_0/inst/f0/state_reg[3]'
+INFO: [Synth 8-3886] merging instance 'inst/design_1_i/control_0/inst/f0/state_reg[27]' (FDC) to 'inst/design_1_i/control_0/inst/f0/state_reg[3]'
+INFO: [Synth 8-3886] merging instance 'inst/design_1_i/control_0/inst/f0/state_reg[26]' (FDC) to 'inst/design_1_i/control_0/inst/f0/state_reg[3]'
+INFO: [Synth 8-3886] merging instance 'inst/design_1_i/control_0/inst/f0/state_reg[25]' (FDC) to 'inst/design_1_i/control_0/inst/f0/state_reg[3]'
+INFO: [Synth 8-3886] merging instance 'inst/design_1_i/control_0/inst/f0/state_reg[24]' (FDC) to 'inst/design_1_i/control_0/inst/f0/state_reg[3]'
+INFO: [Synth 8-3886] merging instance 'inst/design_1_i/control_0/inst/f0/state_reg[23]' (FDC) to 'inst/design_1_i/control_0/inst/f0/state_reg[3]'
+INFO: [Synth 8-3886] merging instance 'inst/design_1_i/control_0/inst/f0/state_reg[22]' (FDC) to 'inst/design_1_i/control_0/inst/f0/state_reg[3]'
+INFO: [Synth 8-3886] merging instance 'inst/design_1_i/control_0/inst/f0/state_reg[21]' (FDC) to 'inst/design_1_i/control_0/inst/f0/state_reg[3]'
+INFO: [Synth 8-3886] merging instance 'inst/design_1_i/control_0/inst/f0/state_reg[20]' (FDC) to 'inst/design_1_i/control_0/inst/f0/state_reg[3]'
+INFO: [Synth 8-3886] merging instance 'inst/design_1_i/control_0/inst/f0/state_reg[19]' (FDC) to 'inst/design_1_i/control_0/inst/f0/state_reg[3]'
+INFO: [Synth 8-3886] merging instance 'inst/design_1_i/control_0/inst/f0/state_reg[18]' (FDC) to 'inst/design_1_i/control_0/inst/f0/state_reg[3]'
+INFO: [Synth 8-3886] merging instance 'inst/design_1_i/control_0/inst/f0/state_reg[17]' (FDC) to 'inst/design_1_i/control_0/inst/f0/state_reg[3]'
+INFO: [Synth 8-3886] merging instance 'inst/design_1_i/control_0/inst/f0/state_reg[16]' (FDC) to 'inst/design_1_i/control_0/inst/f0/state_reg[3]'
+INFO: [Synth 8-3886] merging instance 'inst/design_1_i/control_0/inst/f0/state_reg[15]' (FDC) to 'inst/design_1_i/control_0/inst/f0/state_reg[3]'
+INFO: [Synth 8-3886] merging instance 'inst/design_1_i/control_0/inst/f0/state_reg[14]' (FDC) to 'inst/design_1_i/control_0/inst/f0/state_reg[3]'
+INFO: [Synth 8-3886] merging instance 'inst/design_1_i/control_0/inst/f0/state_reg[13]' (FDC) to 'inst/design_1_i/control_0/inst/f0/state_reg[3]'
+INFO: [Synth 8-3886] merging instance 'inst/design_1_i/control_0/inst/f0/state_reg[12]' (FDC) to 'inst/design_1_i/control_0/inst/f0/state_reg[3]'
+INFO: [Synth 8-3886] merging instance 'inst/design_1_i/control_0/inst/f0/state_reg[11]' (FDC) to 'inst/design_1_i/control_0/inst/f0/state_reg[3]'
+INFO: [Synth 8-3886] merging instance 'inst/design_1_i/control_0/inst/f0/state_reg[10]' (FDC) to 'inst/design_1_i/control_0/inst/f0/state_reg[3]'
+INFO: [Synth 8-3886] merging instance 'inst/design_1_i/control_0/inst/f0/state_reg[9]' (FDC) to 'inst/design_1_i/control_0/inst/f0/state_reg[3]'
+INFO: [Synth 8-3886] merging instance 'inst/design_1_i/control_0/inst/f0/state_reg[8]' (FDC) to 'inst/design_1_i/control_0/inst/f0/state_reg[3]'
+INFO: [Synth 8-3886] merging instance 'inst/design_1_i/control_0/inst/f0/state_reg[7]' (FDC) to 'inst/design_1_i/control_0/inst/f0/state_reg[3]'
+INFO: [Synth 8-3886] merging instance 'inst/design_1_i/control_0/inst/f0/state_reg[6]' (FDC) to 'inst/design_1_i/control_0/inst/f0/state_reg[3]'
+INFO: [Synth 8-3886] merging instance 'inst/design_1_i/control_0/inst/f0/state_reg[5]' (FDC) to 'inst/design_1_i/control_0/inst/f0/state_reg[3]'
+INFO: [Synth 8-3886] merging instance 'inst/design_1_i/control_0/inst/f0/state_reg[4]' (FDC) to 'inst/design_1_i/control_0/inst/f0/state_reg[3]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\design_1_i/control_0 /\inst/f0/state_reg[3] )
+INFO: [Synth 8-3332] Sequential element (inst/m0/address_reg[0]) is unused and will be removed from module design_1_ov7670_capture_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/m0/d_latch_reg[11]) is unused and will be removed from module design_1_ov7670_capture_0_0.
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (inst/\design_1_i/ov7670_controller_0 /\U0/Inst_i2c_sender/data_sr_reg[0] )
+INFO: [Synth 8-3332] Sequential element (U0/Inst_i2c_sender/data_sr_reg[0]) is unused and will be removed from module design_1_ov7670_controller_0_1.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:02:58 ; elapsed = 00:03:15 . Memory (MB): peak = 859.172 ; gain = 570.934
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM:
++-------------------------------+----------------------------------------+---------------+----------------+
+|Module Name                    | RTL Object                             | Depth x Width | Implemented As | 
++-------------------------------+----------------------------------------+---------------+----------------+
+|vga444_v2                      | p_0_out                                | 256x4         | LUT            | 
+|vga444_v2                      | p_0_out                                | 256x4         | LUT            | 
+|vga444_v2                      | p_0_out                                | 256x4         | LUT            | 
+|ov7670_registers_low           | sreg_reg                               | 256x16        | Block RAM      | 
+|ov7670_registers_high          | sreg_reg                               | 256x16        | Block RAM      | 
+|vga444_v2                      | p_0_out                                | 256x4         | LUT            | 
+|vga444_v2                      | p_0_out                                | 256x4         | LUT            | 
+|vga444_v2                      | p_0_out                                | 256x4         | LUT            | 
+|design_1_ov7670_controller_0_1 | U0/Inst_ov7670_registers_high/sreg_reg | 256x16        | Block RAM      | 
+|design_1_ov7670_controller_0_1 | U0/Inst_ov7670_registers_low/sreg_reg  | 256x16        | Block RAM      | 
++-------------------------------+----------------------------------------+---------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4480] The timing for the instance inst/design_1_i/ov7670_controller_0/U0i_1/U0/Inst_ov7670_registers_high/sreg_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance inst/design_1_i/ov7670_controller_0/U0i_2/U0/Inst_ov7670_registers_low/sreg_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:03:07 ; elapsed = 00:03:25 . Memory (MB): peak = 859.172 ; gain = 570.934
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:03:08 ; elapsed = 00:03:26 . Memory (MB): peak = 859.172 ; gain = 570.934
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4480] The timing for the instance inst/design_1_i/ov7670_controller_0/U0/Inst_ov7670_registers_high/sreg_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance inst/design_1_i/ov7670_controller_0/U0/Inst_ov7670_registers_low/sreg_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:03:09 ; elapsed = 00:03:27 . Memory (MB): peak = 859.172 ; gain = 570.934
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+CRITICAL WARNING: [Synth 8-5799] Converted tricell instance 'U0i_0' to logic
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:03:10 ; elapsed = 00:03:28 . Memory (MB): peak = 859.172 ; gain = 570.934
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:03:10 ; elapsed = 00:03:28 . Memory (MB): peak = 859.172 ; gain = 570.934
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:03:10 ; elapsed = 00:03:28 . Memory (MB): peak = 859.172 ; gain = 570.934
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:03:10 ; elapsed = 00:03:28 . Memory (MB): peak = 859.172 ; gain = 570.934
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:03:10 ; elapsed = 00:03:28 . Memory (MB): peak = 859.172 ; gain = 570.934
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:03:10 ; elapsed = 00:03:28 . Memory (MB): peak = 859.172 ; gain = 570.934
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----------+------+
+|      |Cell       |Count |
++------+-----------+------+
+|1     |CARRY4     |    24|
+|2     |LUT1       |    37|
+|3     |LUT2       |   118|
+|4     |LUT3       |    65|
+|5     |LUT4       |    93|
+|6     |LUT5       |   192|
+|7     |LUT6       |   358|
+|8     |MUXF7      |   108|
+|9     |MUXF8      |    36|
+|10    |RAMB18E1   |     4|
+|11    |RAMB18E1_1 |     2|
+|12    |RAMB18E1_2 |     2|
+|13    |RAMB18E1_3 |     1|
+|14    |RAMB18E1_4 |     1|
+|15    |RAMB36E1   |    12|
+|16    |RAMB36E1_1 |    12|
+|17    |RAMB36E1_2 |    74|
+|18    |RAMB36E1_3 |     2|
+|19    |FDCE       |    42|
+|20    |FDPE       |    25|
+|21    |FDRE       |   361|
+|22    |FDSE       |     1|
++------+-----------+------+
+
+Report Instance Areas: 
++------+---------------------------------------------------+---------------------------------------------+------+
+|      |Instance                                           |Module                                       |Cells |
++------+---------------------------------------------------+---------------------------------------------+------+
+|1     |top                                                |                                             |  1570|
+|2     |  inst                                             |design_1_wrapper                             |  1570|
+|3     |    design_1_i                                     |design_1                                     |  1570|
+|4     |      axi_slave_0                                  |design_1_axi_slave_0_0                       |   202|
+|5     |        inst                                       |axi_slave_v1_0                               |   202|
+|6     |          axi_slave_v1_0_S00_AXI_inst              |axi_slave_v1_0_S00_AXI                       |   202|
+|7     |      blk_mem_gen_0                                |design_1_blk_mem_gen_0_0                     |   321|
+|8     |        U0                                         |blk_mem_gen_v8_4_1__1                        |   321|
+|9     |          inst_blk_mem_gen                         |blk_mem_gen_v8_4_1_synth_0                   |   321|
+|10    |            \gnbram.gnativebmg.native_blk_mem_gen  |blk_mem_gen_top_1                            |   321|
+|11    |              \valid.cstr                          |blk_mem_gen_generic_cstr_2                   |   321|
+|12    |                \has_mux_b.B                       |blk_mem_gen_mux__parameterized0_3            |   181|
+|13    |                \ramloop[0].ram.r                  |blk_mem_gen_prim_width_4                     |     2|
+|14    |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper_99                  |     2|
+|15    |                \ramloop[10].ram.r                 |blk_mem_gen_prim_width__parameterized9_5     |     3|
+|16    |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized9_98  |     3|
+|17    |                \ramloop[11].ram.r                 |blk_mem_gen_prim_width__parameterized10_6    |     3|
+|18    |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized10_97 |     3|
+|19    |                \ramloop[12].ram.r                 |blk_mem_gen_prim_width__parameterized11_7    |     3|
+|20    |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized11_96 |     3|
+|21    |                \ramloop[13].ram.r                 |blk_mem_gen_prim_width__parameterized12_8    |     3|
+|22    |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized12_95 |     3|
+|23    |                \ramloop[14].ram.r                 |blk_mem_gen_prim_width__parameterized13_9    |     3|
+|24    |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized13_94 |     3|
+|25    |                \ramloop[15].ram.r                 |blk_mem_gen_prim_width__parameterized14_10   |     3|
+|26    |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized14_93 |     3|
+|27    |                \ramloop[16].ram.r                 |blk_mem_gen_prim_width__parameterized15_11   |     3|
+|28    |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized15_92 |     3|
+|29    |                \ramloop[17].ram.r                 |blk_mem_gen_prim_width__parameterized16_12   |     3|
+|30    |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized16_91 |     3|
+|31    |                \ramloop[18].ram.r                 |blk_mem_gen_prim_width__parameterized17_13   |     3|
+|32    |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized17_90 |     3|
+|33    |                \ramloop[19].ram.r                 |blk_mem_gen_prim_width__parameterized18_14   |     3|
+|34    |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized18_89 |     3|
+|35    |                \ramloop[1].ram.r                  |blk_mem_gen_prim_width__parameterized0_15    |     2|
+|36    |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized0_88  |     2|
+|37    |                \ramloop[20].ram.r                 |blk_mem_gen_prim_width__parameterized19_16   |     3|
+|38    |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized19_87 |     3|
+|39    |                \ramloop[21].ram.r                 |blk_mem_gen_prim_width__parameterized20_17   |     3|
+|40    |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized20_86 |     3|
+|41    |                \ramloop[22].ram.r                 |blk_mem_gen_prim_width__parameterized21_18   |     3|
+|42    |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized21_85 |     3|
+|43    |                \ramloop[23].ram.r                 |blk_mem_gen_prim_width__parameterized22_19   |     3|
+|44    |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized22_84 |     3|
+|45    |                \ramloop[24].ram.r                 |blk_mem_gen_prim_width__parameterized23_20   |     3|
+|46    |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized23_83 |     3|
+|47    |                \ramloop[25].ram.r                 |blk_mem_gen_prim_width__parameterized24_21   |     3|
+|48    |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized24_82 |     3|
+|49    |                \ramloop[26].ram.r                 |blk_mem_gen_prim_width__parameterized25_22   |     3|
+|50    |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized25_81 |     3|
+|51    |                \ramloop[27].ram.r                 |blk_mem_gen_prim_width__parameterized26_23   |     3|
+|52    |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized26_80 |     3|
+|53    |                \ramloop[28].ram.r                 |blk_mem_gen_prim_width__parameterized27_24   |     3|
+|54    |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized27_79 |     3|
+|55    |                \ramloop[29].ram.r                 |blk_mem_gen_prim_width__parameterized28_25   |     3|
+|56    |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized28_78 |     3|
+|57    |                \ramloop[2].ram.r                  |blk_mem_gen_prim_width__parameterized1_26    |     1|
+|58    |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized1_77  |     1|
+|59    |                \ramloop[30].ram.r                 |blk_mem_gen_prim_width__parameterized29_27   |     3|
+|60    |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized29_76 |     3|
+|61    |                \ramloop[31].ram.r                 |blk_mem_gen_prim_width__parameterized30_28   |     3|
+|62    |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized30_75 |     3|
+|63    |                \ramloop[32].ram.r                 |blk_mem_gen_prim_width__parameterized31_29   |     3|
+|64    |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized31_74 |     3|
+|65    |                \ramloop[33].ram.r                 |blk_mem_gen_prim_width__parameterized32_30   |     3|
+|66    |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized32_73 |     3|
+|67    |                \ramloop[34].ram.r                 |blk_mem_gen_prim_width__parameterized33_31   |     3|
+|68    |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized33_72 |     3|
+|69    |                \ramloop[35].ram.r                 |blk_mem_gen_prim_width__parameterized34_32   |     3|
+|70    |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized34_71 |     3|
+|71    |                \ramloop[36].ram.r                 |blk_mem_gen_prim_width__parameterized35_33   |     3|
+|72    |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized35_70 |     3|
+|73    |                \ramloop[37].ram.r                 |blk_mem_gen_prim_width__parameterized36_34   |     3|
+|74    |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized36_69 |     3|
+|75    |                \ramloop[38].ram.r                 |blk_mem_gen_prim_width__parameterized37_35   |     3|
+|76    |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized37_68 |     3|
+|77    |                \ramloop[39].ram.r                 |blk_mem_gen_prim_width__parameterized38_36   |     3|
+|78    |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized38_67 |     3|
+|79    |                \ramloop[3].ram.r                  |blk_mem_gen_prim_width__parameterized2_37    |     1|
+|80    |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized2_66  |     1|
+|81    |                \ramloop[40].ram.r                 |blk_mem_gen_prim_width__parameterized39_38   |     4|
+|82    |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized39_65 |     4|
+|83    |                \ramloop[41].ram.r                 |blk_mem_gen_prim_width__parameterized40_39   |     3|
+|84    |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized40_64 |     3|
+|85    |                \ramloop[42].ram.r                 |blk_mem_gen_prim_width__parameterized41_40   |     3|
+|86    |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized41_63 |     3|
+|87    |                \ramloop[43].ram.r                 |blk_mem_gen_prim_width__parameterized42_41   |     4|
+|88    |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized42_62 |     4|
+|89    |                \ramloop[44].ram.r                 |blk_mem_gen_prim_width__parameterized43_42   |     4|
+|90    |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized43_61 |     4|
+|91    |                \ramloop[45].ram.r                 |blk_mem_gen_prim_width__parameterized44_43   |     3|
+|92    |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized44_60 |     3|
+|93    |                \ramloop[46].ram.r                 |blk_mem_gen_prim_width__parameterized45_44   |     4|
+|94    |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized45_59 |     4|
+|95    |                \ramloop[47].ram.r                 |blk_mem_gen_prim_width__parameterized46_45   |     3|
+|96    |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized46_58 |     3|
+|97    |                \ramloop[4].ram.r                  |blk_mem_gen_prim_width__parameterized3_46    |     3|
+|98    |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized3_57  |     3|
+|99    |                \ramloop[5].ram.r                  |blk_mem_gen_prim_width__parameterized4_47    |     2|
+|100   |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized4_56  |     2|
+|101   |                \ramloop[6].ram.r                  |blk_mem_gen_prim_width__parameterized5_48    |     2|
+|102   |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized5_55  |     2|
+|103   |                \ramloop[7].ram.r                  |blk_mem_gen_prim_width__parameterized6_49    |     3|
+|104   |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized6_54  |     3|
+|105   |                \ramloop[8].ram.r                  |blk_mem_gen_prim_width__parameterized7_50    |     3|
+|106   |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized7_53  |     3|
+|107   |                \ramloop[9].ram.r                  |blk_mem_gen_prim_width__parameterized8_51    |     3|
+|108   |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized8_52  |     3|
+|109   |      blk_mem_gen_1                                |design_1_blk_mem_gen_0_1                     |   321|
+|110   |        U0                                         |blk_mem_gen_v8_4_1                           |   321|
+|111   |          inst_blk_mem_gen                         |blk_mem_gen_v8_4_1_synth                     |   321|
+|112   |            \gnbram.gnativebmg.native_blk_mem_gen  |blk_mem_gen_top                              |   321|
+|113   |              \valid.cstr                          |blk_mem_gen_generic_cstr                     |   321|
+|114   |                \has_mux_b.B                       |blk_mem_gen_mux__parameterized0              |   181|
+|115   |                \ramloop[0].ram.r                  |blk_mem_gen_prim_width                       |     2|
+|116   |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper                     |     2|
+|117   |                \ramloop[10].ram.r                 |blk_mem_gen_prim_width__parameterized9       |     3|
+|118   |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized9     |     3|
+|119   |                \ramloop[11].ram.r                 |blk_mem_gen_prim_width__parameterized10      |     3|
+|120   |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized10    |     3|
+|121   |                \ramloop[12].ram.r                 |blk_mem_gen_prim_width__parameterized11      |     3|
+|122   |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized11    |     3|
+|123   |                \ramloop[13].ram.r                 |blk_mem_gen_prim_width__parameterized12      |     3|
+|124   |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized12    |     3|
+|125   |                \ramloop[14].ram.r                 |blk_mem_gen_prim_width__parameterized13      |     3|
+|126   |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized13    |     3|
+|127   |                \ramloop[15].ram.r                 |blk_mem_gen_prim_width__parameterized14      |     3|
+|128   |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized14    |     3|
+|129   |                \ramloop[16].ram.r                 |blk_mem_gen_prim_width__parameterized15      |     3|
+|130   |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized15    |     3|
+|131   |                \ramloop[17].ram.r                 |blk_mem_gen_prim_width__parameterized16      |     3|
+|132   |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized16    |     3|
+|133   |                \ramloop[18].ram.r                 |blk_mem_gen_prim_width__parameterized17      |     3|
+|134   |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized17    |     3|
+|135   |                \ramloop[19].ram.r                 |blk_mem_gen_prim_width__parameterized18      |     3|
+|136   |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized18    |     3|
+|137   |                \ramloop[1].ram.r                  |blk_mem_gen_prim_width__parameterized0       |     2|
+|138   |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized0     |     2|
+|139   |                \ramloop[20].ram.r                 |blk_mem_gen_prim_width__parameterized19      |     3|
+|140   |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized19    |     3|
+|141   |                \ramloop[21].ram.r                 |blk_mem_gen_prim_width__parameterized20      |     3|
+|142   |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized20    |     3|
+|143   |                \ramloop[22].ram.r                 |blk_mem_gen_prim_width__parameterized21      |     3|
+|144   |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized21    |     3|
+|145   |                \ramloop[23].ram.r                 |blk_mem_gen_prim_width__parameterized22      |     3|
+|146   |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized22    |     3|
+|147   |                \ramloop[24].ram.r                 |blk_mem_gen_prim_width__parameterized23      |     3|
+|148   |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized23    |     3|
+|149   |                \ramloop[25].ram.r                 |blk_mem_gen_prim_width__parameterized24      |     3|
+|150   |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized24    |     3|
+|151   |                \ramloop[26].ram.r                 |blk_mem_gen_prim_width__parameterized25      |     3|
+|152   |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized25    |     3|
+|153   |                \ramloop[27].ram.r                 |blk_mem_gen_prim_width__parameterized26      |     3|
+|154   |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized26    |     3|
+|155   |                \ramloop[28].ram.r                 |blk_mem_gen_prim_width__parameterized27      |     3|
+|156   |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized27    |     3|
+|157   |                \ramloop[29].ram.r                 |blk_mem_gen_prim_width__parameterized28      |     3|
+|158   |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized28    |     3|
+|159   |                \ramloop[2].ram.r                  |blk_mem_gen_prim_width__parameterized1       |     1|
+|160   |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized1     |     1|
+|161   |                \ramloop[30].ram.r                 |blk_mem_gen_prim_width__parameterized29      |     3|
+|162   |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized29    |     3|
+|163   |                \ramloop[31].ram.r                 |blk_mem_gen_prim_width__parameterized30      |     3|
+|164   |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized30    |     3|
+|165   |                \ramloop[32].ram.r                 |blk_mem_gen_prim_width__parameterized31      |     3|
+|166   |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized31    |     3|
+|167   |                \ramloop[33].ram.r                 |blk_mem_gen_prim_width__parameterized32      |     3|
+|168   |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized32    |     3|
+|169   |                \ramloop[34].ram.r                 |blk_mem_gen_prim_width__parameterized33      |     3|
+|170   |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized33    |     3|
+|171   |                \ramloop[35].ram.r                 |blk_mem_gen_prim_width__parameterized34      |     3|
+|172   |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized34    |     3|
+|173   |                \ramloop[36].ram.r                 |blk_mem_gen_prim_width__parameterized35      |     3|
+|174   |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized35    |     3|
+|175   |                \ramloop[37].ram.r                 |blk_mem_gen_prim_width__parameterized36      |     3|
+|176   |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized36    |     3|
+|177   |                \ramloop[38].ram.r                 |blk_mem_gen_prim_width__parameterized37      |     3|
+|178   |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized37    |     3|
+|179   |                \ramloop[39].ram.r                 |blk_mem_gen_prim_width__parameterized38      |     3|
+|180   |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized38    |     3|
+|181   |                \ramloop[3].ram.r                  |blk_mem_gen_prim_width__parameterized2       |     1|
+|182   |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized2     |     1|
+|183   |                \ramloop[40].ram.r                 |blk_mem_gen_prim_width__parameterized39      |     4|
+|184   |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized39    |     4|
+|185   |                \ramloop[41].ram.r                 |blk_mem_gen_prim_width__parameterized40      |     3|
+|186   |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized40    |     3|
+|187   |                \ramloop[42].ram.r                 |blk_mem_gen_prim_width__parameterized41      |     3|
+|188   |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized41    |     3|
+|189   |                \ramloop[43].ram.r                 |blk_mem_gen_prim_width__parameterized42      |     4|
+|190   |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized42    |     4|
+|191   |                \ramloop[44].ram.r                 |blk_mem_gen_prim_width__parameterized43      |     4|
+|192   |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized43    |     4|
+|193   |                \ramloop[45].ram.r                 |blk_mem_gen_prim_width__parameterized44      |     3|
+|194   |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized44    |     3|
+|195   |                \ramloop[46].ram.r                 |blk_mem_gen_prim_width__parameterized45      |     4|
+|196   |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized45    |     4|
+|197   |                \ramloop[47].ram.r                 |blk_mem_gen_prim_width__parameterized46      |     3|
+|198   |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized46    |     3|
+|199   |                \ramloop[4].ram.r                  |blk_mem_gen_prim_width__parameterized3       |     3|
+|200   |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized3     |     3|
+|201   |                \ramloop[5].ram.r                  |blk_mem_gen_prim_width__parameterized4       |     2|
+|202   |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized4     |     2|
+|203   |                \ramloop[6].ram.r                  |blk_mem_gen_prim_width__parameterized5       |     2|
+|204   |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized5     |     2|
+|205   |                \ramloop[7].ram.r                  |blk_mem_gen_prim_width__parameterized6       |     3|
+|206   |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized6     |     3|
+|207   |                \ramloop[8].ram.r                  |blk_mem_gen_prim_width__parameterized7       |     3|
+|208   |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized7     |     3|
+|209   |                \ramloop[9].ram.r                  |blk_mem_gen_prim_width__parameterized8       |     3|
+|210   |                  \prim_noinit.ram                 |blk_mem_gen_prim_wrapper__parameterized8     |     3|
+|211   |      control_0                                    |design_1_control_0_1                         |   124|
+|212   |        inst                                       |control                                      |   124|
+|213   |          f0                                       |fsm                                          |    62|
+|214   |      hdrvga_v2_0                                  |design_1_hdrvga_v2_0_1                       |   175|
+|215   |        inst                                       |vga444_v2                                    |   175|
+|216   |      out_data_ctrl                                |design_1_mux_2to1_0_3                        |     2|
+|217   |        inst                                       |mux2to1                                      |     2|
+|218   |      ov7670_capture_0                             |design_1_ov7670_capture_0_0                  |   147|
+|219   |        inst                                       |capture_top                                  |   147|
+|220   |          m0                                       |ov7670_capture                               |    77|
+|221   |          m1                                       |cc_generator                                 |    70|
+|222   |      ov7670_controller_0                          |design_1_ov7670_controller_0_1               |   215|
+|223   |        U0                                         |ov7670_controller                            |   215|
+|224   |          Inst_i2c_sender                          |i2c_sender                                   |   147|
+|225   |          Inst_ov7670_registers_high               |ov7670_registers_high                        |    33|
+|226   |          Inst_ov7670_registers_low                |ov7670_registers_low                         |    33|
+|227   |      start_ctrl                                   |design_1_mux_2to1_1_1                        |     1|
+|228   |      xbar_1to2_0                                  |design_1_xbar_1to2_0_0                       |    62|
+|229   |        inst                                       |xbar_1to2                                    |    30|
++------+---------------------------------------------------+---------------------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:03:10 ; elapsed = 00:03:28 . Memory (MB): peak = 859.172 ; gain = 570.934
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 1 critical warnings and 177 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:28 ; elapsed = 00:03:16 . Memory (MB): peak = 859.172 ; gain = 414.277
+Synthesis Optimization Complete : Time (s): cpu = 00:03:10 ; elapsed = 00:03:28 . Memory (MB): peak = 859.172 ; gain = 570.934
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 278 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+233 Infos, 180 Warnings, 67 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:03:13 ; elapsed = 00:03:32 . Memory (MB): peak = 861.113 ; gain = 584.348
+INFO: [Common 17-600] The following parameters have non-default value.
+tcl.collectionResultDisplayLimit
+INFO: [Coretcl 2-1174] Renamed 228 cell refs.
+INFO: [Common 17-1381] The checkpoint 'K:/ECE532/prj/project/project.runs/design_1_ov7670_hdr_module_0_0_synth_1/design_1_ov7670_hdr_module_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file design_1_ov7670_hdr_module_0_0_utilization_synth.rpt -pb design_1_ov7670_hdr_module_0_0_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.043 . Memory (MB): peak = 861.113 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Fri Apr  3 16:39:13 2020...

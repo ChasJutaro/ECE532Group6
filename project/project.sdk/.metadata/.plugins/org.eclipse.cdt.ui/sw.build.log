@@ -1,0 +1,21 @@
+21:02:52 **** Auto Build of configuration Debug for project sw ****
+make all 
+'Building file: ../src/echo.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/echo.o" -I../../sw_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/echo.d" -MT"src/echo.o" -o "src/echo.o" "../src/echo.c"
+'Finished building: ../src/echo.c'
+' '
+'Building target: sw.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../sw_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "sw.elf"  ./src/echo.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: sw.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size sw.elf  |tee "sw.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 117752	   1424	 677256	 796432	  c2710	sw.elf
+'Finished building: sw.elf.size'
+' '
+
+21:02:53 Build Finished (took 763ms)
+

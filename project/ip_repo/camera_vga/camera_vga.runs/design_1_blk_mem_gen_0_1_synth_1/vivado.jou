@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Fri Apr  3 14:23:13 2020
+# Process ID: 7472
+# Current directory: K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.runs/design_1_blk_mem_gen_0_1_synth_1
+# Command line: vivado.exe -log design_1_blk_mem_gen_0_1.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_blk_mem_gen_0_1.tcl
+# Log file: K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.runs/design_1_blk_mem_gen_0_1_synth_1/design_1_blk_mem_gen_0_1.vds
+# Journal file: K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.runs/design_1_blk_mem_gen_0_1_synth_1\vivado.jou
+#-----------------------------------------------------------
+source design_1_blk_mem_gen_0_1.tcl -notrace

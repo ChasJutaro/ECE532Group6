@@ -1,0 +1,74 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.1 (win64) Build 2188600 Wed Apr  4 18:40:38 MDT 2018
+| Date         : Fri Apr  3 13:05:00 2020
+| Host         : LAPTOP-D51GJKPS running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file vga444_control_sets_placed.rpt
+| Design       : vga444
+| Device       : xc7a100t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |     6 |
+| Unused register locations in slices containing registers |    34 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      1 |            2 |
+|     10 |            1 |
+|     11 |            1 |
+|     12 |            1 |
+|    16+ |            1 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              11 |            4 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              14 |            9 |
+| Yes          | No                    | No                     |              10 |            4 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |              19 |            5 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++------------------+---------------+------------------+------------------+----------------+
+|   Clock Signal   | Enable Signal | Set/Reset Signal | Slice Load Count | Bel Load Count |
++------------------+---------------+------------------+------------------+----------------+
+|  clk25_IBUF_BUFG |               | vga_hsync0       |                1 |              1 |
+|  clk25_IBUF_BUFG |               | vga_vsync0       |                1 |              1 |
+|  clk25_IBUF_BUFG | vCounter      |                  |                4 |             10 |
+|  clk25_IBUF_BUFG |               |                  |                4 |             11 |
+|  clk25_IBUF_BUFG |               | blank            |                7 |             12 |
+|  clk25_IBUF_BUFG | sel__0        | clear            |                5 |             19 |
++------------------+---------------+------------------+------------------+----------------+
+
+

@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:39:19 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Fri Apr  3 03:50:24 2020
+# Process ID: 31673
+# Current directory: /home/chaslu/Vault/ECE532/vga_hdr/hdrvga
+# Command line: vivado /home/chaslu/Vault/ECE532/vga_hdr/hdrvga/hdrvga.xpr
+# Log file: /home/chaslu/Vault/ECE532/vga_hdr/hdrvga/vivado.log
+# Journal file: /home/chaslu/Vault/ECE532/vga_hdr/hdrvga/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/chaslu/Vault/ECE532/vga_hdr/hdrvga/hdrvga.xpr
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory '/home/chaslu/Vault/ECE532/vga_hdr/ip_repo/vga_hdr_1.0'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository '/home/chaslu/Vault/ECE532/vga_hdr/ip_repo/vga_hdr_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/chaslu/Vault/Vivado/Vivado/2018.1/data/ip'.
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Apr  3 03:51:07 2020...

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="design_1_debounce_0_0_synth_1" LaunchDir="K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.runs/design_1_debounce_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_xlconstant_0_0_synth_1" LaunchDir="K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.runs/design_1_xlconstant_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_I2C_AV_Config_0_0_synth_1" LaunchDir="K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.runs/design_1_I2C_AV_Config_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_util_vector_logic_0_0_synth_1" LaunchDir="K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.runs/design_1_util_vector_logic_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_ov7670_capture_0_0_synth_1" LaunchDir="K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.runs/design_1_ov7670_capture_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_clk_wiz_0_0_synth_1" LaunchDir="K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.runs/design_1_clk_wiz_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_blk_mem_gen_0_0_synth_1" LaunchDir="K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.runs/design_1_blk_mem_gen_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_vga444_0_0_synth_1" LaunchDir="K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.runs/design_1_vga444_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_xlconstant_1_0_synth_1" LaunchDir="K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.runs/design_1_xlconstant_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="design_1_debounce_0_0_synth_1"/>
+		<Parent Id="design_1_xlconstant_0_0_synth_1"/>
+		<Parent Id="design_1_I2C_AV_Config_0_0_synth_1"/>
+		<Parent Id="design_1_util_vector_logic_0_0_synth_1"/>
+		<Parent Id="design_1_ov7670_capture_0_0_synth_1"/>
+		<Parent Id="design_1_clk_wiz_0_0_synth_1"/>
+		<Parent Id="design_1_blk_mem_gen_0_0_synth_1"/>
+		<Parent Id="design_1_vga444_0_0_synth_1"/>
+		<Parent Id="design_1_xlconstant_1_0_synth_1"/>
+	</Run>
+</Runs>
+

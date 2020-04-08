@@ -1,0 +1,324 @@
+/*
+
+Xilinx Vivado v2018.1 (64-bit) [Major: 2018, Minor: 1]
+SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+
+Process ID: 8884
+License: Customer
+
+Current time: 	Fri Apr 03 10:19:15 EDT 2020
+Time zone: 	Eastern Standard Time (America/New_York)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1280x720
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 23 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Xilinx/Vivado/2018.1/tps/win64/jre
+Java executable location: 	C:/Xilinx/Vivado/2018.1/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	Will
+User home directory: C:/Users/Will
+User working directory: C:/Users/Will/Downloads/OneDrive_2020-04-03/vga_hdr/hdrvga
+User country: 	CA
+User language: 	en
+User locale: 	en_CA
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2018.1
+RDI_DATADIR: C:/Xilinx/Vivado/2018.1/data
+RDI_BINDIR: C:/Xilinx/Vivado/2018.1/bin
+
+Vivado preferences file location: C:/Users/Will/AppData/Roaming/Xilinx/Vivado/2018.1/vivado.xml
+Vivado preferences directory: C:/Users/Will/AppData/Roaming/Xilinx/Vivado/2018.1/
+Vivado layouts directory: C:/Users/Will/AppData/Roaming/Xilinx/Vivado/2018.1/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2018.1/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/Will/Downloads/OneDrive_2020-04-03/vga_hdr/hdrvga/vivado.log
+Vivado journal file location: 	C:/Users/Will/Downloads/OneDrive_2020-04-03/vga_hdr/hdrvga/vivado.jou
+Engine tmp dir: 	C:/Users/Will/Downloads/OneDrive_2020-04-03/vga_hdr/hdrvga/.Xil/Vivado-8884-LAPTOP-D51GJKPS
+
+GUI allocated memory:	151 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 581 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 60 MB (+59957kb) [00:00:09]
+// [Engine Memory]: 514 MB (+387451kb) [00:00:09]
+// Opening Vivado Project: C:\Users\Will\Downloads\OneDrive_2020-04-03\vga_hdr\hdrvga\hdrvga.xpr. Version: Vivado v2018.1 
+// bv (ch):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/Will/Downloads/OneDrive_2020-04-03/vga_hdr/hdrvga/hdrvga.xpr 
+// [Engine Memory]: 550 MB (+11259kb) [00:00:11]
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/Will/Downloads/OneDrive_2020-04-03/vga_hdr/hdrvga/hdrvga.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from '/home/chaslu/Vault/ECE532/vga_hdr/hdrvga' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories 
+// HMemoryUtils.trashcanNow. Engine heap size: 584 MB. GUI used memory: 32 MB. Current time: 4/3/20 10:19:17 AM EDT
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.1/data/ip'. 
+// [Engine Memory]: 584 MB (+6529kb) [00:00:16]
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 616 MB (+3014kb) [00:00:17]
+// [Engine Memory]: 664 MB (+17989kb) [00:00:19]
+// Project name: hdrvga; location: C:/Users/Will/Downloads/OneDrive_2020-04-03/vga_hdr/hdrvga; part: xc7a100tcsg324-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:09 . Memory (MB): peak = 817.918 ; gain = 116.102 
+dismissDialog("Open Project"); // bv (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+// PAPropertyPanels.initPanels (vga444.v) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga444 (vga444.v)]", 1, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga444 (vga444.v)]", 1, false, false, false, false, false, true); // B (D, ch) - Double Click
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 37 MB. Current time: 4/3/20 10:19:32 AM EDT
+floatView(PAResourceOtoP.PAViews_CODE, "vga444.v"); // aw (aE, ch)
+// PAResourceOtoP.PAViews_CODE: Code: float view
+maximizeFrame(PAResourceOtoP.PAViews_CODE, "vga444.v"); // aw (aE, aG)
+// [Engine Memory]: 698 MB (+784kb) [00:00:39]
+// [GUI Memory]: 63 MB (+425kb) [00:01:39]
+// [GUI Memory]: 67 MB (+932kb) [00:02:59]
+// [GUI Memory]: 72 MB (+1281kb) [00:03:19]
+// Elapsed time: 279 seconds
+dockFrame(PAResourceOtoP.PAViews_CODE, "vga444.v"); // aw (aE, aG)
+maximizeFrame(PAResourceOtoP.PAViews_CODE, "vga444.v"); // aw (aE, aG)
+// PAResourceOtoP.PAViews_CODE: Code: dock view
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // D
+selectCodeEditor("vga444.v", 323, 212); // cd (w, ch)
+selectCodeEditor("vga444.v", 318, 166); // cd (w, ch)
+selectCodeEditor("vga444.v", 312, 178); // cd (w, ch)
+selectCodeEditor("vga444.v", 316, 157); // cd (w, ch)
+selectCodeEditor("vga444.v", 311, 144); // cd (w, ch)
+selectCodeEditor("vga444.v", 143, 165); // cd (w, ch)
+selectCodeEditor("vga444.v", 143, 165, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("vga444.v", 237, 129); // cd (w, ch)
+selectCodeEditor("vga444.v", 245, 142); // cd (w, ch)
+selectCodeEditor("vga444.v", 234, 160); // cd (w, ch)
+selectCodeEditor("vga444.v", 251, 144); // cd (w, ch)
+selectCodeEditor("vga444.v", 250, 164); // cd (w, ch)
+selectCodeEditor("vga444.v", 383, 168); // cd (w, ch)
+selectCodeEditor("vga444.v", 384, 185); // cd (w, ch)
+selectCodeEditor("vga444.v", 381, 197); // cd (w, ch)
+selectCodeEditor("vga444.v", 329, 99); // cd (w, ch)
+// Elapsed time: 20 seconds
+selectCodeEditor("vga444.v", 231, 47); // cd (w, ch)
+selectCodeEditor("vga444.v", 225, 45); // cd (w, ch)
+selectCodeEditor("vga444.v", 263, 45); // cd (w, ch)
+// Elapsed time: 14 seconds
+selectCodeEditor("vga444.v", 21, 39); // cd (w, ch)
+selectCodeEditor("vga444.v", 268, 284); // cd (w, ch)
+selectCodeEditor("vga444.v", 264, 180); // cd (w, ch)
+selectCodeEditor("vga444.v", 264, 180, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("vga444.v", 291, 221); // cd (w, ch)
+selectCodeEditor("vga444.v", 251, 179); // cd (w, ch)
+selectCodeEditor("vga444.v", 251, 179, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("vga444.v", 325, 189); // cd (w, ch)
+selectCodeEditor("vga444.v", 325, 211); // cd (w, ch)
+// Elapsed time: 12 seconds
+selectCodeEditor("vga444.v", 335, 245); // cd (w, ch)
+selectCodeEditor("vga444.v", 319, 230); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("vga444.v", 77, 349); // cd (w, ch)
+selectCodeEditor("vga444.v", 338, 341); // cd (w, ch)
+selectCodeEditor("vga444.v", 338, 326); // cd (w, ch)
+selectCodeEditor("vga444.v", 285, 341); // cd (w, ch)
+selectCodeEditor("vga444.v", 251, 165); // cd (w, ch)
+selectCodeEditor("vga444.v", 133, 181); // cd (w, ch)
+selectCodeEditor("vga444.v", 133, 181, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("vga444.v", 298, 250); // cd (w, ch)
+// Elapsed time: 48 seconds
+selectCodeEditor("vga444.v", 208, 285); // cd (w, ch)
+selectCodeEditor("vga444.v", 219, 303); // cd (w, ch)
+selectCodeEditor("vga444.v", 218, 278); // cd (w, ch)
+selectCodeEditor("vga444.v", 218, 278, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("vga444.v", 234, 296); // cd (w, ch)
+// [GUI Memory]: 77 MB (+1539kb) [00:08:57]
+// Elapsed time: 48 seconds
+selectCodeEditor("vga444.v", 303, 179); // cd (w, ch)
+// Elapsed time: 46 seconds
+selectCodeEditor("vga444.v", 239, 195); // cd (w, ch)
+selectCodeEditor("vga444.v", 386, 200); // cd (w, ch)
+// Elapsed time: 22 seconds
+selectButton(PAResourceCommand.PACommandNames_TOGGLE_VIEW_NAV, (String) null); // B (E, ch)
+// Run Command: PAResourceCommand.PACommandNames_TOGGLE_VIEW_NAV
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aw
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Memory File]", 2); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Memory File, CCRF_2d.mem]", 3, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Memory File, CCRF_2d.mem]", 3, false, false, false, false, false, true); // B (D, ch) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "vga444.v", 0); // k (j, ch)
+// [GUI Memory]: 81 MB (+852kb) [00:10:31]
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 5); // B (D, ch)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 6); // B (D, ch)
+selectCodeEditor("vga444.v", 216, 195); // cd (w, ch)
+selectCodeEditor("vga444.v", 216, 195, false, false, false, false, true); // cd (w, ch) - Double Click
+// Elapsed time: 10 seconds
+selectCodeEditor("vga444.v", 290, 166); // cd (w, ch)
+selectCodeEditor("vga444.v", 299, 196); // cd (w, ch)
+selectCodeEditor("vga444.v", 299, 206); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("vga444.v", 316, 233); // cd (w, ch)
+selectCodeEditor("vga444.v", 316, 233, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("vga444.v", 331, 231); // cd (w, ch)
+selectCodeEditor("vga444.v", 331, 231, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("vga444.v", 350, 294); // cd (w, ch)
+selectCodeEditor("vga444.v", 313, 308); // cd (w, ch)
+selectCodeEditor("vga444.v", 180, 250); // cd (w, ch)
+selectCodeEditor("vga444.v", 241, 250); // cd (w, ch)
+// Elapsed time: 41 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // U (q, ch)
+dismissMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // U (q, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_IP_PACKAGER_WIZARD, "Create and Package New IP..."); // ac (ch)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // U (q, ch)
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER_WIZARD
+// Q (ch): Create and Package New IP: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, Q)
+// bv (Q):  Analyze source files for top modules : addNotify
+selectButton("NEXT", "Next >"); // JButton (j, Q)
+dismissDialog("Analyze source files for top modules"); // bv (Q)
+selectButton("BACK", "< Back"); // JButton (j, Q)
+// bv (Q):  Analyze source files for top modules : addNotify
+// Elapsed time: 56 seconds
+selectButton("NEXT", "Next >"); // JButton (j, Q)
+dismissDialog("Analyze source files for top modules"); // bv (Q)
+// [GUI Memory]: 91 MB (+5570kb) [00:13:02]
+// Elapsed time: 22 seconds
+selectButton("NEXT", "Next >"); // JButton (j, Q)
+selectButton("BACK", "< Back"); // JButton (j, Q)
+selectRadioButton(PAResourceItoN.NewIpWizard_INCLUDE_IP_GENERATED_FILES, "Include IP generated files"); // a (C, Q)
+selectButton("NEXT", "Next >"); // JButton (j, Q)
+selectButton("BACK", "< Back"); // JButton (j, Q)
+selectRadioButton(PAResourceItoN.NewIpWizard_INCLUDE_XCI_FILES, "Include .xci files"); // a (C, Q)
+// Elapsed time: 16 seconds
+selectButton("NEXT", "Next >"); // JButton (j, Q)
+selectButton("FINISH", "Finish"); // JButton (j, Q)
+// 'q' command handler elapsed time: 116 seconds
+dismissDialog("Create and Package New IP"); // Q (ch)
+// TclEventType: LOAD_FEATURE
+// Tcl Message: ipx::package_project -root_dir c:/users/will/downloads/onedrive_2020-04-03/vga_hdr/hdrvga/hdrvga.srcs -vendor xilinx.com -library user -taxonomy /UserIP 
+// bv (ch):  IP Packager : addNotify
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PACKAGER_CURRENT_CORE
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+// Tcl Message: INFO: [IP_Flow 19-2181] Payment Required is not set for this core. INFO: [IP_Flow 19-2187] The Product Guide file is missing. 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+dismissDialog("IP Packager"); // bv (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Addressing and Memory", 5); // an (O, ch)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Review and Package", 7); // an (O, ch)
+selectButton(PAResourceQtoS.ReviewContentPanel_PACKAGE_IP, "Package IP"); // a (c, ch)
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: set_property core_revision 2 [ipx::current_core] 
+// Tcl Message: ipx::create_xgui_files [ipx::current_core] 
+// Tcl Message: ipx::update_checksums [ipx::current_core] 
+// Tcl Message: ipx::save_core [ipx::current_core] 
+// TclEventType: PROJECT_CHANGE
+// Tcl Message: set_property  ip_repo_paths  {c:/users/will/downloads/onedrive_2020-04-03/vga_hdr/hdrvga/hdrvga.srcs c:/Users/Will/Downloads/OneDrive_2020-04-03/vga_hdr/ip_repo/vga_hdr_1.0} [current_project] 
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// bv (ch):  Package IP : addNotify
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// Tcl Message: update_ip_catalog 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/users/will/downloads/onedrive_2020-04-03/vga_hdr/hdrvga/hdrvga.srcs'. 
+// TclEventType: LOAD_FEATURE
+// TclEventType: FILE_SET_CHANGE
+selectButton("PAResourceQtoS.ReviewContentPanel_FINISHED_PACKAGING_SUCCESSFULLY_OK", "OK"); // JButton (A, G)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Compatibility", 1); // an (O, ch)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Identification", 0); // an (O, ch)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "File Groups", 2); // an (O, ch)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Customization Parameters", 3); // an (O, ch)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Ports and Interfaces", 4); // an (O, ch)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Customization GUI", 6); // an (O, ch)
+floatView(PAResourceOtoP.PAViews_PACKAGE_IP, "Package IP - vga444"); // aw (aE, ch)
+// PAResourceOtoP.PAViews_PACKAGE_IP: Package IP - vga444: float view
+maximizeFrame(PAResourceOtoP.PAViews_PACKAGE_IP, "Package IP - vga444"); // aw (aE, aG)
+// Elapsed time: 56 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "vga444.v", 0); // k (j, ch)
+selectCodeEditor("vga444.v", 203, 239); // cd (w, ch)
+selectCodeEditor("vga444.v", 180, 216); // cd (w, ch)
+selectCodeEditor("vga444.v", 174, 238); // cd (w, ch)
+selectCodeEditor("vga444.v", 160, 232); // cd (w, ch)
+selectCodeEditor("vga444.v", 160, 240); // cd (w, ch)
+selectCodeEditor("vga444.v", 100, 227); // cd (w, ch)
+selectCodeEditor("vga444.v", 100, 227, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("vga444.v", 149, 229); // cd (w, ch)
+selectCodeEditor("vga444.v", 149, 229, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("vga444.v", 242, 240); // cd (w, ch)
+selectCodeEditor("vga444.v", 236, 226); // cd (w, ch)
+// Elapsed time: 493 seconds
+setText("Component Name", "vgahdr"); // z (O, aG)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Review and Package", 7); // an (O, aG)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Identification", 0); // an (O, aG)
+setText(PAResourceItoN.IdentificationContentPanel_DISPLAY_NAME, "vgahdr"); // z (al, aG)
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+setText(PAResourceItoN.IdentificationContentPanel_NAME, "vgahdr"); // z (al, aG)
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// [GUI Memory]: 97 MB (+2200kb) [00:24:19]
+setText(PAResourceItoN.IdentificationContentPanel_DESCRIPTION, "vgahdr_v1_0"); // z (al, aG)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Compatibility", 1); // an (O, aG)
+// TclEventType: PACKAGER_OBJECT_CHANGE
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "File Groups", 2); // an (O, aG)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Customization Parameters", 3); // an (O, aG)
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Ports and Interfaces", 4); // an (O, aG)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Addressing and Memory", 5); // an (O, aG)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Customization GUI", 6); // an (O, aG)
+// TclEventType: IP_LOCK_CHANGE
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Review and Package", 7); // an (O, aG)
+selectButton(PAResourceQtoS.ReviewContentPanel_PACKAGE_IP, "Package IP"); // a (c, aG)
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: set_property core_revision 3 [ipx::current_core] 
+// TclEventType: PACKAGER_OBJECT_DELETE
+// TclEventType: PACKAGER_OBJECT_ADD
+// Tcl Message: ipx::create_xgui_files [ipx::current_core] 
+// Tcl Message: ipx::update_checksums [ipx::current_core] 
+// Tcl Message: ipx::save_core [ipx::current_core] 
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// bv (aG):  Package IP : addNotify
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// Tcl Message: update_ip_catalog -rebuild -repo_path c:/users/will/downloads/onedrive_2020-04-03/vga_hdr/hdrvga/hdrvga.srcs 
+// Tcl Message: INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/users/will/downloads/onedrive_2020-04-03/vga_hdr/hdrvga/hdrvga.srcs' 
+// TclEventType: FILE_SET_CHANGE
+selectButton("PAResourceQtoS.ReviewContentPanel_FINISHED_PACKAGING_SUCCESSFULLY_OK", "OK"); // JButton (A, G)
+// [GUI Memory]: 103 MB (+429kb) [00:25:48]
+// [GUI Memory]: 109 MB (+863kb) [00:27:43]
+// HMemoryUtils.trashcanNow. Engine heap size: 698 MB. GUI used memory: 60 MB. Current time: 4/3/20 10:49:32 AM EDT

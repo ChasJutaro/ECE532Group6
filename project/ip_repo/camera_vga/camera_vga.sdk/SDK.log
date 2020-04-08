@@ -1,0 +1,1319 @@
+14:38:18 INFO  : Registering command handlers for SDK TCF services
+14:38:19 INFO  : Launching XSCT server: xsct.bat -interactive K:\ECE532\prj\IP\camera_vga\camera_vga\camera_vga.sdk\temp_xsdb_launch_script.tcl
+14:38:23 INFO  : XSCT server has started successfully.
+14:38:28 INFO  : Successfully done setting XSCT server connection channel  
+14:38:28 INFO  : Processing command line option -hwspec K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+14:38:28 INFO  : Successfully done setting SDK workspace  
+14:39:51 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:39:53 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+14:39:55 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+15:06:53 INFO  : Launching XSCT server: xsct.bat -interactive K:\ECE532\prj\IP\camera_vga\camera_vga\camera_vga.sdk\temp_xsdb_launch_script.tcl
+15:06:55 INFO  : XSCT server has started successfully.
+15:06:55 INFO  : Successfully done setting XSCT server connection channel  
+15:06:57 INFO  : Successfully done setting SDK workspace  
+15:06:58 INFO  : Registering command handlers for SDK TCF services
+15:07:00 INFO  : Processing command line option -hwspec K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+15:07:00 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+15:07:00 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1584731185175,  Project:1584728819586
+15:07:00 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+15:07:01 INFO  : Copied contents of K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+15:07:01 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+15:07:01 INFO  : Clearing existing target manager status.
+15:07:01 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+15:07:01 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+15:07:30 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:07:32 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+15:07:34 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+20:37:43 INFO  : Registering command handlers for SDK TCF services
+20:37:44 INFO  : Launching XSCT server: xsct.bat -interactive K:\ECE532\prj\IP\camera_vga\camera_vga\camera_vga.sdk\temp_xsdb_launch_script.tcl
+20:37:49 INFO  : XSCT server has started successfully.
+20:37:53 INFO  : Successfully done setting XSCT server connection channel  
+20:37:53 INFO  : Successfully done setting SDK workspace  
+20:37:53 INFO  : Processing command line option -hwspec K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+20:37:53 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+20:37:55 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1584750949623,  Project:1584731185175
+20:37:55 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+20:37:55 INFO  : Copied contents of K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+20:37:55 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+20:37:55 INFO  : Clearing existing target manager status.
+20:37:55 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+20:37:55 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+20:38:15 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:38:17 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+20:38:20 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+21:38:37 INFO  : Registering command handlers for SDK TCF services
+21:38:38 INFO  : Launching XSCT server: xsct.bat -interactive K:\ECE532\prj\IP\camera_vga\camera_vga\camera_vga.sdk\temp_xsdb_launch_script.tcl
+21:38:42 INFO  : XSCT server has started successfully.
+21:38:44 INFO  : Successfully done setting XSCT server connection channel  
+21:38:44 INFO  : Successfully done setting SDK workspace  
+21:38:44 INFO  : Processing command line option -hwspec K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+21:38:44 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+21:38:46 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1584754565999,  Project:1584750949623
+21:38:46 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+21:38:47 INFO  : Copied contents of K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+21:38:47 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+21:38:47 INFO  : Clearing existing target manager status.
+21:38:47 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+21:38:47 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+21:39:03 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:39:04 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+21:39:07 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+21:51:27 INFO  : Registering command handlers for SDK TCF services
+21:51:28 INFO  : Launching XSCT server: xsct.bat -interactive K:\ECE532\prj\IP\camera_vga\camera_vga\camera_vga.sdk\temp_xsdb_launch_script.tcl
+21:51:32 INFO  : XSCT server has started successfully.
+21:51:33 INFO  : Successfully done setting XSCT server connection channel  
+21:51:33 INFO  : Processing command line option -hwspec K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+21:51:33 INFO  : Successfully done setting SDK workspace  
+21:51:33 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+21:51:34 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1584755390455,  Project:1584754565999
+21:51:34 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+21:51:34 INFO  : Copied contents of K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+21:51:34 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+21:51:34 INFO  : Clearing existing target manager status.
+21:51:34 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+21:51:34 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+21:51:43 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:51:45 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+21:51:47 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+22:01:54 INFO  : Registering command handlers for SDK TCF services
+22:01:55 INFO  : Launching XSCT server: xsct.bat -interactive K:\ECE532\prj\IP\camera_vga\camera_vga\camera_vga.sdk\temp_xsdb_launch_script.tcl
+22:01:58 INFO  : XSCT server has started successfully.
+22:01:59 INFO  : Successfully done setting XSCT server connection channel  
+22:01:59 INFO  : Processing command line option -hwspec K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+22:01:59 INFO  : Successfully done setting SDK workspace  
+22:01:59 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+22:02:00 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1584755985109,  Project:1584755390455
+22:02:00 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+22:02:00 INFO  : Copied contents of K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+22:02:01 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+22:02:01 INFO  : Clearing existing target manager status.
+22:02:01 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+22:02:01 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+22:02:21 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:02:23 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+22:02:25 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+22:30:15 INFO  : Registering command handlers for SDK TCF services
+22:30:16 INFO  : Launching XSCT server: xsct.bat -interactive K:\ECE532\prj\IP\camera_vga\camera_vga\camera_vga.sdk\temp_xsdb_launch_script.tcl
+22:30:18 INFO  : XSCT server has started successfully.
+22:30:18 INFO  : Successfully done setting XSCT server connection channel  
+22:30:18 INFO  : Processing command line option -hwspec K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+22:30:18 INFO  : Successfully done setting SDK workspace  
+22:30:18 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+22:30:19 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1584757672857,  Project:1584755985109
+22:30:19 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+22:30:19 INFO  : Copied contents of K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+22:30:19 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+22:30:20 INFO  : Clearing existing target manager status.
+22:30:20 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+22:30:20 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+22:30:27 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:30:29 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+22:30:31 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+22:40:56 INFO  : Registering command handlers for SDK TCF services
+22:40:56 INFO  : Launching XSCT server: xsct.bat -interactive K:\ECE532\prj\IP\camera_vga\camera_vga\camera_vga.sdk\temp_xsdb_launch_script.tcl
+22:40:59 INFO  : XSCT server has started successfully.
+22:40:59 INFO  : Processing command line option -hwspec K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+22:40:59 INFO  : Successfully done setting XSCT server connection channel  
+22:40:59 INFO  : Successfully done setting SDK workspace  
+22:40:59 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+22:41:00 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1584758395219,  Project:1584757672857
+22:41:00 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+22:41:00 INFO  : Copied contents of K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+22:41:00 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+22:41:00 INFO  : Clearing existing target manager status.
+22:41:00 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+22:41:00 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+22:41:26 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:41:27 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+22:41:30 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+22:51:52 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1584759050687,  Project:1584758395219
+22:51:52 INFO  : Project design_1_wrapper_hw_platform_0's source hardware specification located at K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+22:51:58 INFO  : Copied contents of K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+22:51:58 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+22:51:58 INFO  : Clearing existing target manager status.
+22:51:58 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+22:51:58 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+22:52:18 INFO  : Registering command handlers for SDK TCF services
+22:52:18 INFO  : Launching XSCT server: xsct.bat -interactive K:\ECE532\prj\IP\camera_vga\camera_vga\camera_vga.sdk\temp_xsdb_launch_script.tcl
+22:52:25 INFO  : XSCT server has started successfully.
+22:52:26 INFO  : Successfully done setting XSCT server connection channel  
+22:52:26 INFO  : Processing command line option -hwspec K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+22:52:26 INFO  : Successfully done setting SDK workspace  
+22:52:26 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+22:52:33 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:52:35 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+22:52:37 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+23:07:50 INFO  : Registering command handlers for SDK TCF services
+23:07:51 INFO  : Launching XSCT server: xsct.bat -interactive K:\ECE532\prj\IP\camera_vga\camera_vga\camera_vga.sdk\temp_xsdb_launch_script.tcl
+23:07:55 INFO  : XSCT server has started successfully.
+23:07:55 INFO  : Successfully done setting XSCT server connection channel  
+23:07:57 INFO  : Successfully done setting SDK workspace  
+23:07:57 INFO  : Processing command line option -hwspec K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+23:07:57 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+23:07:57 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1584760044248,  Project:1584759050687
+23:07:57 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+23:07:57 INFO  : Copied contents of K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+23:07:58 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+23:07:58 INFO  : Clearing existing target manager status.
+23:07:58 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+23:07:58 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+23:08:02 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:08:04 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+23:08:06 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+23:18:42 INFO  : Registering command handlers for SDK TCF services
+23:18:44 INFO  : Launching XSCT server: xsct.bat -interactive K:\ECE532\prj\IP\camera_vga\camera_vga\camera_vga.sdk\temp_xsdb_launch_script.tcl
+23:18:48 INFO  : XSCT server has started successfully.
+23:18:49 INFO  : Successfully done setting XSCT server connection channel  
+23:18:50 INFO  : Successfully done setting SDK workspace  
+23:18:50 INFO  : Processing command line option -hwspec K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+23:18:50 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+23:18:50 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1584760622941,  Project:1584760044248
+23:18:50 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+23:18:50 INFO  : Copied contents of K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+23:18:50 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+23:18:50 INFO  : Clearing existing target manager status.
+23:18:50 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+23:18:50 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+23:18:54 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:18:55 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+23:18:58 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+23:25:11 INFO  : Registering command handlers for SDK TCF services
+23:25:12 INFO  : Launching XSCT server: xsct.bat -interactive K:\ECE532\prj\IP\camera_vga\camera_vga\camera_vga.sdk\temp_xsdb_launch_script.tcl
+23:25:15 INFO  : XSCT server has started successfully.
+23:25:15 INFO  : Processing command line option -hwspec K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+23:25:15 INFO  : Successfully done setting XSCT server connection channel  
+23:25:15 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+23:25:15 INFO  : Successfully done setting SDK workspace  
+23:25:17 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1584761095345,  Project:1584760622941
+23:25:17 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+23:25:17 INFO  : Copied contents of K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+23:25:17 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+23:25:17 INFO  : Clearing existing target manager status.
+23:25:17 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+23:25:17 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+23:25:40 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:25:41 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+23:25:44 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+10:37:49 INFO  : Registering command handlers for SDK TCF services
+10:37:50 INFO  : Launching XSCT server: xsct.bat -interactive K:\ECE532\prj\IP\camera_vga\camera_vga\camera_vga.sdk\temp_xsdb_launch_script.tcl
+10:37:56 INFO  : XSCT server has started successfully.
+10:37:56 INFO  : Successfully done setting XSCT server connection channel  
+10:37:59 INFO  : Successfully done setting SDK workspace  
+10:37:59 INFO  : Processing command line option -hwspec K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+10:37:59 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+10:38:09 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:38:11 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+10:38:13 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+10:47:14 INFO  : Registering command handlers for SDK TCF services
+10:47:15 INFO  : Launching XSCT server: xsct.bat -interactive K:\ECE532\prj\IP\camera_vga\camera_vga\camera_vga.sdk\temp_xsdb_launch_script.tcl
+10:47:17 INFO  : XSCT server has started successfully.
+10:47:17 INFO  : Processing command line option -hwspec K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+10:47:17 INFO  : Successfully done setting XSCT server connection channel  
+10:47:17 INFO  : Successfully done setting SDK workspace  
+10:47:17 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+10:47:18 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1584801841851,  Project:1584761095345
+10:47:18 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+10:47:19 INFO  : Copied contents of K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+10:47:19 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+10:47:19 INFO  : Clearing existing target manager status.
+10:47:19 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+10:47:19 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+10:47:31 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:47:33 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+10:47:35 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+10:55:56 INFO  : Registering command handlers for SDK TCF services
+10:55:56 INFO  : Launching XSCT server: xsct.bat -interactive K:\ECE532\prj\IP\camera_vga\camera_vga\camera_vga.sdk\temp_xsdb_launch_script.tcl
+10:55:59 INFO  : XSCT server has started successfully.
+10:55:59 INFO  : Processing command line option -hwspec K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+10:55:59 INFO  : Successfully done setting XSCT server connection channel  
+10:55:59 INFO  : Successfully done setting SDK workspace  
+10:55:59 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+10:56:00 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1584802524831,  Project:1584801841851
+10:56:00 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+10:56:00 INFO  : Copied contents of K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+10:56:00 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+10:56:00 INFO  : Clearing existing target manager status.
+10:56:00 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+10:56:00 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+10:56:16 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:56:18 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+10:56:20 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+11:06:44 INFO  : Registering command handlers for SDK TCF services
+11:06:44 INFO  : Launching XSCT server: xsct.bat -interactive K:\ECE532\prj\IP\camera_vga\camera_vga\camera_vga.sdk\temp_xsdb_launch_script.tcl
+11:06:46 INFO  : XSCT server has started successfully.
+11:06:46 INFO  : Successfully done setting XSCT server connection channel  
+11:06:47 INFO  : Processing command line option -hwspec K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+11:06:47 INFO  : Successfully done setting SDK workspace  
+11:06:47 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+11:06:48 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1584803126996,  Project:1584802524831
+11:06:48 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+11:06:48 INFO  : Copied contents of K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+11:06:48 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+11:06:48 INFO  : Clearing existing target manager status.
+11:06:48 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+11:06:48 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+11:07:26 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:07:27 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+11:07:30 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+11:10:25 INFO  : Registering command handlers for SDK TCF services
+11:10:26 INFO  : Launching XSCT server: xsct.bat -interactive K:\ECE532\prj\IP\camera_vga\camera_vga\camera_vga.sdk\temp_xsdb_launch_script.tcl
+11:10:28 INFO  : XSCT server has started successfully.
+11:10:28 INFO  : Processing command line option -hwspec K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+11:10:28 INFO  : Successfully done setting XSCT server connection channel  
+11:10:28 INFO  : Successfully done setting SDK workspace  
+11:10:28 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+11:10:29 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1584803395807,  Project:1584803126996
+11:10:29 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+11:10:29 INFO  : Copied contents of K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+11:10:29 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+11:10:30 INFO  : Clearing existing target manager status.
+11:10:30 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+11:10:30 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+11:10:35 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:10:37 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+11:10:39 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+11:20:10 INFO  : Registering command handlers for SDK TCF services
+11:20:11 INFO  : Launching XSCT server: xsct.bat -interactive K:\ECE532\prj\IP\camera_vga\camera_vga\camera_vga.sdk\temp_xsdb_launch_script.tcl
+11:20:13 INFO  : XSCT server has started successfully.
+11:20:13 INFO  : Processing command line option -hwspec K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+11:20:13 INFO  : Successfully done setting XSCT server connection channel  
+11:20:13 INFO  : Successfully done setting SDK workspace  
+11:20:13 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+11:20:14 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1584803987976,  Project:1584803395807
+11:20:14 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+11:20:14 INFO  : Copied contents of K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+11:20:14 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+11:20:14 INFO  : Clearing existing target manager status.
+11:20:14 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+11:20:14 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+11:20:41 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:20:42 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+11:20:45 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+11:48:17 INFO  : Registering command handlers for SDK TCF services
+11:48:18 INFO  : Launching XSCT server: xsct.bat -interactive K:\ECE532\prj\IP\camera_vga\camera_vga\camera_vga.sdk\temp_xsdb_launch_script.tcl
+11:48:20 INFO  : XSCT server has started successfully.
+11:48:20 INFO  : Successfully done setting XSCT server connection channel  
+11:48:21 INFO  : Processing command line option -hwspec K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+11:48:21 INFO  : Successfully done setting SDK workspace  
+11:48:21 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+11:48:22 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1584805651825,  Project:1584803987976
+11:48:22 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+11:48:22 INFO  : Copied contents of K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+11:48:22 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+11:48:22 INFO  : Clearing existing target manager status.
+11:48:22 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+11:48:22 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+11:48:31 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:48:32 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+11:48:35 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+21:58:23 INFO  : Registering command handlers for SDK TCF services
+21:58:25 INFO  : Launching XSCT server: xsct.bat -interactive K:\ECE532\prj\IP\camera_vga\camera_vga\camera_vga.sdk\temp_xsdb_launch_script.tcl
+21:58:31 INFO  : XSCT server has started successfully.
+21:58:32 INFO  : Successfully done setting XSCT server connection channel  
+21:58:32 INFO  : Successfully done setting SDK workspace  
+21:58:32 INFO  : Processing command line option -hwspec K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+21:58:32 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+21:58:33 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1585706139189,  Project:1584805651825
+21:58:33 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+21:58:33 INFO  : Copied contents of K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+21:58:34 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+21:58:34 INFO  : Clearing existing target manager status.
+21:58:34 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+21:58:34 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+22:00:31 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:00:33 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+22:00:35 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+22:07:54 INFO  : Registering command handlers for SDK TCF services
+22:07:54 INFO  : Launching XSCT server: xsct.bat -interactive K:\ECE532\prj\IP\camera_vga\camera_vga\camera_vga.sdk\temp_xsdb_launch_script.tcl
+22:07:57 INFO  : XSCT server has started successfully.
+22:07:58 INFO  : Successfully done setting XSCT server connection channel  
+22:07:58 INFO  : Successfully done setting SDK workspace  
+22:07:58 INFO  : Processing command line option -hwspec K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+22:07:58 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+22:08:00 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1585706834813,  Project:1585706139189
+22:08:00 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+22:08:00 INFO  : Copied contents of K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+22:08:00 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+22:08:00 INFO  : Clearing existing target manager status.
+22:08:00 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+22:08:00 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+22:08:12 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:08:14 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+22:08:16 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+22:17:27 INFO  : Registering command handlers for SDK TCF services
+22:17:27 INFO  : Launching XSCT server: xsct.bat -interactive K:\ECE532\prj\IP\camera_vga\camera_vga\camera_vga.sdk\temp_xsdb_launch_script.tcl
+22:17:30 INFO  : XSCT server has started successfully.
+22:17:32 INFO  : Processing command line option -hwspec K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+22:17:32 INFO  : Successfully done setting XSCT server connection channel  
+22:17:32 INFO  : Successfully done setting SDK workspace  
+22:17:32 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+22:17:32 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1585707357811,  Project:1585706834813
+22:17:32 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+22:17:32 INFO  : Copied contents of K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+22:17:32 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+22:17:33 INFO  : Clearing existing target manager status.
+22:17:33 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+22:17:33 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+22:17:36 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:17:38 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+22:17:40 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+22:34:18 INFO  : Registering command handlers for SDK TCF services
+22:34:18 INFO  : Launching XSCT server: xsct.bat -interactive K:\ECE532\prj\IP\camera_vga\camera_vga\camera_vga.sdk\temp_xsdb_launch_script.tcl
+22:34:20 INFO  : XSCT server has started successfully.
+22:34:21 INFO  : Processing command line option -hwspec K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+22:34:21 INFO  : Successfully done setting XSCT server connection channel  
+22:34:21 INFO  : Successfully done setting SDK workspace  
+22:34:21 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+22:34:27 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:34:29 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+22:34:31 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+23:20:41 INFO  : Registering command handlers for SDK TCF services
+23:20:41 INFO  : Launching XSCT server: xsct.bat -interactive K:\ECE532\prj\IP\camera_vga\camera_vga\camera_vga.sdk\temp_xsdb_launch_script.tcl
+23:20:44 INFO  : XSCT server has started successfully.
+23:20:44 INFO  : Processing command line option -hwspec K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+23:20:44 INFO  : Successfully done setting XSCT server connection channel  
+23:20:44 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+23:20:44 INFO  : Successfully done setting SDK workspace  
+23:20:45 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1585710660898,  Project:1585707357811
+23:20:45 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+23:20:45 INFO  : Copied contents of K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+23:20:46 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+23:20:46 INFO  : Clearing existing target manager status.
+23:20:46 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+23:20:46 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+23:20:56 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:20:57 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+23:21:00 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+12:37:22 INFO  : Registering command handlers for SDK TCF services
+12:37:23 INFO  : Launching XSCT server: xsct.bat -interactive K:\ECE532\prj\IP\camera_vga\camera_vga\camera_vga.sdk\temp_xsdb_launch_script.tcl
+12:37:29 INFO  : XSCT server has started successfully.
+12:37:29 INFO  : Successfully done setting XSCT server connection channel  
+12:37:33 INFO  : Successfully done setting SDK workspace  
+12:37:33 INFO  : Processing command line option -hwspec K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+12:37:33 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+12:39:12 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:39:14 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+12:39:16 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+13:02:20 INFO  : Registering command handlers for SDK TCF services
+13:02:21 INFO  : Launching XSCT server: xsct.bat -interactive K:\ECE532\prj\IP\camera_vga\camera_vga\camera_vga.sdk\temp_xsdb_launch_script.tcl
+13:02:25 INFO  : XSCT server has started successfully.
+13:02:25 INFO  : Successfully done setting XSCT server connection channel  
+13:02:26 INFO  : Successfully done setting SDK workspace  
+13:02:26 INFO  : Processing command line option -hwspec K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+13:02:26 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+13:02:28 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1585760519647,  Project:1585710660898
+13:02:28 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+13:02:28 INFO  : Copied contents of K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+13:02:28 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+13:02:28 INFO  : Clearing existing target manager status.
+13:02:28 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+13:02:28 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+13:02:32 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:02:34 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+13:02:37 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+13:42:39 INFO  : Registering command handlers for SDK TCF services
+13:42:40 INFO  : Launching XSCT server: xsct.bat -interactive K:\ECE532\prj\IP\camera_vga\camera_vga\camera_vga.sdk\temp_xsdb_launch_script.tcl
+13:42:43 INFO  : XSCT server has started successfully.
+13:42:43 INFO  : Successfully done setting XSCT server connection channel  
+13:42:44 INFO  : Successfully done setting SDK workspace  
+13:42:44 INFO  : Processing command line option -hwspec K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+13:42:45 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+13:42:45 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1585762926673,  Project:1585760519647
+13:42:45 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+13:42:45 INFO  : Copied contents of K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+13:42:45 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+13:42:45 INFO  : Clearing existing target manager status.
+13:42:45 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+13:42:45 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+13:43:13 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:43:15 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+13:43:17 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+13:49:48 INFO  : Registering command handlers for SDK TCF services
+13:49:49 INFO  : Launching XSCT server: xsct.bat -interactive K:\ECE532\prj\IP\camera_vga\camera_vga\camera_vga.sdk\temp_xsdb_launch_script.tcl
+13:49:52 INFO  : XSCT server has started successfully.
+13:49:53 INFO  : Successfully done setting XSCT server connection channel  
+13:49:53 INFO  : Successfully done setting SDK workspace  
+13:49:53 INFO  : Processing command line option -hwspec K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+13:49:53 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+13:49:54 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1585763369124,  Project:1585762926673
+13:49:54 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+13:49:54 INFO  : Copied contents of K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+13:49:54 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+13:49:55 INFO  : Clearing existing target manager status.
+13:49:55 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+13:49:55 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+13:50:02 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:50:03 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+13:50:06 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+16:38:08 INFO  : Registering command handlers for SDK TCF services
+16:38:10 INFO  : Launching XSCT server: xsct.bat -interactive K:\ECE532\prj\IP\camera_vga\camera_vga\camera_vga.sdk\temp_xsdb_launch_script.tcl
+16:38:13 INFO  : XSCT server has started successfully.
+16:38:13 INFO  : Successfully done setting XSCT server connection channel  
+16:38:14 INFO  : Successfully done setting SDK workspace  
+16:38:14 INFO  : Processing command line option -hwspec K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+16:38:14 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+16:38:18 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1585764207887,  Project:1585763369124
+16:38:18 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+16:38:18 INFO  : Copied contents of K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+16:38:19 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+16:38:19 INFO  : Clearing existing target manager status.
+16:38:19 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+16:38:19 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+16:38:28 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:38:30 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+16:38:32 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+17:19:37 INFO  : Registering command handlers for SDK TCF services
+17:19:38 INFO  : Launching XSCT server: xsct.bat -interactive K:\ECE532\prjwrk\IP\camera_vga\camera_vga\camera_vga.sdk\temp_xsdb_launch_script.tcl
+17:19:41 INFO  : XSCT server has started successfully.
+17:19:41 INFO  : Successfully done setting XSCT server connection channel  
+17:19:42 INFO  : Successfully done setting SDK workspace  
+17:19:42 INFO  : Processing command line option -hwspec K:/ECE532/prjwrk/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+17:19:47 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1585448288148,  Project:1585764207887
+17:19:47 INFO  : Project design_1_wrapper_hw_platform_0's source hardware specification located at K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+17:19:47 INFO  : Copied contents of K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+17:19:48 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+17:19:48 INFO  : Clearing existing target manager status.
+17:19:48 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+17:19:48 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+17:20:38 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:20:40 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+17:20:42 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prjwrk/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper_hw_platform_1/design_1_wrapper.bit"
+17:21:27 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:21:27 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+17:21:29 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prjwrk/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+17:29:48 INFO  : Launching XSCT server: xsct.bat -interactive K:\ECE532\prjwrk\IP\camera_vga\camera_vga\camera_vga.sdk\temp_xsdb_launch_script.tcl
+17:29:52 INFO  : XSCT server has started successfully.
+17:29:53 INFO  : Successfully done setting XSCT server connection channel  
+17:29:53 INFO  : Successfully done setting SDK workspace  
+17:29:55 INFO  : Registering command handlers for SDK TCF services
+17:29:56 INFO  : Processing command line option -hwspec K:/ECE532/prjwrk/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+17:29:57 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_1.
+17:29:57 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1585776556549,  Project:1585775930871
+17:29:57 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_1' is different from K:/ECE532/prjwrk/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+17:29:57 INFO  : Copied contents of K:/ECE532/prjwrk/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_1\system.hdf.
+17:29:57 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+17:29:58 INFO  : Clearing existing target manager status.
+17:29:58 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+17:29:58 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+17:30:05 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:30:07 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+17:30:09 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prjwrk/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper_hw_platform_1/design_1_wrapper.bit"
+17:38:29 INFO  : Registering command handlers for SDK TCF services
+17:38:30 INFO  : Launching XSCT server: xsct.bat -interactive K:\ECE532\prjwrk\IP\camera_vga\camera_vga\camera_vga.sdk\temp_xsdb_launch_script.tcl
+17:38:34 INFO  : XSCT server has started successfully.
+17:38:34 INFO  : Successfully done setting XSCT server connection channel  
+17:38:37 INFO  : Successfully done setting SDK workspace  
+17:38:37 INFO  : Processing command line option -hwspec K:/ECE532/prjwrk/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+17:38:37 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_1.
+17:38:37 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1585777086909,  Project:1585776556549
+17:38:37 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_1' is different from K:/ECE532/prjwrk/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+17:38:38 INFO  : Copied contents of K:/ECE532/prjwrk/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_1\system.hdf.
+17:38:38 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+17:38:38 INFO  : Clearing existing target manager status.
+17:38:38 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+17:38:38 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+17:38:45 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:38:47 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+17:38:49 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prjwrk/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper_hw_platform_1/design_1_wrapper.bit"
+18:09:53 INFO  : Registering command handlers for SDK TCF services
+18:09:54 INFO  : Launching XSCT server: xsct.bat -interactive K:\ECE532\prjwrk\IP\camera_vga\camera_vga\camera_vga.sdk\temp_xsdb_launch_script.tcl
+18:09:57 INFO  : XSCT server has started successfully.
+18:09:57 INFO  : Successfully done setting XSCT server connection channel  
+18:09:59 INFO  : Successfully done setting SDK workspace  
+18:09:59 INFO  : Processing command line option -hwspec K:/ECE532/prjwrk/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+18:09:59 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_1.
+18:10:00 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1585778958343,  Project:1585777086909
+18:10:00 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_1' is different from K:/ECE532/prjwrk/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+18:10:01 INFO  : Copied contents of K:/ECE532/prjwrk/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_1\system.hdf.
+18:10:01 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+18:10:01 INFO  : Clearing existing target manager status.
+18:10:01 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+18:10:01 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+18:10:06 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:10:06 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+18:10:08 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prjwrk/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+18:10:19 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:10:19 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+18:10:21 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prjwrk/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper_hw_platform_1/design_1_wrapper.bit"
+18:34:12 INFO  : Registering command handlers for SDK TCF services
+18:34:13 INFO  : Launching XSCT server: xsct.bat -interactive K:\ECE532\prj\IP\camera_vga\camera_vga\camera_vga.sdk\temp_xsdb_launch_script.tcl
+18:34:17 INFO  : XSCT server has started successfully.
+18:34:17 INFO  : Successfully done setting XSCT server connection channel  
+18:34:18 INFO  : Successfully done setting SDK workspace  
+18:34:18 INFO  : Processing command line option -hwspec K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+18:34:18 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+18:34:19 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1585780308068,  Project:1585448288148
+18:34:19 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+18:34:20 INFO  : Copied contents of K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+18:34:20 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+18:34:20 INFO  : Clearing existing target manager status.
+18:34:20 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+18:34:20 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+18:35:19 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:35:21 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+18:35:23 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper_hw_platform_1/design_1_wrapper.bit"
+18:35:48 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:35:48 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+18:35:51 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+19:42:59 INFO  : Registering command handlers for SDK TCF services
+19:43:00 INFO  : Launching XSCT server: xsct.bat -interactive K:\ECE532\prj\IP\camera_vga\camera_vga\camera_vga.sdk\temp_xsdb_launch_script.tcl
+19:43:04 INFO  : XSCT server has started successfully.
+19:43:06 INFO  : Successfully done setting XSCT server connection channel  
+19:43:06 INFO  : Successfully done setting SDK workspace  
+19:43:06 INFO  : Processing command line option -hwspec K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+19:43:06 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+19:43:07 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1585784501418,  Project:1585780308068
+19:43:07 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+19:43:07 INFO  : Copied contents of K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+19:43:07 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+19:43:07 INFO  : Clearing existing target manager status.
+19:43:07 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+19:43:07 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+19:56:59 INFO  : Registering command handlers for SDK TCF services
+19:57:00 INFO  : Launching XSCT server: xsct.bat -interactive K:\ECE532\prj\IP\camera_vga\camera_vga\camera_vga.sdk\temp_xsdb_launch_script.tcl
+19:57:04 INFO  : XSCT server has started successfully.
+19:57:05 INFO  : Successfully done setting XSCT server connection channel  
+19:57:05 INFO  : Successfully done setting SDK workspace  
+19:57:05 INFO  : Processing command line option -hwspec K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+19:57:05 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+19:57:06 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1585785393691,  Project:1585784501418
+19:57:06 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+19:57:06 INFO  : Copied contents of K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+19:57:06 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+19:57:07 INFO  : Clearing existing target manager status.
+19:57:07 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+19:57:07 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+19:57:13 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:57:13 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+19:57:15 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+19:57:23 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:57:23 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+19:57:26 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper_hw_platform_1/design_1_wrapper.bit"
+20:06:49 INFO  : Registering command handlers for SDK TCF services
+20:06:50 INFO  : Launching XSCT server: xsct.bat -interactive K:\ECE532\prj\IP\camera_vga\camera_vga\camera_vga.sdk\temp_xsdb_launch_script.tcl
+20:06:53 INFO  : XSCT server has started successfully.
+20:06:53 INFO  : Successfully done setting XSCT server connection channel  
+20:06:54 INFO  : Successfully done setting SDK workspace  
+20:06:54 INFO  : Processing command line option -hwspec K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+20:06:54 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+20:06:55 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1585785827874,  Project:1585785393691
+20:06:55 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+20:06:55 INFO  : Copied contents of K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+20:06:55 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+20:06:55 INFO  : Clearing existing target manager status.
+20:06:55 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+20:06:55 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+20:07:21 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:07:21 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+20:07:24 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper_hw_platform_1/design_1_wrapper.bit"
+20:17:21 INFO  : Registering command handlers for SDK TCF services
+20:17:22 INFO  : Launching XSCT server: xsct.bat -interactive K:\ECE532\prj\IP\camera_vga\camera_vga\camera_vga.sdk\temp_xsdb_launch_script.tcl
+20:17:25 INFO  : XSCT server has started successfully.
+20:17:28 INFO  : Successfully done setting XSCT server connection channel  
+20:17:28 INFO  : Processing command line option -hwspec K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+20:17:28 INFO  : Successfully done setting SDK workspace  
+20:17:28 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+20:17:28 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1585786568863,  Project:1585785827874
+20:17:28 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+20:17:28 INFO  : Copied contents of K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+20:17:28 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+20:17:28 INFO  : Clearing existing target manager status.
+20:17:28 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+20:17:28 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+20:17:30 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:17:31 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+20:17:33 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper_hw_platform_1/design_1_wrapper.bit"
+20:18:01 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:18:01 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+20:18:04 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+20:24:37 INFO  : Registering command handlers for SDK TCF services
+20:24:37 INFO  : Launching XSCT server: xsct.bat -interactive K:\ECE532\prj\IP\camera_vga\camera_vga\camera_vga.sdk\temp_xsdb_launch_script.tcl
+20:24:39 INFO  : XSCT server has started successfully.
+20:24:40 INFO  : Processing command line option -hwspec K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+20:24:40 INFO  : Successfully done setting XSCT server connection channel  
+20:24:40 INFO  : Successfully done setting SDK workspace  
+20:24:40 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+20:24:41 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1585786900424,  Project:1585786568863
+20:24:41 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+20:24:41 INFO  : Copied contents of K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+20:24:41 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+20:24:41 INFO  : Clearing existing target manager status.
+20:24:41 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+20:24:41 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+20:24:58 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:24:58 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+20:25:01 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper_hw_platform_1/design_1_wrapper.bit"
+20:25:22 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:25:22 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+20:25:25 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+20:26:15 INFO  : Registering command handlers for SDK TCF services
+20:26:15 INFO  : Launching XSCT server: xsct.bat -interactive K:\ECE532\prj\IP\camera_vga\camera_vga\camera_vga.sdk\temp_xsdb_launch_script.tcl
+20:26:17 INFO  : XSCT server has started successfully.
+20:26:18 INFO  : Processing command line option -hwspec K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+20:26:18 INFO  : Successfully done setting XSCT server connection channel  
+20:26:18 INFO  : Successfully done setting SDK workspace  
+20:26:34 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:26:34 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+20:26:36 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+20:42:53 INFO  : Launching XSCT server: xsct.bat -interactive K:\ECE532\prj\IP\camera_vga\camera_vga\camera_vga.sdk\temp_xsdb_launch_script.tcl
+20:42:55 INFO  : XSCT server has started successfully.
+20:42:56 INFO  : Successfully done setting XSCT server connection channel  
+20:42:56 INFO  : Successfully done setting SDK workspace  
+20:42:57 INFO  : Registering command handlers for SDK TCF services
+20:42:59 INFO  : Processing command line option -hwspec K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+20:42:59 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+20:42:59 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1585788154986,  Project:1585786900424
+20:42:59 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+20:42:59 INFO  : Copied contents of K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+20:42:59 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+20:42:59 INFO  : Clearing existing target manager status.
+20:42:59 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+20:42:59 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+20:43:10 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:43:10 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+20:43:13 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+20:48:34 INFO  : Registering command handlers for SDK TCF services
+20:48:35 INFO  : Launching XSCT server: xsct.bat -interactive K:\ECE532\prj\IP\camera_vga\camera_vga\camera_vga.sdk\temp_xsdb_launch_script.tcl
+20:48:37 INFO  : XSCT server has started successfully.
+20:48:37 INFO  : Processing command line option -hwspec K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+20:48:37 INFO  : Successfully done setting XSCT server connection channel  
+20:48:37 INFO  : Successfully done setting SDK workspace  
+20:48:37 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+20:48:39 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1585788488817,  Project:1585788154986
+20:48:39 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+20:48:39 INFO  : Copied contents of K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+20:48:39 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+20:48:39 INFO  : Clearing existing target manager status.
+20:48:39 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+20:48:39 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+20:48:48 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:48:49 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+20:48:51 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+21:10:14 INFO  : Registering command handlers for SDK TCF services
+21:10:14 INFO  : Launching XSCT server: xsct.bat -interactive K:\ECE532\prj\IP\camera_vga\camera_vga\camera_vga.sdk\temp_xsdb_launch_script.tcl
+21:10:16 INFO  : XSCT server has started successfully.
+21:10:17 INFO  : Processing command line option -hwspec K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+21:10:17 INFO  : Successfully done setting XSCT server connection channel  
+21:10:17 INFO  : Successfully done setting SDK workspace  
+21:10:17 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+21:10:18 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1585789791709,  Project:1585788488817
+21:10:18 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+21:10:18 INFO  : Copied contents of K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+21:10:18 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+21:10:18 INFO  : Clearing existing target manager status.
+21:10:18 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+21:10:18 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+21:10:22 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:10:24 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+21:10:26 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+21:21:33 INFO  : Registering command handlers for SDK TCF services
+21:21:34 INFO  : Launching XSCT server: xsct.bat -interactive K:\ECE532\prj\IP\camera_vga\camera_vga\camera_vga.sdk\temp_xsdb_launch_script.tcl
+21:21:36 INFO  : XSCT server has started successfully.
+21:21:36 INFO  : Processing command line option -hwspec K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+21:21:36 INFO  : Successfully done setting XSCT server connection channel  
+21:21:36 INFO  : Successfully done setting SDK workspace  
+21:21:36 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+21:21:38 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1585790459305,  Project:1585789791709
+21:21:38 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+21:21:38 INFO  : Copied contents of K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+21:21:38 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+21:21:38 INFO  : Clearing existing target manager status.
+21:21:38 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+21:21:38 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+21:21:52 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:21:53 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+21:21:56 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+21:27:07 INFO  : Registering command handlers for SDK TCF services
+21:27:07 INFO  : Launching XSCT server: xsct.bat -interactive K:\ECE532\prj\IP\camera_vga\camera_vga\camera_vga.sdk\temp_xsdb_launch_script.tcl
+21:27:09 INFO  : XSCT server has started successfully.
+21:27:10 INFO  : Processing command line option -hwspec K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+21:27:10 INFO  : Successfully done setting XSCT server connection channel  
+21:27:10 INFO  : Successfully done setting SDK workspace  
+21:27:10 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+21:27:11 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1585790776630,  Project:1585790459305
+21:27:11 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+21:27:11 INFO  : Copied contents of K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+21:27:11 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+21:27:11 INFO  : Clearing existing target manager status.
+21:27:11 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+21:27:11 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+21:27:53 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:27:55 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+21:27:57 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+21:39:04 INFO  : Registering command handlers for SDK TCF services
+21:39:05 INFO  : Launching XSCT server: xsct.bat -interactive K:\ECE532\prj\IP\camera_vga\camera_vga\camera_vga.sdk\temp_xsdb_launch_script.tcl
+21:39:07 INFO  : XSCT server has started successfully.
+21:39:07 INFO  : Successfully done setting XSCT server connection channel  
+21:39:07 INFO  : Processing command line option -hwspec K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+21:39:07 INFO  : Successfully done setting SDK workspace  
+21:39:07 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+21:39:08 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1585791516977,  Project:1585790776630
+21:39:08 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+21:39:09 INFO  : Copied contents of K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+21:39:09 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+21:39:09 INFO  : Clearing existing target manager status.
+21:39:09 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+21:39:09 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+21:39:16 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:39:18 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+21:39:20 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+21:44:45 INFO  : Registering command handlers for SDK TCF services
+21:44:46 INFO  : Launching XSCT server: xsct.bat -interactive K:\ECE532\prj\IP\camera_vga\camera_vga\camera_vga.sdk\temp_xsdb_launch_script.tcl
+21:44:48 INFO  : XSCT server has started successfully.
+21:44:48 INFO  : Successfully done setting XSCT server connection channel  
+21:44:48 INFO  : Processing command line option -hwspec K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+21:44:48 INFO  : Successfully done setting SDK workspace  
+21:44:48 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+21:44:49 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1585791839918,  Project:1585791516977
+21:44:49 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+21:44:49 INFO  : Copied contents of K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+21:44:49 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+21:44:50 INFO  : Clearing existing target manager status.
+21:44:50 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+21:44:50 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+21:44:54 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:44:56 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+21:44:58 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+21:50:08 INFO  : Registering command handlers for SDK TCF services
+21:50:08 INFO  : Launching XSCT server: xsct.bat -interactive K:\ECE532\prj\IP\camera_vga\camera_vga\camera_vga.sdk\temp_xsdb_launch_script.tcl
+21:50:10 INFO  : XSCT server has started successfully.
+21:50:10 INFO  : Successfully done setting XSCT server connection channel  
+21:50:11 INFO  : Processing command line option -hwspec K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+21:50:11 INFO  : Successfully done setting SDK workspace  
+21:50:11 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+21:50:12 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1585792192213,  Project:1585791839918
+21:50:12 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+21:50:12 INFO  : Copied contents of K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+21:50:12 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+21:50:12 INFO  : Clearing existing target manager status.
+21:50:12 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+21:50:12 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+21:50:57 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:50:59 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+21:51:01 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+22:04:04 INFO  : Registering command handlers for SDK TCF services
+22:04:05 INFO  : Launching XSCT server: xsct.bat -interactive K:\ECE532\prj\IP\camera_vga\camera_vga\camera_vga.sdk\temp_xsdb_launch_script.tcl
+22:04:07 INFO  : XSCT server has started successfully.
+22:04:07 INFO  : Successfully done setting XSCT server connection channel  
+22:04:07 INFO  : Processing command line option -hwspec K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+22:04:07 INFO  : Successfully done setting SDK workspace  
+22:04:07 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+22:04:08 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1585793027954,  Project:1585792192213
+22:04:08 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+22:04:08 INFO  : Copied contents of K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+22:04:08 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+22:04:08 INFO  : Clearing existing target manager status.
+22:04:08 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+22:04:08 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+22:04:14 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:04:16 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+22:04:18 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+22:10:28 INFO  : Registering command handlers for SDK TCF services
+22:10:29 INFO  : Launching XSCT server: xsct.bat -interactive K:\ECE532\prj\IP\camera_vga\camera_vga\camera_vga.sdk\temp_xsdb_launch_script.tcl
+22:10:31 INFO  : XSCT server has started successfully.
+22:10:31 INFO  : Processing command line option -hwspec K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+22:10:32 INFO  : Successfully done setting XSCT server connection channel  
+22:10:32 INFO  : Successfully done setting SDK workspace  
+22:10:32 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+22:10:32 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1585793404558,  Project:1585793027954
+22:10:32 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+22:10:32 INFO  : Copied contents of K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+22:10:32 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+22:10:33 INFO  : Clearing existing target manager status.
+22:10:33 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+22:10:33 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+22:10:35 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:10:36 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+22:10:39 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+22:24:46 INFO  : Registering command handlers for SDK TCF services
+22:24:47 INFO  : Launching XSCT server: xsct.bat -interactive K:\ECE532\prj\IP\camera_vga\camera_vga\camera_vga.sdk\temp_xsdb_launch_script.tcl
+22:24:49 INFO  : XSCT server has started successfully.
+22:24:49 INFO  : Processing command line option -hwspec K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+22:24:49 INFO  : Successfully done setting XSCT server connection channel  
+22:24:50 INFO  : Successfully done setting SDK workspace  
+22:24:51 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+22:24:51 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1585794246541,  Project:1585793404558
+22:24:51 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+22:24:51 INFO  : Copied contents of K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+22:24:51 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+22:24:51 INFO  : Clearing existing target manager status.
+22:24:51 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+22:24:51 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+22:24:54 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:24:55 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+22:24:58 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+22:32:05 INFO  : Registering command handlers for SDK TCF services
+22:32:06 INFO  : Launching XSCT server: xsct.bat -interactive K:\ECE532\prj\IP\camera_vga\camera_vga\camera_vga.sdk\temp_xsdb_launch_script.tcl
+22:32:09 INFO  : XSCT server has started successfully.
+22:32:10 INFO  : Successfully done setting XSCT server connection channel  
+22:32:10 INFO  : Successfully done setting SDK workspace  
+22:32:10 INFO  : Processing command line option -hwspec K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+22:32:11 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+22:32:12 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1585794695759,  Project:1585794246541
+22:32:12 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+22:32:12 INFO  : Copied contents of K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+22:32:12 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+22:32:12 INFO  : Clearing existing target manager status.
+22:32:12 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+22:32:12 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+22:32:35 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:32:37 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+22:32:39 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+23:01:37 INFO  : Registering command handlers for SDK TCF services
+23:01:38 INFO  : Launching XSCT server: xsct.bat -interactive K:\ECE532\prj\IP\camera_vga\camera_vga\camera_vga.sdk\temp_xsdb_launch_script.tcl
+23:01:42 INFO  : XSCT server has started successfully.
+23:01:43 INFO  : Successfully done setting XSCT server connection channel  
+23:01:43 INFO  : Successfully done setting SDK workspace  
+23:01:43 INFO  : Processing command line option -hwspec K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+23:01:43 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+23:01:44 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1585796399878,  Project:1585794695759
+23:01:44 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+23:01:44 INFO  : Copied contents of K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+23:01:45 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+23:01:45 INFO  : Clearing existing target manager status.
+23:01:45 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+23:01:45 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+23:01:53 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:01:55 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+23:01:57 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+23:13:24 INFO  : Registering command handlers for SDK TCF services
+23:13:25 INFO  : Launching XSCT server: xsct.bat -interactive K:\ECE532\prj\IP\camera_vga\camera_vga\camera_vga.sdk\temp_xsdb_launch_script.tcl
+23:13:29 INFO  : XSCT server has started successfully.
+23:13:29 INFO  : Successfully done setting XSCT server connection channel  
+23:13:32 INFO  : Successfully done setting SDK workspace  
+23:13:32 INFO  : Processing command line option -hwspec K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+23:13:32 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+23:13:32 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1585797180108,  Project:1585796399878
+23:13:32 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+23:13:32 INFO  : Copied contents of K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+23:13:32 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+23:13:32 INFO  : Clearing existing target manager status.
+23:13:32 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+23:13:32 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+23:13:37 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:13:39 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+23:13:41 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+23:32:41 INFO  : Registering command handlers for SDK TCF services
+23:32:42 INFO  : Launching XSCT server: xsct.bat -interactive K:\ECE532\prj\IP\camera_vga\camera_vga\camera_vga.sdk\temp_xsdb_launch_script.tcl
+23:32:46 INFO  : XSCT server has started successfully.
+23:32:48 INFO  : Successfully done setting XSCT server connection channel  
+23:32:49 INFO  : Successfully done setting SDK workspace  
+23:32:49 INFO  : Processing command line option -hwspec K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+23:32:49 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+23:32:51 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1585798333260,  Project:1585797180108
+23:32:51 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+23:32:51 INFO  : Copied contents of K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+23:32:51 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+23:32:51 INFO  : Clearing existing target manager status.
+23:32:51 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+23:32:51 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+23:32:59 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:33:01 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+23:33:03 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+23:42:09 INFO  : Registering command handlers for SDK TCF services
+23:42:10 INFO  : Launching XSCT server: xsct.bat -interactive K:\ECE532\prj\IP\camera_vga\camera_vga\camera_vga.sdk\temp_xsdb_launch_script.tcl
+23:42:13 INFO  : XSCT server has started successfully.
+23:42:14 INFO  : Successfully done setting XSCT server connection channel  
+23:42:14 INFO  : Successfully done setting SDK workspace  
+23:42:14 INFO  : Processing command line option -hwspec K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+23:42:14 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+23:42:15 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1585798906902,  Project:1585798333260
+23:42:15 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+23:42:15 INFO  : Copied contents of K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+23:42:15 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+23:42:15 INFO  : Clearing existing target manager status.
+23:42:15 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+23:42:15 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+23:42:25 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:42:27 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+23:42:29 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+23:52:56 INFO  : Registering command handlers for SDK TCF services
+23:52:57 INFO  : Launching XSCT server: xsct.bat -interactive K:\ECE532\prj\IP\camera_vga\camera_vga\camera_vga.sdk\temp_xsdb_launch_script.tcl
+23:53:01 INFO  : XSCT server has started successfully.
+23:53:02 INFO  : Successfully done setting XSCT server connection channel  
+23:53:02 INFO  : Successfully done setting SDK workspace  
+23:53:02 INFO  : Processing command line option -hwspec K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+23:53:02 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+23:53:03 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1585799541331,  Project:1585798906902
+23:53:03 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+23:53:03 INFO  : Copied contents of K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+23:53:03 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+23:53:04 INFO  : Clearing existing target manager status.
+23:53:04 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+23:53:04 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+23:53:32 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:53:34 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+23:53:36 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+00:05:47 INFO  : Registering command handlers for SDK TCF services
+00:05:48 INFO  : Launching XSCT server: xsct.bat -interactive K:\ECE532\prj\IP\camera_vga\camera_vga\camera_vga.sdk\temp_xsdb_launch_script.tcl
+00:05:51 INFO  : XSCT server has started successfully.
+00:05:52 INFO  : Successfully done setting XSCT server connection channel  
+00:05:52 INFO  : Processing command line option -hwspec K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+00:05:54 INFO  : Successfully done setting SDK workspace  
+00:05:54 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+00:05:54 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1585800323607,  Project:1585799541331
+00:05:54 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+00:05:54 INFO  : Copied contents of K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+00:05:54 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+00:05:54 INFO  : Clearing existing target manager status.
+00:05:54 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+00:05:54 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+00:05:56 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+00:05:56 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+00:05:59 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+00:17:51 INFO  : Registering command handlers for SDK TCF services
+00:17:52 INFO  : Launching XSCT server: xsct.bat -interactive K:\ECE532\prj\IP\camera_vga\camera_vga\camera_vga.sdk\temp_xsdb_launch_script.tcl
+00:17:57 INFO  : XSCT server has started successfully.
+00:17:57 INFO  : Successfully done setting XSCT server connection channel  
+00:17:58 INFO  : Processing command line option -hwspec K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+00:17:58 INFO  : Successfully done setting SDK workspace  
+00:17:58 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+00:17:59 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1585801042164,  Project:1585800323607
+00:17:59 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+00:17:59 INFO  : Copied contents of K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+00:17:59 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+00:17:59 INFO  : Clearing existing target manager status.
+00:17:59 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+00:17:59 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+00:18:08 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+00:18:08 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+00:18:10 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+00:26:39 INFO  : Registering command handlers for SDK TCF services
+00:26:39 INFO  : Launching XSCT server: xsct.bat -interactive K:\ECE532\prj\IP\camera_vga\camera_vga\camera_vga.sdk\temp_xsdb_launch_script.tcl
+00:26:41 INFO  : XSCT server has started successfully.
+00:26:42 INFO  : Processing command line option -hwspec K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+00:26:42 INFO  : Successfully done setting XSCT server connection channel  
+00:26:42 INFO  : Successfully done setting SDK workspace  
+00:26:42 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+00:26:43 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1585801570506,  Project:1585801042164
+00:26:43 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+00:26:43 INFO  : Copied contents of K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+00:26:43 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+00:26:43 INFO  : Clearing existing target manager status.
+00:26:43 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+00:26:43 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+00:26:45 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+00:26:45 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+00:26:47 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+00:34:44 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1585802030939,  Project:1585801570506
+00:34:44 INFO  : Project design_1_wrapper_hw_platform_0's source hardware specification located at K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+00:34:44 INFO  : Copied contents of K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+00:34:44 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+00:34:44 INFO  : Clearing existing target manager status.
+00:34:44 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+00:34:44 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+00:34:52 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+00:34:52 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+00:34:54 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+00:44:16 INFO  : Registering command handlers for SDK TCF services
+00:44:16 INFO  : Launching XSCT server: xsct.bat -interactive K:\ECE532\prj\IP\camera_vga\camera_vga\camera_vga.sdk\temp_xsdb_launch_script.tcl
+00:44:18 INFO  : XSCT server has started successfully.
+00:44:19 INFO  : Processing command line option -hwspec K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+00:44:19 INFO  : Successfully done setting XSCT server connection channel  
+00:44:19 INFO  : Successfully done setting SDK workspace  
+00:44:19 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+00:44:20 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1585802500122,  Project:1585802030939
+00:44:20 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+00:44:20 INFO  : Copied contents of K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+00:44:20 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+00:44:20 INFO  : Clearing existing target manager status.
+00:44:20 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+00:44:20 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+00:44:26 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+00:44:26 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+00:44:28 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+00:52:54 INFO  : Registering command handlers for SDK TCF services
+00:52:54 INFO  : Launching XSCT server: xsct.bat -interactive K:\ECE532\prj\IP\camera_vga\camera_vga\camera_vga.sdk\temp_xsdb_launch_script.tcl
+00:52:57 INFO  : XSCT server has started successfully.
+00:52:58 INFO  : Successfully done setting XSCT server connection channel  
+00:52:58 INFO  : Processing command line option -hwspec K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+00:52:58 INFO  : Successfully done setting SDK workspace  
+00:52:58 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+00:52:58 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1585803123252,  Project:1585802500122
+00:52:58 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+00:52:58 INFO  : Copied contents of K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+00:52:58 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+00:52:59 INFO  : Clearing existing target manager status.
+00:52:59 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+00:52:59 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+00:53:00 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+00:53:00 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+00:53:02 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+01:10:21 INFO  : Registering command handlers for SDK TCF services
+01:10:21 INFO  : Launching XSCT server: xsct.bat -interactive K:\ECE532\prj\IP\camera_vga\camera_vga\camera_vga.sdk\temp_xsdb_launch_script.tcl
+01:10:23 INFO  : XSCT server has started successfully.
+01:10:24 INFO  : Processing command line option -hwspec K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+01:10:24 INFO  : Successfully done setting XSCT server connection channel  
+01:10:24 INFO  : Successfully done setting SDK workspace  
+01:10:24 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+01:10:25 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1585804193881,  Project:1585803123252
+01:10:25 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+01:10:25 INFO  : Copied contents of K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+01:10:25 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+01:10:25 INFO  : Clearing existing target manager status.
+01:10:25 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+01:10:25 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+01:10:41 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+01:10:41 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+01:10:43 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+01:16:18 INFO  : Registering command handlers for SDK TCF services
+01:16:19 INFO  : Launching XSCT server: xsct.bat -interactive K:\ECE532\prj\IP\camera_vga\camera_vga\camera_vga.sdk\temp_xsdb_launch_script.tcl
+01:16:21 INFO  : XSCT server has started successfully.
+01:16:22 INFO  : Processing command line option -hwspec K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+01:16:22 INFO  : Successfully done setting XSCT server connection channel  
+01:16:22 INFO  : Successfully done setting SDK workspace  
+01:16:22 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+01:16:23 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1585804562044,  Project:1585804193881
+01:16:23 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+01:16:23 INFO  : Copied contents of K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+01:16:23 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+01:16:23 INFO  : Clearing existing target manager status.
+01:16:23 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+01:16:23 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+01:16:44 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+01:16:44 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+01:16:47 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+01:25:18 INFO  : Registering command handlers for SDK TCF services
+01:25:18 INFO  : Launching XSCT server: xsct.bat -interactive K:\ECE532\prj\IP\camera_vga\camera_vga\camera_vga.sdk\temp_xsdb_launch_script.tcl
+01:25:20 INFO  : XSCT server has started successfully.
+01:25:21 INFO  : Processing command line option -hwspec K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+01:25:21 INFO  : Successfully done setting XSCT server connection channel  
+01:25:21 INFO  : Successfully done setting SDK workspace  
+01:25:21 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+01:25:22 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1585805086662,  Project:1585804562044
+01:25:22 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+01:25:22 INFO  : Copied contents of K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+01:25:22 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+01:25:22 INFO  : Clearing existing target manager status.
+01:25:22 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+01:25:22 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+01:26:00 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+01:26:01 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+01:26:03 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+01:33:54 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1585805587473,  Project:1585805086662
+01:33:54 INFO  : Project design_1_wrapper_hw_platform_0's source hardware specification located at K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+01:33:54 INFO  : Copied contents of K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+01:33:54 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+01:33:54 INFO  : Clearing existing target manager status.
+01:33:54 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+01:33:54 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+01:33:56 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+01:33:56 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+01:33:58 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+01:43:55 INFO  : Registering command handlers for SDK TCF services
+01:43:55 INFO  : Launching XSCT server: xsct.bat -interactive K:\ECE532\prj\IP\camera_vga\camera_vga\camera_vga.sdk\temp_xsdb_launch_script.tcl
+01:43:59 INFO  : XSCT server has started successfully.
+01:44:00 INFO  : Successfully done setting XSCT server connection channel  
+01:44:00 INFO  : Processing command line option -hwspec K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+01:44:00 INFO  : Successfully done setting SDK workspace  
+01:44:00 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+01:44:01 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1585806160042,  Project:1585805587473
+01:44:01 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+01:44:01 INFO  : Copied contents of K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+01:44:01 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+01:44:01 INFO  : Clearing existing target manager status.
+01:44:01 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+01:44:01 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+01:44:04 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+01:44:04 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+01:44:06 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+01:58:19 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1585807032017,  Project:1585806160042
+01:58:19 INFO  : Project design_1_wrapper_hw_platform_0's source hardware specification located at K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+01:58:19 INFO  : Copied contents of K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+01:58:19 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+01:58:19 INFO  : Clearing existing target manager status.
+01:58:19 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+01:58:19 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+01:58:27 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+01:58:27 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+01:58:29 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+02:10:40 INFO  : Registering command handlers for SDK TCF services
+02:10:41 INFO  : Launching XSCT server: xsct.bat -interactive K:\ECE532\prj\IP\camera_vga\camera_vga\camera_vga.sdk\temp_xsdb_launch_script.tcl
+02:10:44 INFO  : XSCT server has started successfully.
+02:10:45 INFO  : Successfully done setting XSCT server connection channel  
+02:10:45 INFO  : Processing command line option -hwspec K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+02:10:45 INFO  : Successfully done setting SDK workspace  
+02:10:45 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+02:10:46 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1585807752998,  Project:1585807032017
+02:10:46 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+02:10:46 INFO  : Copied contents of K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+02:10:47 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+02:10:47 INFO  : Clearing existing target manager status.
+02:10:47 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+02:10:47 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+02:10:58 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+02:10:58 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+02:11:01 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+02:17:44 INFO  : Registering command handlers for SDK TCF services
+02:17:45 INFO  : Launching XSCT server: xsct.bat -interactive K:\ECE532\prj\IP\camera_vga\camera_vga\camera_vga.sdk\temp_xsdb_launch_script.tcl
+02:17:47 INFO  : XSCT server has started successfully.
+02:17:47 INFO  : Processing command line option -hwspec K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+02:17:47 INFO  : Successfully done setting XSCT server connection channel  
+02:17:47 INFO  : Successfully done setting SDK workspace  
+02:17:47 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+02:17:48 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1585808234296,  Project:1585807752998
+02:17:48 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+02:17:48 INFO  : Copied contents of K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+02:17:48 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+02:17:49 INFO  : Clearing existing target manager status.
+02:17:49 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+02:17:49 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+02:19:06 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+02:19:06 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+02:19:09 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+02:28:05 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1585808874979,  Project:1585808234296
+02:28:05 INFO  : Project design_1_wrapper_hw_platform_0's source hardware specification located at K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+02:28:05 INFO  : Copied contents of K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+02:28:06 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+02:28:06 INFO  : Clearing existing target manager status.
+02:28:06 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+02:28:06 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+02:28:17 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+02:28:17 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+02:28:20 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+02:35:13 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+02:35:13 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+02:35:13 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1585809300609,  Project:1585808874979
+02:35:13 INFO  : Project design_1_wrapper_hw_platform_0's source hardware specification located at K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+02:35:15 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+02:35:15 INFO  : Copied contents of K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+02:35:15 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+02:35:15 INFO  : Clearing existing target manager status.
+02:35:15 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+02:35:15 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+02:35:24 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+02:35:24 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+02:35:26 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+02:42:42 INFO  : Registering command handlers for SDK TCF services
+02:42:42 INFO  : Launching XSCT server: xsct.bat -interactive K:\ECE532\prj\IP\camera_vga\camera_vga\camera_vga.sdk\temp_xsdb_launch_script.tcl
+02:42:45 INFO  : XSCT server has started successfully.
+02:42:46 INFO  : Successfully done setting XSCT server connection channel  
+02:42:46 INFO  : Processing command line option -hwspec K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+02:42:46 INFO  : Successfully done setting SDK workspace  
+02:42:46 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+02:42:48 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1585809734637,  Project:1585809300609
+02:42:48 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+02:42:48 INFO  : Copied contents of K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+02:42:48 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+02:42:48 INFO  : Clearing existing target manager status.
+02:42:48 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+02:42:48 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+02:42:57 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+02:42:57 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+02:42:59 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+02:49:45 INFO  : Registering command handlers for SDK TCF services
+02:49:46 INFO  : Launching XSCT server: xsct.bat -interactive K:\ECE532\prj\IP\camera_vga\camera_vga\camera_vga.sdk\temp_xsdb_launch_script.tcl
+02:49:48 INFO  : XSCT server has started successfully.
+02:49:48 INFO  : Processing command line option -hwspec K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+02:49:48 INFO  : Successfully done setting XSCT server connection channel  
+02:49:48 INFO  : Successfully done setting SDK workspace  
+02:49:48 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+02:49:49 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1585810146330,  Project:1585809734637
+02:49:49 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+02:49:49 INFO  : Copied contents of K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+02:49:49 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+02:49:50 INFO  : Clearing existing target manager status.
+02:49:50 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+02:49:50 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+02:49:56 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+02:49:56 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+02:49:59 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+02:56:47 INFO  : Registering command handlers for SDK TCF services
+02:56:47 INFO  : Launching XSCT server: xsct.bat -interactive K:\ECE532\prj\IP\camera_vga\camera_vga\camera_vga.sdk\temp_xsdb_launch_script.tcl
+02:56:50 INFO  : XSCT server has started successfully.
+02:56:50 INFO  : Processing command line option -hwspec K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+02:56:50 INFO  : Successfully done setting XSCT server connection channel  
+02:56:50 INFO  : Successfully done setting SDK workspace  
+02:56:50 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+02:56:51 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1585810580008,  Project:1585810146330
+02:56:51 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+02:56:51 INFO  : Copied contents of K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+02:56:51 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+02:56:51 INFO  : Clearing existing target manager status.
+02:56:51 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+02:56:51 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+02:56:57 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+02:56:57 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+02:56:59 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+03:03:37 INFO  : Registering command handlers for SDK TCF services
+03:03:37 INFO  : Launching XSCT server: xsct.bat -interactive K:\ECE532\prj\IP\camera_vga\camera_vga\camera_vga.sdk\temp_xsdb_launch_script.tcl
+03:03:39 INFO  : XSCT server has started successfully.
+03:03:39 INFO  : Successfully done setting XSCT server connection channel  
+03:03:39 INFO  : Processing command line option -hwspec K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+03:03:39 INFO  : Successfully done setting SDK workspace  
+03:03:40 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+03:03:41 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1585810987518,  Project:1585810580008
+03:03:41 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+03:03:41 INFO  : Copied contents of K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+03:03:41 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+03:03:41 INFO  : Clearing existing target manager status.
+03:03:41 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+03:03:41 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+03:03:44 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+03:03:45 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+03:03:47 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+03:12:23 INFO  : Registering command handlers for SDK TCF services
+03:12:23 INFO  : Launching XSCT server: xsct.bat -interactive K:\ECE532\prj\IP\camera_vga\camera_vga\camera_vga.sdk\temp_xsdb_launch_script.tcl
+03:12:25 INFO  : XSCT server has started successfully.
+03:12:25 INFO  : Successfully done setting XSCT server connection channel  
+03:12:25 INFO  : Processing command line option -hwspec K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+03:12:25 INFO  : Successfully done setting SDK workspace  
+03:12:25 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+03:12:27 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1585811482681,  Project:1585810987518
+03:12:27 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+03:12:27 INFO  : Copied contents of K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+03:12:27 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+03:12:27 INFO  : Clearing existing target manager status.
+03:12:27 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+03:12:27 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+03:13:21 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+03:13:21 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+03:13:23 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+03:24:19 INFO  : Registering command handlers for SDK TCF services
+03:24:20 INFO  : Launching XSCT server: xsct.bat -interactive K:\ECE532\prj\IP\camera_vga\camera_vga\camera_vga.sdk\temp_xsdb_launch_script.tcl
+03:24:22 INFO  : XSCT server has started successfully.
+03:24:22 INFO  : Successfully done setting XSCT server connection channel  
+03:24:22 INFO  : Processing command line option -hwspec K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+03:24:22 INFO  : Successfully done setting SDK workspace  
+03:24:22 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+03:24:24 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1585812176135,  Project:1585811482681
+03:24:24 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+03:24:24 INFO  : Copied contents of K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+03:24:24 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+03:24:24 INFO  : Clearing existing target manager status.
+03:24:24 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+03:24:24 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+03:24:40 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+03:24:40 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+03:24:43 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+15:03:34 INFO  : Registering command handlers for SDK TCF services
+15:03:34 INFO  : Launching XSCT server: xsct.bat -interactive K:\ECE532\prj\IP\camera_vga\camera_vga\camera_vga.sdk\temp_xsdb_launch_script.tcl
+15:03:36 INFO  : XSCT server has started successfully.
+15:03:37 INFO  : Processing command line option -hwspec K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+15:03:37 INFO  : Successfully done setting XSCT server connection channel  
+15:03:37 INFO  : Successfully done setting SDK workspace  
+15:03:37 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+15:03:38 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1585854169928,  Project:1585812176135
+15:03:38 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+15:03:38 INFO  : Copied contents of K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+15:03:38 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+15:03:38 INFO  : Clearing existing target manager status.
+15:03:38 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+15:03:38 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+15:03:43 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:03:45 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646020A" && level==0} -index 0' command is executed.
+15:03:47 INFO  : FPGA configured successfully with bitstream "K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+00:03:54 INFO  : Registering command handlers for SDK TCF services
+00:03:55 INFO  : Launching XSCT server: xsct.bat -interactive K:\ECE532\prj\IP\camera_vga\camera_vga\camera_vga.sdk\temp_xsdb_launch_script.tcl
+00:04:01 INFO  : XSCT server has started successfully.
+00:04:01 INFO  : Successfully done setting XSCT server connection channel  
+00:04:04 INFO  : Successfully done setting SDK workspace  
+00:04:04 INFO  : Processing command line option -hwspec K:/ECE532/prj/IP/camera_vga/camera_vga/camera_vga.sdk/design_1_wrapper.hdf.
+00:04:04 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
